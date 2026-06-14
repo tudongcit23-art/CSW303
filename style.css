@@ -695,14 +695,21 @@ body::before {
     padding: 16px;
     border-radius: var(--radius-md);
     display: flex;
-    align-items: center;
-    gap: 12px;
+    flex-direction: column;
+    gap: 0;
     animation: feedbackPop 0.3s ease-out;
 }
 
 @keyframes feedbackPop {
     from { opacity: 0; transform: scale(0.95); }
     to { opacity: 1; transform: scale(1); }
+}
+
+.feedback-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 4px;
 }
 
 .feedback-box.correct-feedback {
@@ -719,6 +726,122 @@ body::before {
 .feedback-text {
     font-size: 14px;
     font-weight: 500;
+}
+
+/* --- Explanation Box --- */
+.explanation-box {
+    margin-top: 14px;
+    padding: 14px 16px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius-sm);
+    border-left: 3px solid var(--accent);
+    animation: feedbackPop 0.35s ease-out;
+}
+
+.explanation-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+.explanation-content {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+.explain-correct {
+    padding: 8px 12px;
+    background: var(--success-bg);
+    border-radius: var(--radius-sm);
+    margin-bottom: 8px;
+    color: var(--success);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.explain-wrong {
+    padding: 8px 12px;
+    background: var(--error-bg);
+    border-radius: var(--radius-sm);
+    margin-bottom: 10px;
+    color: var(--error);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.explain-reason {
+    color: var(--text-secondary);
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.explain-reason p {
+    margin-bottom: 4px;
+}
+
+/* --- Translate Button --- */
+.btn-translate {
+    margin-top: 12px;
+    padding: 10px 18px;
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    font-family: var(--font);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    align-self: flex-start;
+}
+
+.btn-translate:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
+}
+
+/* --- Translation Panel --- */
+.translation-panel {
+    margin-top: 12px;
+    padding: 16px;
+    background: rgba(30, 64, 175, 0.1);
+    border: 1px solid rgba(59, 130, 246, 0.25);
+    border-radius: var(--radius-md);
+    animation: feedbackPop 0.3s ease-out;
+}
+
+.translation-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #60a5fa;
+    margin-bottom: 10px;
+}
+
+.translation-question {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 12px;
+    line-height: 1.6;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(59, 130, 246, 0.15);
+}
+
+.translation-opt {
+    padding: 6px 10px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    border-radius: var(--radius-sm);
+    margin-bottom: 4px;
+}
+
+.translation-opt.vi-correct {
+    background: var(--success-bg);
+    color: var(--success);
+    font-weight: 600;
 }
 
 .quiz-actions {
@@ -1030,6 +1153,71 @@ body::before {
 
 .mobile-toggle:hover {
     background: var(--bg-card-hover);
+}
+
+/* --- Translation Toggle Toolbar --- */
+.quiz-toolbar {
+    max-width: 800px;
+    margin: 0 auto 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-translate-toggle {
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--accent);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-full);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.btn-translate-toggle:hover {
+    background: var(--gradient-primary);
+    color: white;
+    border-color: transparent;
+    box-shadow: var(--shadow-glow);
+}
+
+.btn-translate-toggle.active {
+    background: var(--gradient-primary);
+    color: white;
+    border-color: transparent;
+}
+
+/* --- Inline Question translation --- */
+.question-text-vi {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top: -12px;
+    margin-bottom: 24px;
+    color: var(--text-secondary);
+    white-space: pre-wrap;
+    word-break: break-word;
+    border-left: 3px solid var(--accent);
+    padding-left: 14px;
+}
+
+/* --- Inline Option translation --- */
+.option-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: left;
+    width: 100%;
+}
+
+.option-text-vi {
+    font-size: 13px;
+    color: var(--text-secondary);
+    border-top: 1px dashed rgba(255, 255, 255, 0.15);
+    padding-top: 6px;
+    margin-top: 4px;
+    display: block;
 }
 
 /* ===========================

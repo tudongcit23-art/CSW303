@@ -24,6 +24,7 @@ let mistakePool = [];          // array of { question, options, answer, fileName
 let instantFeedback = true;
 let filesLoaded = false;
 let autoAdvanceTimer = null;
+let showQuizTranslation = false;
 
 // ============ DOM REFS ============
 const $ = (id) => document.getElementById(id);
@@ -66,15 +67,36 @@ function parseQuizText(text) {
     const lines = text.split(/\r?\n/);
 
     let currentQ = null;
-    let hasOptions = false; // track if we've started seeing options
+    let hasOptions = false;
 
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
-
-        // Skip Vietnamese lines
-        if (line.startsWith('(VI)')) continue;
-        // Skip empty
         if (!line) continue;
+
+        // ---- Vietnamese lines ----
+        if (line.startsWith('(VI)')) {
+            const viContent = line.substring(4).trim();
+
+            // Vietnamese question: (VI) N) ...
+            const viQMatch = viContent.match(/^\d+\)\s+(.+)/);
+            if (viQMatch && currentQ) {
+                currentQ.questionVI = viQMatch[1];
+                continue;
+            }
+
+            // Vietnamese option: (VI) A. ...
+            const viOptMatch = viContent.match(/^([A-D])\.\s+(.+)/);
+            if (viOptMatch && currentQ) {
+                if (!currentQ.optionsVI) currentQ.optionsVI = {};
+                currentQ.optionsVI[viOptMatch[1]] = viOptMatch[2];
+                continue;
+            }
+
+            // Skip other Vietnamese lines (answer, etc.)
+            continue;
+        }
+
+        // ---- English lines ----
 
         // Question line: starts with "number)"
         const qMatch = line.match(/^(\d+)\)\s+(.+)/);
@@ -85,7 +107,9 @@ function parseQuizText(text) {
             currentQ = {
                 num: parseInt(qMatch[1]),
                 question: qMatch[2],
+                questionVI: '',
                 options: [],
+                optionsVI: {},
                 answer: null
             };
             hasOptions = false;
@@ -104,7 +128,7 @@ function parseQuizText(text) {
         }
 
         // Answer line (supports both "Answer: X" and "Answers: X, Y")
-        const ansMatch = line.match(/^Answers?:\s*([A-D])/i);
+        const ansMatch = line.match(/^Answers?\:\s*([A-D])/i);
         if (ansMatch && currentQ) {
             currentQ.answer = ansMatch[1].toUpperCase();
             continue;
@@ -287,6 +311,10 @@ function setupQuizView() {
             switchView('home');
         }
     });
+    $('btn-translate-toggle-quiz').addEventListener('click', () => {
+        showQuizTranslation = !showQuizTranslation;
+        renderQuestion();
+    });
 }
 
 function renderQuestion() {
@@ -300,13 +328,35 @@ function renderQuestion() {
 
     // Question
     $('question-number').textContent = `Q${currentIndex + 1}`;
+    
+    // Choose displayed question text (toggled between English and Vietnamese)
+    let displayQuestion = q.question;
+    if (showQuizTranslation && q.questionVI) {
+        displayQuestion = q.questionVI;
+    }
+    
     // Use innerHTML with escaped HTML and preserve newlines for code blocks
-    const escapedQ = q.question
+    const escapedQ = displayQuestion
         .replace(/&/g, '&amp;')
         .replace(/</g, '&lt;')
         .replace(/>/g, '&gt;')
         .replace(/\n/g, '<br>');
     $('question-text').innerHTML = escapedQ;
+
+    // Update Translation Toggle Button
+    const toggleBtn = $('btn-translate-toggle-quiz');
+    if (q.questionVI) {
+        toggleBtn.classList.remove('hidden');
+        if (showQuizTranslation) {
+            toggleBtn.classList.add('active');
+            toggleBtn.textContent = '🇬🇧 Xem bản gốc';
+        } else {
+            toggleBtn.classList.remove('active');
+            toggleBtn.textContent = '🇻🇳 Dịch sang tiếng Việt';
+        }
+    } else {
+        toggleBtn.classList.add('hidden');
+    }
 
     // Options
     const optList = $('options-list');
@@ -331,9 +381,13 @@ function renderQuestion() {
             btn.classList.add('selected');
         }
 
+        // Choose option text (toggled between English and Vietnamese)
+        const viText = (q.optionsVI && q.optionsVI[opt.letter]) || '';
+        const displayOptText = (showQuizTranslation && viText) ? viText : opt.text;
+
         btn.innerHTML = `
             <span class="option-letter">${opt.letter}</span>
-            <span class="option-text">${opt.text}</span>
+            <span class="option-text">${displayOptText}</span>
         `;
 
         if (!(instantFeedback && wasAnswered)) {
@@ -345,7 +399,11 @@ function renderQuestion() {
 
     // Feedback
     const feedbackBox = $('feedback-box');
+    const explanationBox = $('explanation-box');
+    const btnTranslate = $('btn-translate');
+    const translationPanel = $('translation-panel');
     const userAns = userAnswers[currentIndex];
+
     if (instantFeedback && userAns !== undefined) {
         const isCorrect = userAns === q.answer;
         feedbackBox.classList.remove('hidden', 'correct-feedback', 'wrong-feedback');
@@ -354,6 +412,57 @@ function renderQuestion() {
         $('feedback-text').textContent = isCorrect
             ? 'Correct! Well done!'
             : `Wrong! The correct answer is ${q.answer}.`;
+
+        // --- Explanation for wrong answers ---
+        if (!isCorrect) {
+            explanationBox.classList.remove('hidden');
+            const correctOpt = q.options.find(o => o.letter === q.answer);
+            const wrongOpt = q.options.find(o => o.letter === userAns);
+            let explainHTML = '';
+            explainHTML += `<div class="explain-correct">`;
+            explainHTML += `<strong>✅ Đáp án đúng: ${q.answer}.</strong> ${correctOpt ? correctOpt.text : ''}`;
+            explainHTML += `</div>`;
+            explainHTML += `<div class="explain-wrong">`;
+            explainHTML += `<strong>❌ Bạn chọn: ${userAns}.</strong> ${wrongOpt ? wrongOpt.text : ''}`;
+            explainHTML += `</div>`;
+            explainHTML += `<div class="explain-reason">`;
+            explainHTML += generateExplanation(q, userAns);
+            explainHTML += `</div>`;
+            $('explanation-content').innerHTML = explainHTML;
+        } else {
+            explanationBox.classList.add('hidden');
+        }
+
+        // --- Translate button ---
+        btnTranslate.classList.remove('hidden');
+        // Reset translation panel state
+        translationPanel.classList.add('hidden');
+        btnTranslate.textContent = '🇻🇳 Xem bản dịch tiếng Việt';
+        // Remove old listener and add new one
+        const newBtn = btnTranslate.cloneNode(true);
+        btnTranslate.parentNode.replaceChild(newBtn, btnTranslate);
+        newBtn.addEventListener('click', () => {
+            const panel = $('translation-panel');
+            if (panel.classList.contains('hidden')) {
+                panel.classList.remove('hidden');
+                newBtn.textContent = '🇻🇳 Ẩn bản dịch';
+                // Populate Vietnamese content
+                $('translation-question').textContent = q.questionVI || '(Không có bản dịch)';
+                let viOptsHTML = '';
+                q.options.forEach(opt => {
+                    const viText = (q.optionsVI && q.optionsVI[opt.letter]) || opt.text;
+                    const isAnswer = opt.letter === q.answer;
+                    viOptsHTML += `<div class="translation-opt ${isAnswer ? 'vi-correct' : ''}">`;
+                    viOptsHTML += `<strong>${opt.letter}.</strong> ${viText}`;
+                    if (isAnswer) viOptsHTML += ` ✅`;
+                    viOptsHTML += `</div>`;
+                });
+                $('translation-options').innerHTML = viOptsHTML;
+            } else {
+                panel.classList.add('hidden');
+                newBtn.textContent = '🇻🇳 Xem bản dịch tiếng Việt';
+            }
+        });
     } else {
         feedbackBox.classList.add('hidden');
     }
@@ -370,6 +479,23 @@ function renderQuestion() {
     }
 }
 
+// ============ EXPLANATION GENERATOR ============
+function generateExplanation(q, userAns) {
+    const correctOpt = q.options.find(o => o.letter === q.answer);
+    const wrongOpt = q.options.find(o => o.letter === userAns);
+
+    if (!correctOpt || !wrongOpt) return '';
+
+    const correctVI = (q.optionsVI && q.optionsVI[q.answer]) ? ` (Tiếng Việt: "${q.optionsVI[q.answer]}")` : '';
+    const wrongVI = (q.optionsVI && q.optionsVI[userAns]) ? ` (Tiếng Việt: "${q.optionsVI[userAns]}")` : '';
+
+    // Build a contextual explanation
+    let reason = `<p>Đáp án đúng là <strong>${q.answer}</strong>: "${correctOpt.text}"${correctVI}.</p>`;
+    reason += `<p>Bạn đã chọn <strong>${userAns}</strong>: "${wrongOpt.text}"${wrongVI} (chưa chính xác trong ngữ cảnh này).</p>`;
+
+    return reason;
+}
+
 function selectOption(letter) {
     // Don't re-select if already answered in instant feedback mode
     if (instantFeedback && userAnswers[currentIndex] !== undefined) return;
@@ -377,18 +503,7 @@ function selectOption(letter) {
     userAnswers[currentIndex] = letter;
     renderQuestion();
 
-    // Auto-advance after feedback (with delay)
-    if (instantFeedback && currentIndex < currentQuiz.length - 1) {
-        if (autoAdvanceTimer) clearTimeout(autoAdvanceTimer);
-        const expectedIndex = currentIndex;
-        autoAdvanceTimer = setTimeout(() => {
-            // Only advance if user hasn't manually navigated
-            if (currentIndex === expectedIndex) {
-                nextQuestion();
-            }
-            autoAdvanceTimer = null;
-        }, 1200);
-    }
+    // Never auto-advance - user must click Next manually for both correct & incorrect answers
 }
 
 function nextQuestion() {
@@ -465,7 +580,9 @@ function finishQuiz() {
         if (!exists) {
             mistakePool.push({
                 question: wq.question,
+                questionVI: wq.questionVI || '',
                 options: wq.options,
+                optionsVI: wq.optionsVI || {},
                 answer: wq.answer,
                 fileName: wq.fileName,
                 userAnswer: wq.userAnswer
@@ -618,7 +735,9 @@ function startReviewQuiz() {
     // Create quiz from mistake pool
     currentQuiz = shuffleArray(mistakePool.map(m => ({
         question: m.question,
+        questionVI: m.questionVI || '',
         options: m.options,
+        optionsVI: m.optionsVI || {},
         answer: m.answer,
         fileName: m.fileName,
         num: 0

@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
     <!-- ============ SIDEBAR ============ -->
@@ -117,6 +117,10 @@
                 <button class="btn btn-ghost btn-sm" id="btn-quit-quiz">✕ Quit</button>
             </div>
 
+            <div class="quiz-toolbar">
+                <button class="btn btn-translate-toggle btn-sm" id="btn-translate-toggle-quiz">🇻🇳 Dịch sang tiếng Việt</button>
+            </div>
+
             <div class="quiz-card glass-card" id="quiz-card">
                 <div class="question-number" id="question-number">Q1</div>
                 <p class="question-text" id="question-text"></p>
@@ -124,8 +128,22 @@
                     <!-- Dynamically populated -->
                 </div>
                 <div class="feedback-box hidden" id="feedback-box">
-                    <div class="feedback-icon" id="feedback-icon"></div>
-                    <p class="feedback-text" id="feedback-text"></p>
+                    <div class="feedback-header">
+                        <div class="feedback-icon" id="feedback-icon"></div>
+                        <p class="feedback-text" id="feedback-text"></p>
+                    </div>
+                    <div class="explanation-box hidden" id="explanation-box">
+                        <div class="explanation-title">💡 Giải thích</div>
+                        <div class="explanation-content" id="explanation-content"></div>
+                    </div>
+                    <button class="btn btn-translate hidden" id="btn-translate">
+                        🇻🇳 Xem bản dịch tiếng Việt
+                    </button>
+                    <div class="translation-panel hidden" id="translation-panel">
+                        <div class="translation-title">🇻🇳 Bản dịch tiếng Việt</div>
+                        <div class="translation-question" id="translation-question"></div>
+                        <div class="translation-options" id="translation-options"></div>
+                    </div>
                 </div>
             </div>
 
@@ -230,6 +248,6 @@
     <!-- Mobile sidebar toggle -->
     <button class="mobile-toggle" id="mobile-toggle">☰</button>
 
-    <script src="app.js"></script>
+    <script src="app.js?v=3"></script>
 </body>
 </html>
