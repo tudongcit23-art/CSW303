@@ -1,0 +1,164 @@
+1) What is the main goal of Requirement Engineering (RE)?
+(VI) 1) Mục tiêu chính của Kỹ thuật yêu cầu (RE) là gì?
+
+A. To design the software architecture
+(VI) A. Thiết kế kiến ​​trúc phần mềm
+B. To identify, analyze, and document what the system should do
+(VI) B. Để xác định, phân tích và ghi lại những gì hệ thống nên làm
+C. To write and test program code
+(VI) C. Viết và kiểm tra mã chương trình
+D. To deploy the final software
+(VI) D. Triển khai phần mềm cuối cùng
+
+Answer: B
+(VI) Đáp án: B
+
+2) Which of the following best describes a “requirement”?
+(VI) 2) Điều nào sau đây mô tả đúng nhất một “yêu cầu”?
+
+A. A wish list from users
+(VI) A. Danh sách mong muốn từ người dùng
+B. A measurable statement of what the system must do or a constraint it must satisfy
+(VI) B. Một tuyên bố có thể đo lường được về những gì hệ thống phải làm hoặc một ràng buộc mà nó phải đáp ứng
+C. A design diagram of the system
+(VI) C. Sơ đồ thiết kế của hệ thống
+D. A testing plan for the final product
+(VI) D. Kế hoạch thử nghiệm sản phẩm cuối cùng
+
+Answer: B
+(VI) Đáp án: B
+
+3) What is the biggest risk of skipping the RE phase?
+(VI) 3) Rủi ro lớn nhất khi bỏ qua giai đoạn RE là gì?
+
+A. Increased speed of development
+(VI) A. Tăng tốc độ phát triển
+B. Misunderstanding stakeholder needs leading to project failure
+(VI) B. Hiểu sai nhu cầu của các bên liên quan dẫn đến thất bại dự án
+C. Lack of programming resources
+(VI) C. Thiếu tài nguyên lập trình
+D. Poor user interface design only
+(VI) D. Chỉ thiết kế giao diện người dùng kém
+
+Answer: B
+(VI) Đáp án: B
+
+4) Which activity does NOT belong to Requirement Engineering?
+(VI) 4) Hoạt động nào KHÔNG thuộc về Kỹ thuật Yêu cầu?
+
+A. Eliciting stakeholder needs
+(VI) A. Khơi gợi nhu cầu của các bên liên quan
+B. Defining software requirements
+(VI) B. Xác định yêu cầu phần mềm
+C. Writing code in Python
+(VI) C. Viết mã bằng Python
+D. Validating requirements with users
+(VI) D. Xác thực yêu cầu với người dùng
+
+Answer: C
+(VI) Đáp án: C
+
+5) Most software project failures are primarily due to:
+(VI) 5) Hầu hết các dự án phần mềm thất bại chủ yếu là do:
+
+A. Lack of testing
+(VI) A. Thiếu kiểm tra
+B. Poor requirements and changing needs
+(VI) B. Yêu cầu kém và nhu cầu thay đổi
+C. Low coding standards
+(VI) C. Tiêu chuẩn mã hóa thấp
+D. Poor hardware selection
+(VI) D. Lựa chọn phần cứng kém
+
+Answer: B
+(VI) Đáp án: B
+
+6) The phrase “System shall …” is typically used to express:
+(VI) 6) Cụm từ “System will…” thường được dùng để diễn đạt:
+
+A. Design choices
+(VI) A. Lựa chọn thiết kế
+B. Implementation tasks
+(VI) B. Nhiệm vụ thực hiện
+C. Requirements statements
+(VI) C. Tuyên bố yêu cầu
+D. Testing criteria
+(VI) D. Tiêu chí kiểm tra
+
+Answer: C
+(VI) Đáp án: C
+
+7) The primary purpose of RE is to:
+(VI) 7) Mục đích chính của Kỹ thuật yêu cầu (RE) là:
+
+A. Gather user needs and define system behavior
+(VI) A. Thu thập nhu cầu của người dùng và xác định hành vi của hệ thống
+B. Implement the software solution
+(VI) B. Triển khai giải pháp phần mềm
+C. Maintain servers
+(VI) C. Bảo trì máy chủ
+D. Write design patterns
+(VI) D. Viết mẫu thiết kế
+
+Answer: A
+(VI) Đáp án: A
+
+8) In the SDLC, RE is positioned:
+(VI) 8) Trong SDLC, RE được định vị:
+
+A. Before design and coding
+(VI) A. Trước khi thiết kế và mã hóa
+B. After system deployment
+(VI) B. Sau khi triển khai hệ thống
+C. Parallel to maintenance only
+(VI) C. Chỉ song song với việc bảo trì
+D. During debugging
+(VI) D. Trong quá trình gỡ lỗi
+
+Answer: A
+(VI) Đáp án: A
+
+9) A “stakeholder” in RE is:
+(VI) 9) “Các bên liên quan” trong RE là:
+
+A. Only the end-user
+(VI) A. Chỉ người dùng cuối
+B. Anyone affected by or interested in the system
+(VI) B. Bất kỳ ai bị ảnh hưởng hoặc quan tâm đến hệ thống
+C. The developer team only
+(VI) C. Chỉ nhóm nhà phát triển
+D. Only project managers
+(VI) D. Chỉ người quản lý dự án
+
+Answer: B
+(VI) Đáp án: B
+
+10) What is the main difference between a requirement and a design?
+(VI) 10) Sự khác biệt chính giữa yêu cầu và thiết kế là gì?
+
+A. Requirements define what; designs define how
+(VI) A. Yêu cầu xác định những gì; thiết kế xác định cách
+B. Requirements define how; designs define what
+(VI) B. Yêu cầu xác định cách thức; thiết kế xác định những gì
+C. They are identical in purpose
+(VI) C. Chúng giống nhau về mục đích
+D. Designs are always written by clients
+(VI) D. Thiết kế luôn do khách hàng viết
+
+Answer: A
+(VI) Đáp án: A
+
+11) In Requirement Engineering, “scope creep” happens when:
+(VI) 11) Trong Kỹ thuật yêu cầu, “sự thay đổi phạm vi” xảy ra khi:
+
+A. Requirements are reduced due to constraints
+(VI) A. Yêu cầu giảm do hạn chế
+B. New requirements are added without control
+(VI) B. Yêu cầu mới được thêm vào mà không cần kiểm soát
+C. Users are removed from the process
+(VI) C. Người dùng bị xóa khỏi quy trình
+D. The project is completed early
+(VI) D. Dự án hoàn thành sớm
+
+Answer: B
+(VI) Đáp án: B

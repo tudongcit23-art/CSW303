@@ -1,0 +1,179 @@
+1) Functional requirements describe:
+(VI) 1) Yêu cầu chức năng mô tả:
+
+A. System constraints or performance expectations
+(VI) A. Những hạn chế của hệ thống hoặc kỳ vọng về hiệu suất
+B. What the system should do
+(VI) B. Hệ thống nên làm gì
+C. The physical network structure
+(VI) C. Cấu trúc mạng vật lý
+D. Organizational policies only
+(VI) D. Chỉ chính sách tổ chức
+
+Answer: B
+(VI) Đáp án: B
+
+2) Which of the following is an example of a functional requirement?
+(VI) 2) Điều nào sau đây là ví dụ về yêu cầu chức năng?
+
+A. System shall support 500 users simultaneously.
+(VI) A. Hệ thống sẽ hỗ trợ đồng thời 500 người dùng.
+B. The interface must be intuitive.
+(VI) B. Giao diện phải trực quan.
+C. System shall allow mentors to view student profiles.
+(VI) C. Hệ thống sẽ cho phép người cố vấn xem hồ sơ học sinh.
+D. Response time must be under 3 seconds.
+(VI) D. Thời gian phản hồi phải dưới 3 giây.
+
+Answer: C
+(VI) Đáp án: C
+
+3) Which statement represents a non-functional requirement?
+(VI) 3) Câu lệnh nào thể hiện yêu cầu phi chức năng?
+
+A. Allow mentors to upload a profile picture.
+(VI) A. Cho phép người cố vấn tải ảnh hồ sơ lên.
+B. Encrypt all user data during transmission.
+(VI) B. Mã hóa tất cả dữ liệu người dùng trong quá trình truyền.
+C. Allow students to log in via university ID.
+(VI) C. Cho phép sinh viên đăng nhập thông qua ID trường đại học.
+D. Enable admins to reset passwords.
+(VI) D. Cho phép quản trị viên đặt lại mật khẩu.
+
+Answer: B
+(VI) Đáp án: B
+
+4) Non-functional requirements are also known as:
+(VI) 4) Yêu cầu phi chức năng còn được gọi là:
+
+A. System constraints
+(VI) A. Những hạn chế của hệ thống
+B. Quality attributes
+(VI) B. Thuộc tính chất lượng
+C. Data models
+(VI) C. Mô hình dữ liệu
+D. Prototypes
+(VI) D. Nguyên mẫu
+
+Answer: B
+(VI) Đáp án: B
+
+5) The “FURPS” model includes all except:
+(VI) 5) Mô hình “FURPS” bao gồm tất cả ngoại trừ:
+
+A. Functionality
+(VI) A. Chức năng
+B. Usability
+(VI) B. Khả năng sử dụng
+C. Reliability
+(VI) C. Độ tin cậy
+D. Productivity
+(VI) D. Năng suất
+
+Answer: D
+(VI) Đáp án: D
+
+6) Which example is a domain requirement for a university system?
+(VI) 6) Ví dụ nào là yêu cầu về miền đối với hệ thống đại học?
+
+A. Must store mentor contact information.
+(VI) A. Phải lưu trữ thông tin liên hệ của người cố vấn.
+B. Must integrate with university login system.
+(VI) B. Phải tích hợp với hệ thống đăng nhập của trường đại học.
+C. Should display mentor list within 3 seconds.
+(VI) C. Sẽ hiển thị danh sách cố vấn trong vòng 3 giây.
+D. Must allow password reset feature.
+(VI) D. Phải cho phép tính năng đặt lại mật khẩu.
+
+Answer: B
+(VI) Đáp án: B
+
+7) Why are domain requirements important?
+(VI) 7) Tại sao yêu cầu về tên miền lại quan trọng?
+
+A. They define visual design rules.
+(VI) A. Họ xác định các quy tắc thiết kế trực quan.
+B. They prevent violation of external constraints and regulations.
+(VI) B. Chúng ngăn chặn sự vi phạm các ràng buộc và quy định bên ngoài.
+C. They help reduce code duplication.
+(VI) C. Chúng giúp giảm sự trùng lặp mã.
+D. They determine testing order.
+(VI) D. Họ quyết định thứ tự kiểm tra.
+
+Answer: B
+(VI) Đáp án: B
+
+8) Which requirement is poorly written?
+(VI) 8) Yêu cầu nào được viết kém?
+
+A. System shall display mentor list.
+(VI) A. Hệ thống sẽ hiển thị danh sách cố vấn.
+B. System shall be user-friendly.
+(VI) B. Hệ thống phải thân thiện với người dùng.
+C. System shall validate student ID.
+(VI) C. Hệ thống sẽ xác nhận ID sinh viên.
+D. System shall log mentor sessions.
+(VI) D. Hệ thống sẽ ghi lại các phiên cố vấn.
+
+Answer: B
+(VI) Đáp án: B
+
+9) Functional and non-functional requirements differ because:
+(VI) 9) Yêu cầu chức năng và phi chức năng khác nhau vì:
+
+A. Functional define features; non-functional define qualities.
+(VI) A. Chức năng xác định các tính năng; phi chức năng xác định phẩm chất.
+B. Both describe coding logic.
+(VI) B. Cả hai đều mô tả logic mã hóa.
+C. Non-functional are optional.
+(VI) C. Không có chức năng là tùy chọn.
+D. Functional depend on the hardware.
+(VI) D. Chức năng phụ thuộc vào phần cứng.
+
+Answer: A
+(VI) Đáp án: A
+
+10) In testing, non-functional requirements are verified by:
+(VI) 10) Trong thử nghiệm, các yêu cầu phi chức năng được xác minh bằng cách:
+
+A. Functional unit tests
+(VI) A. Kiểm tra đơn vị chức năng
+B. Measurement and performance evaluation
+(VI) B. Đo lường và đánh giá hiệu quả hoạt động
+C. System walkthroughs only
+(VI) C. Chỉ hướng dẫn hệ thống
+D. Code review
+(VI) D. Đánh giá mã
+
+Answer: B
+(VI) Đáp án: B
+
+11) Which type of requirement usually originates from laws or industry regulations?
+(VI) 11) Loại yêu cầu nào thường bắt nguồn từ luật pháp hoặc quy định của ngành?
+
+A. Functional
+(VI) A. Chức năng
+B. Domain
+(VI) B. Tên miền
+C. Non-functional
+(VI) C. Không có chức năng
+D. Performance
+(VI) D. Hiệu suất
+
+Answer: B
+(VI) Đáp án: B
+
+12) Which of the following sets best represents the three types of requirements?
+(VI) 12) Bộ nào sau đây thể hiện tốt nhất ba loại yêu cầu?
+
+A. Behavioral, System, Logical
+(VI) A. Hành vi, hệ thống, logic
+B. Functional, Non-functional, Domain
+(VI) B. Chức năng, phi chức năng, Miền
+C. Physical, Logical, Conceptual
+(VI) C. Vật lý, logic, khái niệm
+D. Performance, Usability, Design
+(VI) D. Hiệu suất, Khả năng sử dụng, Thiết kế
+
+Answer: B
+(VI) Đáp án: B

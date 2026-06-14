@@ -1,0 +1,283 @@
+1) What is the core idea behind test automation?
+(VI) 1) Ý tưởng cốt lõi đằng sau việc tự động hóa thử nghiệm là gì?
+
+A. Tests are written as manual scripts for a human to follow.
+(VI) A. Các bài kiểm tra được viết dưới dạng kịch bản thủ công để con người làm theo.
+B. Only the user interface (UI) parts of an application are tested.
+(VI) B. Chỉ các phần giao diện người dùng (UI) của ứng dụng mới được kiểm tra.
+C. Tests are written as executable code that can run without manual intervention.
+(VI) C. Kiểm thử được viết dưới dạng mã thực thi có thể chạy mà không cần can thiệp thủ công.
+D. The goal is to prove that the software has no bugs at all.
+(VI) D. Mục đích là chứng minh rằng phần mềm không có lỗi nào cả.
+
+Answer: C
+(VI) Đáp án: C
+
+2) The "Arrange-Action-Assert" pattern is a common structure for automated tests.
+(VI) 2) Mẫu "Sắp xếp-Hành động-Khẳng định" là cấu trúc phổ biến cho các thử nghiệm tự động.
+
+What happens during the "Assert" step?
+(VI) Điều gì xảy ra trong bước "Khẳng định"?
+
+A. Test parameters and the test environment are set up.
+(VI) A. Các thông số kiểm tra và môi trường kiểm tra được thiết lập.
+B. The code unit being tested is called with specific inputs.
+(VI) B. Đơn vị mã đang được kiểm tra được gọi với đầu vào cụ thể.
+C. The test checks if the actual result from the code matches the expected outcome.
+(VI) C. Quá trình kiểm tra sẽ kiểm tra xem kết quả thực tế từ mã có khớp với kết quả mong đợi hay không.
+D. The results of the test are reported to the development team.
+(VI) D. Kết quả kiểm tra được báo cáo cho nhóm phát triển.
+
+Answer: C
+(VI) Đáp án: C
+
+3) You are given the following test code fragments written in Python.
+(VI) 3) Bạn được cung cấp các đoạn mã kiểm tra sau đây được viết bằng Python.
+
+Block A
+(VI) Khối A
+ result = add(2, 3)
+(VI) kết quả = cộng(2, 3)
+
+Block B
+(VI) Khối B
+ a = 2
+(VI) một = 2
+b = 3
+(VI) b = 3
+
+Block C
+(VI) Khối C
+ assert result == 5
+(VI) khẳng định kết quả == 5
+
+Which option correctly orders the blocks according to the Arrange–Action–Assert (AAA) pattern?
+(VI) Tùy chọn nào sắp xếp chính xác các khối theo mẫu Sắp xếp–Hành động–Khẳng định (AAA)?
+
+A. Block A → Block B → Block C
+(VI) A. Khối A → Khối B → Khối C
+B. Block B → Block C → Block A
+(VI) B. Khối B → Khối C → Khối A
+C. Block B → Block A → Block C
+(VI) C. Khối B → Khối A → Khối C
+D. Block C → Block A → Block B
+(VI) D. Khối C → Khối A → Khối B
+
+Answer: C
+(VI) Đáp án: C
+
+4) Consider the following Python test fragments.
+(VI) 4) Hãy xem xét các đoạn thử nghiệm Python sau đây.
+
+Block A
+(VI) Khối A
+ numbers = [1, 2, 3]
+(VI) số = [1, 2, 3]
+
+Block B
+(VI) Khối B
+ numbers.append(4)
+(VI) số.append(4)
+
+Block C
+(VI) Khối C
+ assert len(numbers) == 4
+(VI) khẳng định len(số) == 4
+
+Which option correctly orders the blocks according to the Arrange–Action–Assert (AAA) pattern?
+(VI) Tùy chọn nào sắp xếp chính xác các khối theo mẫu Sắp xếp–Hành động–Khẳng định (AAA)?
+
+A. Block A → Block B → Block C
+(VI) A. Khối A → Khối B → Khối C
+B. Block B → Block A → Block C
+(VI) B. Khối B → Khối A → Khối C
+C. Block A → Block C → Block B
+(VI) C. Khối A → Khối C → Khối B
+D. Block C → Block A → Block B
+(VI) D. Khối C → Khối A → Khối B
+
+Answer: A
+(VI) Đáp án: A
+
+5) You are given parts of a Python unit test.
+(VI) 5) Bạn được cung cấp các phần của bài kiểm tra đơn vị Python.
+
+Block A
+(VI) Khối A
+ text = "hello"
+(VI) văn bản = "xin chào"
+
+Block B
+(VI) Khối B
+ assert result == "HELLO"
+(VI) khẳng định kết quả == "HELLO"
+
+Block C
+(VI) Khối C
+ result = text.upper()
+(VI) kết quả = text.upper()
+
+Which option correctly orders the blocks according to the Arrange–Action–Assert (AAA) pattern?
+(VI) Tùy chọn nào sắp xếp chính xác các khối theo mẫu Sắp xếp–Hành động–Khẳng định (AAA)?
+
+A. Block C → Block A → Block B
+(VI) A. Khối C → Khối A → Khối B
+B. Block B → Block C → Block A
+(VI) B. Khối B → Khối C → Khối A
+C. Block A → Block B → Block C
+(VI) C. Khối A → Khối B → Khối C
+D. Block A → Block C → Block B
+(VI) D. Khối A → Khối C → Khối B
+
+Answer: D
+(VI) Đáp án: D
+
+6) What is the definition of regression testing?
+(VI) 6) Định nghĩa của thử nghiệm hồi quy là gì?
+
+A. The process of writing new tests for a newly developed feature.
+(VI) A. Quá trình viết bài kiểm tra mới cho một tính năng mới được phát triển.
+B. The process of re-running previous tests after a change to ensure nothing has broken.
+(VI) B. Quá trình chạy lại các thử nghiệm trước đó sau khi thay đổi để đảm bảo không có gì bị hỏng.
+C. The process of manually testing the software just before a major release.
+(VI) C. Quá trình kiểm tra phần mềm theo cách thủ công ngay trước khi phát hành chính thức.
+D. The process of removing old, outdated tests from the test suite.
+(VI) D. Quá trình loại bỏ các bài kiểm thử cũ, lỗi thời khỏi bộ kiểm thử.
+
+Answer: B
+(VI) Đáp án: B
+
+7) What is the most significant advantage of having an automated test suite for regression testing?
+(VI) 7) Ưu điểm quan trọng nhất của việc có bộ kiểm tra tự động để kiểm tra hồi quy là gì?
+
+A. It eliminates the need for any manual testing whatsoever.
+(VI) A. Nó loại bỏ sự cần thiết của bất kỳ thử nghiệm thủ công nào.
+B. It guarantees that no new bugs will ever be introduced into the code.
+(VI) B. Nó đảm bảo rằng sẽ không có lỗi mới nào được đưa vào mã.
+C. It allows thousands of tests to be run in seconds, giving teams the confidence to make changes safely and quickly.
+(VI) C. Nó cho phép chạy hàng nghìn thử nghiệm trong vài giây, giúp các nhóm tự tin thực hiện các thay đổi một cách an toàn và nhanh chóng.
+D. It automatically generates new test cases based on user behavior.
+(VI) D. Nó tự động tạo ra các trường hợp thử nghiệm mới dựa trên hành vi của người dùng.
+
+Answer: C
+(VI) Đáp án: C
+
+8) What is the main principle of the Test Pyramid model proposed by Mike Cohn?
+(VI) 8) Nguyên tắc chính của mô hình Kim tự tháp thử nghiệm do Mike Cohn đề xuất là gì?
+
+A. To guide the structure of an automated test suite, emphasizing a large number of fast unit tests at the base.
+(VI) A. Để hướng dẫn cấu trúc của bộ thử nghiệm tự động, nhấn mạnh vào số lượng lớn các thử nghiệm đơn vị nhanh ở cơ sở.
+B. To ensure that every developer writes the same number of tests.
+(VI) B. Để đảm bảo rằng mọi nhà phát triển đều viết số lượng bài kiểm thử như nhau.
+C. To mandate that 100% of testing must be automated.
+(VI) C. Yêu cầu 100% việc kiểm tra phải được tự động hóa.
+D. To focus testing efforts primarily on the user interface because it's what the customer sees.
+(VI) D. Tập trung nỗ lực thử nghiệm chủ yếu vào giao diện người dùng vì đó là những gì khách hàng nhìn thấy.
+
+Answer: A
+(VI) Đáp án: A
+
+9) According to the Test Pyramid, why should you have significantly more unit tests than system/UI tests?
+(VI) 9) Theo Kim tự tháp kiểm thử, tại sao bạn nên thực hiện nhiều bài kiểm thử đơn vị hơn đáng kể so với kiểm thử hệ thống/giao diện người dùng?
+
+A. Unit tests are more interesting for developers to write.
+(VI) A. Các bài kiểm thử đơn vị sẽ thú vị hơn đối với các nhà phát triển khi viết.
+B. System tests are unable to find important bugs.
+(VI) B. Kiểm tra hệ thống không thể tìm thấy các lỗi quan trọng.
+C. Unit tests are much faster, more stable, and pinpoint problems more precisely than higher-level tests.
+(VI) C. Bài kiểm tra đơn vị nhanh hơn, ổn định hơn và xác định chính xác vấn đề hơn so với bài kiểm tra cấp cao hơn.
+D. UI tests can only be performed manually and cannot be automated.
+(VI) D. Kiểm tra giao diện người dùng chỉ có thể được thực hiện thủ công và không thể tự động hóa.
+
+Answer: C
+(VI) Đáp án: C
+
+10) Which statement best describes Test-Driven Development (TDD)?
+(VI) 10) Câu nào mô tả đúng nhất về Phát triển dựa trên thử nghiệm (TDD)?
+
+A. A process where you write production code first and then write tests for it later.
+(VI) A. Một quy trình trong đó bạn viết mã sản xuất trước rồi viết kiểm thử cho mã đó sau.
+B. A process where you write an automated test before you write the production code needed to make it pass.
+(VI) B. Một quy trình trong đó bạn viết bài kiểm tra tự động trước khi viết mã sản xuất cần thiết để vượt qua.
+C. A methodology where a separate testing team is solely responsible for all testing activities.
+(VI) C. Một phương pháp trong đó một nhóm thử nghiệm riêng biệt chịu trách nhiệm hoàn toàn về mọi hoạt động thử nghiệm.
+D. A technique focused only on testing the security aspects of an application.
+(VI) D. Một kỹ thuật chỉ tập trung vào việc kiểm tra các khía cạnh bảo mật của ứng dụng.
+
+Answer: B
+(VI) Đáp án: B
+
+11) What is the correct sequence of the TDD cycle?
+(VI) 11) Trình tự đúng của chu trình TDD là gì?
+
+A. Green → Red → Refactor
+(VI) A. Xanh → Đỏ → Tái cấu trúc
+B. Red → Refactor → Green
+(VI) B. Đỏ → Tái cấu trúc → Xanh lục
+C. Refactor → Red → Green
+(VI) C. Tái cấu trúc → Đỏ → Xanh
+D. Red → Green → Refactor
+(VI) D. Đỏ → Xanh → Tái cấu trúc
+
+Answer: D
+(VI) Đáp án: D
+
+12) In the TDD cycle, what is the primary purpose of the "Red" phase?
+(VI) 12) Trong chu trình TDD, mục đích chính của giai đoạn “Đỏ” là gì?
+
+A. To write the simplest possible production code.
+(VI) A. Để viết mã sản xuất đơn giản nhất có thể.
+B. To clean up and improve the code that was just written.
+(VI) B. Để dọn dẹp và cải thiện mã vừa được viết.
+C. To write a small, specific test that fails because the required functionality does not yet exist.
+(VI) C. Viết một bài kiểm thử nhỏ, cụ thể nhưng thất bại vì chức năng cần thiết chưa tồn tại.
+D. To run all existing tests to make sure they are still passing.
+(VI) D. Chạy tất cả các bài kiểm tra hiện có để đảm bảo chúng vẫn đạt.
+
+Answer: C
+(VI) Đáp án: C
+
+13) After a test passes in the "Green" phase of TDD, what is the goal of the "Refactor" phase?
+(VI) 13) Sau khi vượt qua thử nghiệm ở giai đoạn "Xanh" của TDD, mục tiêu của giai đoạn "Tái cấu trúc" là gì?
+
+A. To write another failing test for the next piece of functionality.
+(VI) A. Để viết một bài kiểm thử thất bại khác cho phần chức năng tiếp theo.
+B. To deploy the code immediately to production.
+(VI) B. Triển khai mã ngay vào sản xuất.
+C. To clean up and improve the code's design without changing its behavior, confident that the tests will catch any regressions.
+(VI) C. Để dọn dẹp và cải thiện thiết kế của mã mà không thay đổi hành vi của nó, hãy tin tưởng rằng các cuộc kiểm thử sẽ phát hiện được bất kỳ sự hồi quy nào.
+D. To ask another developer to review the code.
+(VI) D. Yêu cầu nhà phát triển khác xem lại mã.
+
+Answer: C
+(VI) Đáp án: C
+
+14) Which of the following is a key benefit of practicing TDD?
+(VI) 14) Điều nào sau đây là lợi ích chính của việc thực hành TDD?
+
+A. It completely eliminates the need for code reviews.
+(VI) A. Nó loại bỏ hoàn toàn nhu cầu đánh giá mã.
+B. It guarantees that the software will be 100% bug-free.
+(VI) B. Nó đảm bảo rằng phần mềm sẽ không có lỗi 100%.
+C. The resulting tests act as a form of executable documentation that is always up-to-date with the code.
+(VI) C. Kết quả kiểm tra hoạt động như một dạng tài liệu thực thi luôn cập nhật mã.
+D. It is the fastest way to write code, especially for projects with unclear requirements.
+(VI) D. Đó là cách viết mã nhanh nhất, đặc biệt đối với các dự án có yêu cầu không rõ ràng.
+
+Answer: C
+(VI) Đáp án: C
+
+15) According to the course materials, what is a potential challenge or downside of TDD?
+(VI) 15) Theo tài liệu của khóa học, thách thức hoặc nhược điểm tiềm ẩn của TDD là gì?
+
+A. It results in having too few tests to cover the codebase.
+(VI) A. Điều này dẫn đến việc có quá ít thử nghiệm để bao quát toàn bộ codebase.
+B. It can discourage developers from making radical refactoring changes if it means rewriting many tests.
+(VI) B. Nó có thể ngăn cản các nhà phát triển thực hiện các thay đổi tái cấu trúc triệt để nếu điều đó có nghĩa là phải viết lại nhiều bài kiểm thử.
+C. It simplifies debugging to the point where developers no longer learn valuable skills.
+(VI) C. Nó đơn giản hóa việc gỡ lỗi đến mức các nhà phát triển không còn học được những kỹ năng có giá trị nữa.
+D. It only works for user interface testing and cannot be used for backend logic.
+(VI) D. Nó chỉ hoạt động để kiểm tra giao diện người dùng và không thể sử dụng cho logic phụ trợ.
+
+Answer: B
+(VI) Đáp án: B

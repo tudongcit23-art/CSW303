@@ -1,0 +1,149 @@
+1) What is the primary definition of a code review?
+(VI) 1) Định nghĩa chính của đánh giá mã là gì?
+
+A. An automated process that scans code for performance issues.
+(VI) A. Một quy trình tự động quét mã để tìm các vấn đề về hiệu suất.
+B. A formal meeting where project managers approve code for deployment.
+(VI) B. Một cuộc họp chính thức nơi người quản lý dự án phê duyệt mã để triển khai.
+C. Systematic, peer-evaluation process where developers check each other's code for correctness and quality.
+(VI) C. Quy trình đánh giá ngang hàng, có hệ thống trong đó các nhà phát triển kiểm tra mã của nhau về tính chính xác và chất lượng.
+D. The act of a single developer re-reading their own code before submitting it.
+(VI) D. Hành động của một nhà phát triển đọc lại mã của chính họ trước khi gửi nó.
+
+Answer: C
+(VI) Đáp án: C
+
+2) Why are code reviews a critical complement to automated testing?
+(VI) 2) Tại sao việc đánh giá mã lại là sự bổ sung quan trọng cho thử nghiệm tự động?
+
+A. They are much faster than running a full suite of automated tests.
+(VI) A. Chúng nhanh hơn nhiều so với việc chạy một bộ thử nghiệm tự động đầy đủ.
+B. They can find bugs caused by a misunderstanding of requirements, which automated tests would likely miss.
+(VI) B. Họ có thể tìm ra các lỗi do hiểu sai các yêu cầu mà các bài kiểm tra tự động có thể sẽ bỏ sót.
+C. They focus only on the visual aspects of the user interface.
+(VI) C. Họ chỉ tập trung vào khía cạnh trực quan của giao diện người dùng.
+D. They completely eliminate the need for any further testing.
+(VI) D. Chúng loại bỏ hoàn toàn nhu cầu xét nghiệm thêm.
+
+Answer: B
+(VI) Đáp án: B
+
+3) Besides finding bugs, what is another significant benefit of conducting regular code reviews?
+(VI) 3) Ngoài việc tìm ra lỗi, lợi ích đáng kể nào khác của việc tiến hành đánh giá mã thường xuyên là gì?
+
+A. It helps determine which developer writes the fewest bugs.
+(VI) A. Nó giúp xác định nhà phát triển nào viết ít lỗi nhất.
+B. It serves as the primary way to calculate project costs.
+(VI) B. Đây là cách chính để tính toán chi phí dự án.
+C. It is an excellent method for sharing knowledge about the codebase across the team.
+(VI) C. Đây là một phương pháp tuyệt vời để chia sẻ kiến ​​thức về codebase trong nhóm.
+D. It is a substitute for writing technical documentation.
+(VI) D. Nó thay thế cho việc viết tài liệu kỹ thuật.
+
+Answer: C
+(VI) Đáp án: C
+
+4) Which of the following issues is most effectively identified through a code review rather than by running functional tests?
+(VI) 4) Vấn đề nào sau đây được xác định hiệu quả nhất thông qua việc xem xét mã thay vì chạy thử nghiệm chức năng?
+
+A. A calculation that produces an incorrect numerical result.
+(VI) A. Một phép tính đưa ra kết quả bằng số không chính xác.
+B. A part of the program that crashes when given a null input.
+(VI) B. Một phần của chương trình gặp sự cố khi được cung cấp đầu vào rỗng.
+C. Code that is poorly organized and difficult to understand, even if it works correctly.
+(VI) C. Mã được tổ chức kém và khó hiểu, ngay cả khi nó hoạt động chính xác.
+D. A feature that doesn't meet its required response time under load.
+(VI) D. Một tính năng không đáp ứng được thời gian phản hồi cần thiết khi tải.
+
+Answer: C
+(VI) Đáp án: C
+
+5) According to the course materials, what should a reviewer examine in addition to the program code being reviewed?
+(VI) 5) Theo tài liệu khóa học, người đánh giá nên kiểm tra những gì ngoài mã chương trình đang được xem xét?
+
+A. The developer's previous performance reports.
+(VI) A. Báo cáo hiệu suất trước đây của nhà phát triển.
+B. The project's marketing and sales strategy.
+(VI) B. Chiến lược tiếp thị và bán hàng của dự án.
+C. The automated tests written for the code to ensure they are complete and correct.
+(VI) C. Các bài kiểm tra tự động được viết cho mã để đảm bảo chúng đầy đủ và chính xác.
+D. The time it took the programmer to write the code.
+(VI) D. Thời gian mà người lập trình viết mã.
+
+Answer: C
+(VI) Đáp án: C
+
+6) What kind of culture should be fostered for code reviews to be successful?
+(VI) 6) Loại văn hóa nào cần được nuôi dưỡng để việc đánh giá mã thành công?
+
+A. A highly competitive one, where reviewers try to find the most flaws to prove their expertise.
+(VI) A. Một giải pháp có tính cạnh tranh cao, trong đó người đánh giá cố gắng tìm ra nhiều sai sót nhất để chứng minh kiến ​​thức chuyên môn của họ.
+B. A culture where reviews are seen as a way to formally evaluate and rank programmers.
+(VI) B. Một nền văn hóa nơi các bài đánh giá được coi là một cách để đánh giá và xếp hạng chính thức các lập trình viên.
+C. A positive and collaborative one, where the goal is to improve the code, not to criticize the programmer.
+(VI) C. Một cách tích cực và hợp tác, trong đó mục tiêu là cải thiện mã chứ không phải chỉ trích người lập trình.
+D. A culture where programmers are expected to reject all feedback to show confidence in their work.
+(VI) D. Một nền văn hóa nơi các lập trình viên được kỳ vọng sẽ từ chối mọi phản hồi để thể hiện sự tự tin trong công việc của họ.
+
+Answer: C
+(VI) Đáp án: C
+
+7) Which of the following is listed as a key area to look for in a code review checklist?
+(VI) 7) Điều nào sau đây được liệt kê là lĩnh vực chính cần tìm trong danh sách kiểm tra đánh giá mã?
+
+A. The number of lines of code written.
+(VI) A. Số dòng mã được viết.
+B. The time spent on the task.
+(VI) B. Thời gian dành cho nhiệm vụ.
+C. The correctness of the code and whether it handles edge cases.
+(VI) C. Tính chính xác của mã và liệu nó có xử lý được các trường hợp đặc biệt hay không.
+D. The programming language used.
+(VI) D. Ngôn ngữ lập trình được sử dụng.
+
+Answer: C
+(VI) Đáp án: C
+
+8) What is the recommended best practice for the scope of a single code review session?
+(VI) 8) Cách thực hành tốt nhất được đề xuất cho phạm vi của một phiên đánh giá mã đơn lẻ là gì?
+
+A. To cover as much code as possible in a single day.
+(VI) A. Để xử lý càng nhiều mã càng tốt trong một ngày.
+B. To focus on a manageable amount of code (e.g., 200-400 lines) in a session lasting about an hour.
+(VI) B. Để tập trung vào số lượng mã có thể quản lý được (ví dụ: 200-400 dòng) trong một phiên kéo dài khoảng một giờ.
+C. To only review code written by senior developers.
+(VI) C. Chỉ xem lại mã được viết bởi các nhà phát triển cấp cao.
+D. To continue the review until every participant agrees the code is perfect.
+(VI) D. Tiếp tục xem xét cho đến khi mọi người tham gia đồng ý rằng mã này là hoàn hảo.
+
+Answer: B
+(VI) Đáp án: B
+
+9) Modern code review tools often integrate with code repositories like GitHub. What is the primary benefit of this integration?
+(VI) 9) Các công cụ đánh giá mã hiện đại thường tích hợp với kho mã như GitHub. Lợi ích chính của việc tích hợp này là gì?
+
+A. It allows the tool to automatically fix all identified bugs.
+(VI) A. Nó cho phép công cụ tự động sửa tất cả các lỗi đã xác định.
+B. It can automatically set up a code review whenever a programmer submits new code.
+(VI) B. Nó có thể tự động thiết lập đánh giá mã bất cứ khi nào lập trình viên gửi mã mới.
+C. It prevents programmers from submitting code that contains any bugs.
+(VI) C. Nó ngăn người lập trình gửi mã có chứa bất kỳ lỗi nào.
+D. It replaces the need for any human involvement in the review process.
+(VI) D. Nó thay thế sự cần thiết phải có sự tham gia của con người vào quá trình xem xét.
+
+Answer: B
+(VI) Đáp án: B
+
+10) Why is a checklist a useful tool for a code reviewer?
+(VI) 10) Tại sao danh sách kiểm tra là một công cụ hữu ích cho người đánh giá mã?
+
+A. It helps the reviewer remember to check for common types of errors and ensures consistency.
+(VI) A. Nó giúp người đánh giá nhớ kiểm tra các loại lỗi phổ biến và đảm bảo tính nhất quán.
+B. It serves as a legally binding contract between the programmer and the reviewer.
+(VI) B. Nó đóng vai trò như một hợp đồng ràng buộc về mặt pháp lý giữa người lập trình và người đánh giá.
+C. It automatically scores the quality of the code on a scale of 1 to 10.
+(VI) C. Nó tự động chấm điểm chất lượng mã theo thang điểm từ 1 đến 10.
+D. It provides the exact code changes that need to be made.
+(VI) D. Nó cung cấp những thay đổi mã chính xác cần được thực hiện.
+
+Answer: A
+(VI) Đáp án: A

@@ -1,0 +1,149 @@
+1) Which architectural pattern separates an application into three interconnected components: data, user interface, and business logic?
+(VI) 1) Mẫu kiến ​​trúc nào tách ứng dụng thành ba thành phần được kết nối với nhau: dữ liệu, giao diện người dùng và logic nghiệp vụ?
+
+A. Model-View-Controller (MVC)
+(VI) A. Model-View-Controller (MVC)
+B. Client-Server with request/response communication roles between clients and centralized servers
+(VI) B. Máy khách-Máy chủ với vai trò giao tiếp yêu cầu/phản hồi giữa máy khách và máy chủ tập trung
+C. Layered Architecture with presentation, business, and data access tiers arranged vertically
+(VI) C. Kiến trúc phân lớp với các tầng trình bày, kinh doanh và truy cập dữ liệu được sắp xếp theo chiều dọc
+D. Microservices
+(VI) D. Dịch vụ vi mô
+
+Answer: A
+(VI) Đáp án: A
+
+2) In a Layered Architecture, what is the ‘golden rule’ of communication between layers?
+(VI) 2) Trong Kiến trúc lớp, 'quy tắc vàng' giao tiếp giữa các lớp là gì?
+
+A. Any layer can call any other layer whenever it needs data or functionality
+(VI) A. Bất kỳ lớp nào cũng có thể gọi bất kỳ lớp nào khác bất cứ khi nào nó cần dữ liệu hoặc chức năng
+B. A layer can freely skip intermediate layers when direct access seems more convenient
+(VI) B. Một lớp có thể tự do bỏ qua các lớp trung gian khi việc truy cập trực tiếp có vẻ thuận tiện hơn
+C. A layer can only call the layer immediately adjacent to it (above or below).
+(VI) C. Một lớp chỉ có thể gọi lớp liền kề với nó (ở trên hoặc dưới).
+D. A layer can only call services in the layer immediately below it.
+(VI) D. Một lớp chỉ có thể gọi các dịch vụ ở lớp ngay bên dưới nó.
+
+Answer: D
+(VI) Đáp án: D
+
+3) What is a primary disadvantage of a monolithic architecture compared to a microservices architecture?
+(VI) 3) Nhược điểm chính của kiến ​​trúc nguyên khối so với kiến trúc microservices là gì?
+
+A. They are simpler to deploy and test in the beginning because all modules are packaged together
+(VI) A. Chúng đơn giản hơn để triển khai và thử nghiệm ngay từ đầu vì tất cả các mô-đun được đóng gói cùng nhau
+B. The entire application must be redeployed even for a small change.
+(VI) B. Toàn bộ ứng dụng phải được triển khai lại ngay cả khi có một thay đổi nhỏ.
+C. They are generally more secure by default without needing additional design decisions
+(VI) C. Theo mặc định, chúng thường an toàn hơn mà không cần quyết định thiết kế bổ sung
+D. They have lower network latency for internal communication because calls stay inside one process
+(VI) D. Chúng có độ trễ mạng thấp hơn khi liên lạc nội bộ vì các cuộc gọi nằm trong một quy trình
+
+Answer: B
+(VI) Đáp án: B
+
+4) Which is a cross-cutting concern?
+(VI) 4) Đâu là mối quan tâm xuyên suốt?
+
+A. Coupon calculation for one specific checkout promotion rule
+(VI) A. Tính toán phiếu giảm giá cho một quy tắc khuyến mãi thanh toán cụ thể
+B. Search ranking inside a particular product catalog feature
+(VI) B. Xếp hạng tìm kiếm bên trong một tính năng danh mục sản phẩm cụ thể
+C. Security (e.g., auth, protection)
+(VI) C. Bảo mật (ví dụ: xác thực, bảo vệ)
+D. Image thumbnail size used only on a single gallery screen
+(VI) D. Kích thước hình thu nhỏ của hình ảnh chỉ được sử dụng trên một màn hình thư viện
+
+Answer: C
+(VI) Đáp án: C
+
+5) In MVC for web UIs, which statement is accurate?
+(VI) 5) Trong MVC dành cho giao diện người dùng web, câu nào đúng?
+
+A. Model lives only on clients and stores temporary screen state for a single page
+(VI) A. Mô hình chỉ tồn tại trên máy khách và lưu trữ trạng thái màn hình tạm thời cho một trang
+B. Views register for model changes and refresh when the model updates
+(VI) B. Lượt xem đăng ký thay đổi mô hình và làm mới khi mô hình cập nhật
+C. Controllers only render static HTML pages without processing user actions or input events
+(VI) C. Bộ điều khiển chỉ hiển thị các trang HTML tĩnh mà không xử lý hành động của người dùng hoặc sự kiện đầu vào
+D. Servers never update models
+(VI) D. Máy chủ không bao giờ cập nhật mô hình
+
+Answer: B
+(VI) Đáp án: B
+
+6) Which statement about HTTP in client–server apps is correct?
+(VI) 6) Câu nào về HTTP trong ứng dụng máy khách-máy chủ là đúng?
+
+A. Servers initiate requests to clients by default before any browser action occurs
+(VI) A. Máy chủ khởi tạo các yêu cầu tới máy khách theo mặc định trước khi bất kỳ hành động nào của trình duyệt xảy ra
+B. Clients send requests; servers respond
+(VI) B. Khách hàng gửi yêu cầu; máy chủ phản hồi
+C. HTTP is binary only and cannot carry readable request or response headers
+(VI) C. HTTP chỉ ở dạng nhị phân và không thể mang các tiêu đề yêu cầu hoặc phản hồi có thể đọc được
+D. HTTP requires XML payloads for every request and every response message
+(VI) D. HTTP yêu cầu tải trọng XML cho mọi yêu cầu và mọi thông báo phản hồi
+
+Answer: B
+(VI) Đáp án: B
+
+7) Why is JSON commonly preferred over XML here?
+(VI) 7) Tại sao JSON thường được ưa chuộng hơn XML ở đây?
+
+A. Browsers can’t parse XML documents correctly in modern web applications because only JSON is supported by JavaScript
+(VI) A. Trình duyệt không thể phân tích chính xác các tài liệu XML trong các ứng dụng web hiện đại vì chỉ có JSON được JavaScript hỗ trợ
+B. JSON is usually more compact and faster to parse, and maps to objects easily
+(VI) B. JSON thường nhỏ gọn hơn, phân tích cú pháp nhanh hơn và dễ dàng ánh xạ tới các đối tượng
+C. JSON guarantees ACID transaction behavior for database operations across distributed microservice databases
+(VI) C. JSON đảm bảo hành vi giao dịch ACID cho các hoạt động cơ sở dữ liệu trên cơ sở dữ liệu vi dịch vụ phân tán
+D. XML can’t encode numbers or structured text values in a reliable way for browser-to-server communication
+(VI) D. XML không thể mã hóa số hoặc giá trị văn bản có cấu trúc theo cách đáng tin cậy để liên lạc giữa trình duyệt với máy chủ
+
+Answer: B
+(VI) Đáp án: B
+
+8) In a multi-tier web architecture, which pairing is correct?
+(VI) 8) Trong kiến ​​trúc web nhiều tầng, việc ghép nối nào là đúng?
+
+A. Web server - user authentication and authorization logic only
+(VI) A. Máy chủ web - chỉ logic xác thực và ủy quyền người dùng
+B. Application server - application-specific operations
+(VI) B. Máy chủ ứng dụng - hoạt động dành riêng cho ứng dụng
+C. Database server - HTML page generation for browser rendering
+(VI) C. Máy chủ cơ sở dữ liệu - Tạo trang HTML để hiển thị trình duyệt
+D. Web server - ACID transaction processing for persistent data updates
+(VI) D. Máy chủ web - Xử lý giao dịch ACID để cập nhật dữ liệu liên tục
+
+Answer: B
+(VI) Đáp án: B
+
+9) What’s the main role of a load balancer in client–server systems?
+(VI) 9) Vai trò chính của bộ cân bằng tải trong hệ thống máy khách-máy chủ là gì?
+
+A. Encrypt database tables before storing sensitive information permanently for every application server request
+(VI) A. Mã hóa các bảng cơ sở dữ liệu trước khi lưu trữ thông tin nhạy cảm vĩnh viễn cho mọi yêu cầu của máy chủ ứng dụng
+B. Distribute requests across servers to share load and improve availability
+(VI) B. Phân phối yêu cầu trên các máy chủ để chia sẻ tải và cải thiện tính khả dụng
+C. Replace authentication and authorization services for logged-in users across all backend applications
+(VI) C. Thay thế dịch vụ xác thực và ủy quyền cho người dùng đã đăng nhập trên tất cả các ứng dụng phụ trợ
+D. Eliminate all network latency between clients, application servers, and databases in every network path
+(VI) D. Loại bỏ mọi độ trễ mạng giữa máy khách, máy chủ ứng dụng và cơ sở dữ liệu trên mọi đường dẫn mạng
+
+Answer: B
+(VI) Đáp án: B
+
+10) In the “multiple database per component” design, what extra piece keeps shared data correct?
+(VI) 10) Trong thiết kế “nhiều cơ sở dữ liệu cho mỗi thành phần”, phần bổ sung nào giữ cho dữ liệu được chia sẻ chính xác?
+
+A. A CDN that caches static images, scripts, and stylesheets near users
+(VI) A. CDN lưu trữ hình ảnh tĩnh, tập lệnh và biểu định kiểu gần người dùng
+B. A reconciliation component/process
+(VI) B. Thành phần/quy trình đối chiếu
+C. A sticky-session cookie that keeps one user connected to the same server
+(VI) C. Cookie phiên cố định giúp một người dùng kết nối với cùng một máy chủ
+D. A single global mutex that locks every distributed database during updates
+(VI) D. Một mutex toàn cầu duy nhất khóa mọi cơ sở dữ liệu phân tán trong quá trình cập nhật
+
+Answer: B
+(VI) Đáp án: B

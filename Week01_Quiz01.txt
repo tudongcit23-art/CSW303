@@ -1,0 +1,179 @@
+1) Which sequence correctly describes the flow of changes from your local edits to the remote server in Git?
+(VI) 1) Trình tự nào mô tả chính xác luồng thay đổi từ các chỉnh sửa cục bộ của bạn đến máy chủ remote trong git?
+
+A. Working Directory → Local Commits → Staging Area → Remote
+(VI) A. Thư mục làm việc → Commit cục bộ → Khu vực staging → Remote
+B. Staging Area → Working Directory → Remote → Local Commits
+(VI) B. Khu vực staging → Thư mục làm việc → Remote → Commit cục bộ
+C. Working Directory → Staging Area → Local Commits → Remote
+(VI) C. Thư mục làm việc → Khu vực staging → Commit cục bộ → Remote
+D. Local Commits → Remote → Staging Area → Working Directory
+(VI) D. Commit cục bộ → Remote → Khu vực staging → Thư mục làm việc
+
+Answer: C
+(VI) Đáp án: C
+
+2) Starting a New Local Project: Grace wants to start a new project in a folder on her computer named project-alpha. The project does not exist on a remote server yet. What is the very first Git command she should run inside the folder?
+(VI) 2) Bắt đầu một dự án cục bộ mới: Grace muốn bắt đầu một dự án mới trong một thư mục trên máy tính của cô ấy có tên project-alpha. Dự án chưa tồn tại trên máy chủ remote. Lệnh git đầu tiên cô ấy nên chạy trong thư mục là gì?
+
+A. git clone project-alpha
+(VI) A. git clone project-alpha
+B. git init
+(VI) B. git init
+C. git remote add origin ...
+(VI) C. git remote add origin ...
+D. git commit
+(VI) D. git commit
+
+Answer: B
+(VI) Đáp án: B
+
+3) Ignoring Generated Files: Henry is working on a project that generates log files (*.log) and a build output directory (/dist). He wants Git to completely ignore these files. What should he do?
+(VI) 3) Bỏ qua các tệp đã tạo: Henry đang làm việc trên một dự án tạo các tệp log (*.log) và thư mục đầu ra bản dựng (/dist). Anh ấy muốn git hoàn toàn bỏ qua những tệp này. Anh ấy nên làm gì?
+
+A. Run git clean -fd before every commit.
+(VI) A. Chạy git clean -fd trước mỗi commit.
+B. Add the lines *.log and /dist to a .gitignore file.
+(VI) B. Thêm các dòng *.log và /dist vào tệp .gitignore.
+C. Manually delete the files before running git add.
+(VI) C. Xóa các tệp theo cách thủ công trước khi chạy git add.
+D. Use git update-index --assume-unchanged on the files.
+(VI) D. Sử dụng git update-index --assume-unchanged trên các tệp.
+
+Answer: B
+(VI) Đáp án: B
+
+4) What is the primary function of a .gitignore file?
+(VI) 4) Chức năng chính của tệp .gitignore là gì?
+
+A. To list files that Git should permanently delete from the project history.
+(VI) A. Để liệt kê các tệp mà git nên xóa vĩnh viễn khỏi lịch sử dự án.
+B. To specify files and directories that Git should intentionally not track, such as build artifacts or local environment files.
+(VI) B. Để chỉ định các tệp và thư mục mà git không nên theo dõi một cách cố ý, chẳng hạn như các tạo phẩm xây dựng hoặc tệp môi trường cục bộ.
+C. To mark certain project files as required so that Git always includes them in every commit, even when they have not been modified.
+(VI) C. Để đánh dấu các tệp dự án nhất định theo yêu cầu để git luôn đưa chúng vào mọi cam kết, ngay cả khi chúng chưa được sửa đổi.
+D. To set up and manage user-wide preferences, credentials, and default behaviors for Git across all repositories on your machine.
+(VI) D. Để thiết lập và quản lý các tùy chọn, thông tin xác thực và hành vi mặc định trên toàn người dùng cho git trên tất cả các kho lưu trữ trên máy của bạn.
+
+Answer: B
+(VI) Đáp án: B
+
+5) The Accidental add: Ken is preparing a commit and uses git add . to stage everything. He then realizes he accidentally staged a sensitive file, secrets.env. How can he remove this file from the staging area while keeping it in his working directory?
+(VI) 5) Phần bổ sung tình cờ: Ken đang chuẩn bị một cam kết và sử dụng git add . để dàn dựng mọi thứ. Sau đó anh ta nhận ra mình đã vô tình dàn dựng một tệp nhạy cảm, secret.env. Làm cách nào anh ta có thể xóa tệp này khỏi khu vực staging trong khi vẫn giữ nó trong thư mục làm việc của mình?
+
+A. git rm --cached secrets.env
+(VI) A. git rm --cached secret.env
+B. git reset secrets.env or git restore --staged secrets.env
+(VI) B. git reset secret.env hoặc git khôi phục --staged secret.env
+C. git checkout -- secrets.env
+(VI) C. kiểm tra git -- secret.env
+D. Delete the file and then restore it from the last commit.
+(VI) D. Xóa tệp và sau đó khôi phục nó từ lần xác nhận cuối cùng.
+
+Answer: B
+(VI) Đáp án: B
+
+6) What is the most significant advantage of using branches in your development workflow?
+(VI) 6) Ưu điểm quan trọng nhất của việc sử dụng các nhánh trong quy trình phát triển của bạn là gì?
+
+A. They create separate, encrypted backup copies of your entire codebase that can be restored if data is lost.
+(VI) A. Họ tạo các bản sao lưu riêng biệt, được mã hóa cho toàn bộ codebase của bạn để có thể khôi phục nếu dữ liệu bị mất.
+B. They reduce the amount of disk space a repository uses by storing only compressed deltas instead of full file copies on every branch.
+(VI) B. Chúng giảm dung lượng ổ đĩa mà kho lưu trữ sử dụng bằng cách chỉ lưu trữ các delta đã nén thay vì các bản sao tệp đầy đủ trên mỗi nhánh.
+C. They allow you to work on new features or fixes in isolation without disrupting the stability of the main codebase.
+(VI) C. Chúng cho phép bạn làm việc trên các tính năng mới hoặc sửa lỗi một cách riêng biệt mà không làm gián đoạn tính ổn định của codebase chính.
+D. They automatically resolve merge conflicts between different developers.
+(VI) D. Chúng tự động giải quyết xung đột hợp nhất giữa các nhà phát triển khác nhau.
+
+Answer: C
+(VI) Đáp án: C
+
+7) A Forgotten File: Alice just made a commit with the message "feat: Add user login form". She immediately realizes she forgot to git add the new CSS file that styles the form. She has not pushed her commit yet. What is the most efficient way for Alice to add the missing CSS file to her last commit?
+(VI) 7) Một tệp bị lãng quên: Alice vừa thực hiện một cam kết với thông báo "feat: Thêm biểu mẫu đăng nhập người dùng". Cô ngay lập tức nhận ra mình đã quên git add tệp CSS mới tạo kiểu cho biểu mẫu. Cô ấy vẫn chưa đẩy mạnh cam kết của mình. Cách hiệu quả nhất để Alice thêm tệp CSS bị thiếu vào lần xác nhận cuối cùng của cô ấy là gì?
+
+A. Create a new commit with the message "fix: Add missing Cascading Style Sheets (CSS)".
+(VI) A. Tạo một cam kết mới với thông báo "sửa: Thêm các Bảng định kiểu xếp chồng (CSS) bị thiếu".
+B. Use git reset --hard HEAD~1 (HEAD is the current commit pointer) and then re-commit both files.
+(VI) B. Sử dụng git reset --hard HEAD~1 (HEAD là con trỏ cam kết hiện tại) và sau đó xác nhận lại cả hai tệp.
+C. Use git add style.css and then git commit --amend.
+(VI) C. Sử dụng git add style.css và sau đó git commit --amend.
+D. Use git revert HEAD to undo the commit and start over.
+(VI) D. Sử dụng git Revert HEAD để hoàn tác cam kết và bắt đầu lại.
+
+Answer: C
+(VI) Đáp án: C
+
+8) What is the key difference between the git fetch and git pull commands?
+(VI) 8) Sự khác biệt chính giữa lệnh git tìm nạp và git pull là gì?
+
+A. git fetch uploads your changes, while git pull downloads them.
+(VI) A. git get tải lên các thay đổi của bạn, trong khi git pull tải chúng xuống.
+B. git pull is an older, deprecated command, whereas git fetch is the modern replacement.
+(VI) B. git pull là một lệnh cũ hơn và không được dùng nữa, trong khi git get là lệnh thay thế hiện đại.
+C. git fetch only works for the main branch, while git pull works for all branches.
+(VI) C. git get chỉ hoạt động với nhánh chính, trong khi git pull hoạt động với tất cả các nhánh.
+D. git fetch downloads remote updates but does not merge them, while git pull downloads and merges them into your current branch.
+(VI) D. git get tải xuống các bản cập nhật từ xa nhưng không hợp nhất chúng, trong khi git pull tải xuống và hợp nhất chúng vào nhánh hiện tại của bạn.
+
+Answer: D
+(VI) Đáp án: D
+
+9) Which of the following best describes the "Feature branch + Pull Request" collaboration workflow?
+(VI) 9) Điều nào sau đây mô tả đúng nhất quy trình cộng tác "Nhánh tính năng + Yêu cầu kéo"?
+
+A. All team members push and commit their finished work directly onto the shared main branch without using separate feature branches.
+(VI) A. Tất cả các thành viên trong nhóm đẩy và cam kết công việc đã hoàn thành của họ trực tiếp lên nhánh chính được chia sẻ mà không cần sử dụng các nhánh tính năng riêng biệt.
+B. Work is done on a separate branch, pushed to the remote, and then a request is opened for code review before merging.
+(VI) B. Công việc được thực hiện trên một nhánh riêng biệt, được đẩy đến điều khiển từ xa và sau đó yêu cầu được mở để xem xét mã trước khi hợp nhất.
+C. A single, long-running branch is used for development, staging, and production environments.
+(VI) C. Một nhánh duy nhất, hoạt động lâu dài được sử dụng cho các môi trường phát triển, dàn dựng và sản xuất.
+D. Developers frequently merge small, unreviewed changes to the main branch throughout the day.
+(VI) D. Các nhà phát triển thường xuyên hợp nhất các thay đổi nhỏ, chưa được xem xét vào nhánh chính suốt cả ngày.
+
+Answer: B
+(VI) Đáp án: B
+
+10) Resolving a Merge Conflict: Noah is merging main into his branch, and Git reports a MERGE_CONFLICT. He opens the conflicted file, manually edits it to fix the conflict markers (<<<<<, >>>>>), and saves it. What are the next two commands he must run to complete the merge?
+(VI) 10) Giải quyết xung đột hợp nhất: Noah đang hợp nhất main vào chi nhánh của mình và git báo cáo MERGE_CONFLICT. Anh ta mở tệp bị xung đột, chỉnh sửa thủ công để sửa các dấu hiệu xung đột (<<<<<, >>>>>) và lưu nó. Hai lệnh tiếp theo anh ta phải chạy để hoàn thành việc hợp nhất là gì?
+
+A. git commit and then git merge --continue
+(VI) A. git commit và sau đó git merge --continue
+B. git add <conflicted_file> and then git merge --continue
+(VI) B. git add <conflicted_file> và sau đó git merge --continue
+C. git rebase --continue
+(VI) C. git rebase --tiếp tục
+D. git status and then git commit
+(VI) D. trạng thái git và sau đó git commit
+
+Answer: B
+(VI) Đáp án: B
+
+11) What is the recommended strategy for avoiding merge conflicts on a long-running feature branch?
+(VI) 11) Chiến lược được đề xuất để tránh xung đột hợp nhất trên một nhánh tính năng dài hạn là gì?
+
+A. Wait until every part of the feature is done and tested before pushing your branch to the remote repository for the first time.
+(VI) A. Đợi cho đến khi mọi phần của tính năng được hoàn thành và kiểm tra trước khi đẩy nhánh của bạn đến kho lưu trữ từ xa lần đầu tiên.
+B. Frequently merge or rebase the main branch into your feature branch to stay up-to-date.
+(VI) B. Thường xuyên hợp nhất hoặc chuyển đổi nhánh chính vào nhánh tính năng của bạn để luôn cập nhật.
+C. Do not pull or merge any updates from the main branch into your feature branch until the feature is ready for final integration.
+(VI) C. Không kéo hoặc hợp nhất bất kỳ bản cập nhật nào từ nhánh chính vào nhánh tính năng của bạn cho đến khi tính năng này sẵn sàng để tích hợp lần cuối.
+D. Delete and recreate the branch from main whenever a major change happens on main.
+(VI) D. Xóa và tạo lại nhánh từ main bất cứ khi nào có thay đổi lớn xảy ra trên main.
+
+Answer: B
+(VI) Đáp án: B
+
+12) Staying Synced with an Upstream Fork: Jake has forked an open-source project and cloned his fork. To contribute effectively, he needs to keep his fork updated with the original project. How should he configure his local repo to do this?
+(VI) 12) Luôn đồng bộ hóa với Upstream Fork: Jake đã phân nhánh một dự án nguồn mở và nhân bản phân nhánh của mình. Để đóng góp hiệu quả, anh ấy cần cập nhật dự án ban đầu của mình. Anh ta nên cấu hình kho lưu trữ cục bộ của mình như thế nào để thực hiện việc này?
+
+A. Delete your local copy and run git clone on the original repository again each day to get the latest changes.
+(VI) A. Xóa bản sao cục bộ của bạn và chạy lại git clone trên kho lưu trữ ban đầu mỗi ngày để nhận những thay đổi mới nhất.
+B. Download or copy updated source files from the original project's website and paste them into your local fork by hand.
+(VI) B. Tải xuống hoặc sao chép các tệp nguồn đã cập nhật từ trang web của dự án ban đầu và dán thủ công chúng vào nhánh cục bộ của bạn.
+C. Add the original project's Uniform Resource Locator (URL) as a remote named upstream.
+(VI) C. Thêm Bộ định vị tài nguyên thống nhất (URL) của dự án ban đầu làm điều khiển từ xa có tên ngược dòng.
+D. Submit his pull requests by pushing commits straight to the main branch of the original upstream repository without going through his fork.
+(VI) D. Gửi các yêu cầu kéo của anh ấy bằng cách đẩy các cam kết thẳng đến nhánh chính của kho lưu trữ ngược dòng ban đầu mà không cần thông qua ngã ba của anh ấy.
+
+Answer: C
+(VI) Đáp án: C

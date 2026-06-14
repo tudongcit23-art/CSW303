@@ -1,0 +1,254 @@
+1) What is the primary goal of defining a software architecture?
+(VI) 1) Mục tiêu chính của việc xác định kiến ​​trúc phần mềm là gì?
+
+A. To choose the specific programming language, database engine, and low-level library stack before understanding the wider structure.
+(VI) A. Để chọn ngôn ngữ lập trình cụ thể, công cụ cơ sở dữ liệu và ngăn xếp thư viện cấp thấp trước khi hiểu cấu trúc rộng hơn.
+B. To document the system's high-level structure and component interactions.
+(VI) B. Để ghi lại cấu trúc cấp cao và các tương tác thành phần của hệ thống.
+C. To write the first modules of code for the application.
+(VI) C. Để viết các mô-đun mã đầu tiên cho ứng dụng.
+D. To finalize the user interface (UI) design, visual style, and branding before clarifying system responsibilities.
+(VI) D. Hoàn thiện thiết kế giao diện người dùng (UI), kiểu dáng trực quan và thương hiệu trước khi làm rõ trách nhiệm của hệ thống.
+
+Answer: B
+(VI) Đáp án: B
+
+2) A software system's quality attributes (like performance, reliability, and security) are also known as:
+(VI) 2) Các thuộc tính chất lượng của hệ thống phần mềm (như hiệu suất, độ tin cậy và bảo mật) còn được gọi là:
+
+A. Detailed functional features requested by end users
+(VI) A. Các tính năng chức năng chi tiết được người dùng cuối yêu cầu
+B. Non-functional requirements
+(VI) B. Yêu cầu phi chức năng
+C. Business goals
+(VI) C. Mục tiêu kinh doanh
+D. User stories
+(VI) D. Câu chuyện của người dùng
+
+Answer: B
+(VI) Đáp án: B
+
+3) A non-functional requirement states, "The system must be able to handle a 10x increase in user traffic over one year." This requirement directly influences which quality attribute?
+(VI) 3) Yêu cầu phi chức năng nêu rõ: "Hệ thống phải có khả năng xử lý lưu lượng người dùng tăng gấp 10 lần trong một năm." Yêu cầu này ảnh hưởng trực tiếp đến thuộc tính chất lượng nào?
+
+A. Usability of the product interface during normal navigation
+(VI) A. Khả năng sử dụng của giao diện sản phẩm trong quá trình điều hướng thông thường
+B. Security against unauthorized access and data leaks
+(VI) B. Bảo mật chống truy cập trái phép và rò rỉ dữ liệu
+C. Scalability
+(VI) C. Khả năng mở rộng
+D. Maintainability
+(VI) D. Khả năng bảo trì
+
+Answer: C
+(VI) Đáp án: C
+
+4) Why is it critically important to get the architecture right early in the project?
+(VI) 4) Tại sao việc sớm có được kiến ​​trúc phù hợp trong dự án lại cực kỳ quan trọng?
+
+A. Because good architecture is cheap and easy to implement once the team selects modern frameworks and tools.
+(VI) A. Bởi vì kiến ​​trúc tốt sẽ rẻ và dễ triển khai khi nhóm chọn được các khung và công cụ hiện đại.
+B. Because poor architectural decisions are extremely difficult and expensive to change later.
+(VI) B. Bởi vì những quyết định kiến ​​trúc tồi sẽ cực kỳ khó khăn và tốn kém để thay đổi sau này.
+C. Because the architecture determines the final price of the product without needing further market or user analysis.
+(VI) C. Bởi vì kiến ​​trúc xác định giá cuối cùng của sản phẩm mà không cần phân tích thêm về thị trường hoặc người dùng.
+D. Because the first design is always the best one when created before coding begins and should not be revisited later.
+(VI) D. Bởi vì thiết kế đầu tiên luôn là thiết kế tốt nhất khi được tạo trước khi bắt đầu viết mã và không nên xem lại sau này.
+
+Answer: B
+(VI) Đáp án: B
+
+5) (Scenario) A company builds an e-commerce site. As it becomes popular, the site crashes during sales. This system is failing which quality attribute?
+(VI) 5) (Kịch bản) Một công ty xây dựng một trang web thương mại điện tử. Khi nó trở nên phổ biến, trang web gặp sự cố trong quá trình bán hàng. Hệ thống này đang bị lỗi thuộc tính chất lượng nào?
+
+A. Scalability
+(VI) A. Khả năng mở rộng
+B. Usability of the product navigation and checkout screens
+(VI) B. Khả năng sử dụng của màn hình điều hướng và thanh toán sản phẩm
+C. Security
+(VI) C. Bảo mật
+D. Maintainability
+(VI) D. Khả năng bảo trì
+
+Answer: A
+(VI) Đáp án: A
+
+6) Which quality attribute refers to the ease with which developers can fix bugs or add new features?
+(VI) 6) Thuộc tính chất lượng nào đề cập đến việc nhà phát triển có thể dễ dàng sửa lỗi hoặc thêm các tính năng mới?
+
+A. Performance of request processing under heavy load
+(VI) A. Hiệu suất xử lý yêu cầu dưới tải nặng
+B. Resilience during partial infrastructure failure
+(VI) B. Khả năng phục hồi khi cơ sở hạ tầng bị lỗi một phần
+C. Maintainability
+(VI) C. Khả năng bảo trì
+D. Availability
+(VI) D. Sẵn có
+
+Answer: C
+(VI) Đáp án: C
+
+7) The process of architectural design is best described as:
+(VI) 7) Quá trình thiết kế kiến ​​trúc được mô tả tốt nhất như sau:
+
+A. A series of trade-offs to balance conflicting goals
+(VI) A. Hàng loạt sự đánh đổi để cân bằng các mục tiêu xung đột
+B. A fixed checklist of components to include regardless of project goals, constraints, and quality attribute priorities
+(VI) B. Một danh sách kiểm tra cố định các thành phần cần bao gồm bất kể mục tiêu, ràng buộc của dự án và các ưu tiên thuộc tính chất lượng
+C. A task only for the most senior developer
+(VI) C. Nhiệm vụ chỉ dành cho nhà phát triển cấp cao nhất
+D. A final step completed just before release
+(VI) D. Bước cuối cùng được hoàn thành ngay trước khi phát hành
+
+Answer: A
+(VI) Đáp án: A
+
+8) What is the most common trade-off when implementing very strict and complex security measures?
+(VI) 8) Sự đánh đổi phổ biến nhất khi thực hiện các biện pháp bảo mật rất nghiêm ngặt và phức tạp là gì?
+
+A. The system becomes less maintainable because every security rule automatically makes all future code changes unsafe.
+(VI) Đáp: Hệ thống trở nên khó bảo trì hơn vì mọi quy tắc bảo mật đều tự động làm cho tất cả các thay đổi mã trong tương lai trở nên không an toàn.
+B. The system's performance improves because encryption and extra authentication always reduce server workload.
+(VI) B. Hiệu suất của hệ thống được cải thiện vì mã hóa và xác thực bổ sung luôn giảm khối lượng công việc của máy chủ.
+C. The system becomes less usable for the end-user.
+(VI) C. Hệ thống trở nên khó sử dụng hơn đối với người dùng cuối.
+D. The system becomes cheaper to build.
+(VI) D. Việc xây dựng hệ thống trở nên rẻ hơn.
+
+Answer: C
+(VI) Đáp án: C
+
+9) What is the most common trade-off when breaking a large system into many small, independent services to improve maintainability?
+(VI) 9) Sự đánh đổi phổ biến nhất khi chia một hệ thống lớn thành nhiều dịch vụ nhỏ, độc lập để cải thiện khả năng bảo trì là gì?
+
+A. The system's overall performance may decrease.
+(VI) A. Hiệu suất tổng thể của hệ thống có thể giảm.
+B. The system becomes less secure.
+(VI) B. Hệ thống trở nên kém an toàn hơn.
+C. The system becomes harder to scale because smaller independent services cannot be deployed separately.
+(VI) C. Hệ thống trở nên khó mở rộng quy mô hơn vì các dịch vụ độc lập nhỏ hơn không thể được triển khai riêng lẻ.
+D. The system's user interface becomes more complex.
+(VI) D. Giao diện người dùng của hệ thống trở nên phức tạp hơn.
+
+Answer: A
+(VI) Đáp án: A
+
+10) Which of the following is an organizational (human) factor that influences architectural decisions?
+(VI) 10) Yếu tố nào sau đây là yếu tố tổ chức (con người) ảnh hưởng đến các quyết định kiến ​​trúc?
+
+A. The type of database selected after considering storage, query, and operational constraints
+(VI) A. Loại cơ sở dữ liệu được chọn sau khi xem xét các ràng buộc về lưu trữ, truy vấn và vận hành
+B. The speed of the server's CPU when measured without considering team communication or ownership
+(VI) B. Tốc độ CPU của máy chủ khi được đo mà không tính đến thông tin liên lạc hoặc quyền sở hữu của nhóm
+C. The skill level and experience of the development team
+(VI) C. Trình độ kỹ năng và kinh nghiệm của nhóm phát triển
+D. The network protocol being used by clients and servers during normal runtime communication
+(VI) D. Giao thức mạng đang được sử dụng bởi máy khách và máy chủ trong quá trình giao tiếp thời gian chạy thông thường
+
+Answer: C
+(VI) Đáp án: C
+
+11) Which quality attribute refers to a system's ability to continue operating even if some of its components have failed?
+(VI) 11) Thuộc tính chất lượng nào đề cập đến khả năng tiếp tục hoạt động của hệ thống ngay cả khi một số thành phần của nó bị lỗi?
+
+A. Resilience (or Fault Tolerance)
+(VI) A. Khả năng phục hồi (hoặc khả năng chịu lỗi)
+B. Performance under normal load when every component remains healthy
+(VI) B. Hiệu năng ở mức tải bình thường khi mọi linh kiện vẫn hoạt động tốt
+C. Usability
+(VI) C. Khả năng sử dụng
+D. Security against unauthorized access and data breaches
+(VI) D. Bảo mật chống truy cập trái phép và vi phạm dữ liệu
+
+Answer: A
+(VI) Đáp án: A
+
+12) A design with a single, central, highly-protected "vault" for all its data is:
+(VI) 12) Một thiết kế có một "kho" duy nhất, trung tâm, được bảo vệ cao cho tất cả dữ liệu của nó là:
+
+A. Highly resilient but complex to manage because all failures can be isolated without affecting the central store.
+(VI) A. Có khả năng phục hồi cao nhưng quản lý phức tạp vì mọi lỗi có thể được cách ly mà không ảnh hưởng đến cửa hàng trung tâm.
+B. Simple to protect, but has a single point of failure.
+(VI) B. Bảo vệ đơn giản nhưng có một điểm yếu.
+C. The best design for all high-security systems.
+(VI) C. Thiết kế tốt nhất cho tất cả các hệ thống có tính bảo mật cao.
+D. Very fast but not secure.
+(VI) D. Rất nhanh nhưng không an toàn.
+
+Answer: B
+(VI) Đáp án: B
+
+13) How is high availability (like "99.999% uptime") typically achieved in a system's architecture?
+(VI) 13) Làm thế nào để đạt được tính sẵn sàng cao (như "99,999% thời gian hoạt động") trong kiến ​​trúc của hệ thống?
+
+A. By using a faster programming language so every request completes before any server can fail
+(VI) A. Bằng cách sử dụng ngôn ngữ lập trình nhanh hơn để mọi yêu cầu đều hoàn thành trước khi bất kỳ máy chủ nào có thể bị lỗi
+B. By implementing redundancy for critical components
+(VI) B. Bằng cách triển khai dự phòng cho các thành phần quan trọng
+C. By making the user interface simpler
+(VI) C. Bằng cách làm cho giao diện người dùng đơn giản hơn
+D. By hiring more developers to manually restart failed services whenever outages happen
+(VI) D. Bằng cách thuê thêm nhà phát triển để khởi động lại các dịch vụ bị lỗi theo cách thủ công bất cứ khi nào xảy ra sự cố ngừng hoạt động
+
+Answer: B
+(VI) Đáp án: B
+
+14) What is the main disadvantage of building a system with high redundancy?
+(VI) 14) Nhược điểm chính của việc xây dựng một hệ thống có độ dự phòng cao là gì?
+
+A. It makes the system less secure because adding backup components always removes authentication and authorization.
+(VI) A. Nó làm cho hệ thống kém an toàn hơn vì việc thêm các thành phần dự phòng luôn loại bỏ tính năng xác thực và ủy quyền.
+B. It makes the system slower for users.
+(VI) B. Nó làm cho hệ thống chậm hơn đối với người dùng.
+C. It significantly increases the system's cost and complexity.
+(VI) C. Nó làm tăng đáng kể chi phí và độ phức tạp của hệ thống.
+D. It makes the system impossible to maintain.
+(VI) D. Nó làm cho hệ thống không thể bảo trì được.
+
+Answer: C
+(VI) Đáp án: C
+
+15) What is the primary goal of creating architectural diagrams and documents?
+(VI) 15) Mục tiêu chính của việc tạo sơ đồ và tài liệu kiến ​​trúc là gì?
+
+A. To create a legal contract for the client that replaces discussion between engineers and stakeholders
+(VI) A. Để tạo một hợp đồng pháp lý cho khách hàng thay thế cuộc thảo luận giữa các kỹ sư và các bên liên quan
+B. To build a shared understanding among the development team
+(VI) B. Để xây dựng sự hiểu biết chung giữa nhóm phát triển
+C. To prove the system will have no bugs before any testing, implementation, or review is performed
+(VI) C. Để chứng minh hệ thống sẽ không có lỗi trước khi thực hiện bất kỳ thử nghiệm, triển khai hoặc đánh giá nào
+D. To automatically generate all the code without developers needing to make design decisions
+(VI) D. Để tự động tạo ra tất cả mã mà nhà phát triển không cần phải đưa ra quyết định thiết kế
+
+Answer: B
+(VI) Đáp án: B
+
+16) Which of the following is NOT a non-functional quality attribute?
+(VI) 16) Điều nào sau đây KHÔNG phải là thuộc tính chất lượng phi chức năng?
+
+A. A user must be able to reset their password.
+(VI) A. Người dùng phải có khả năng đặt lại mật khẩu của mình.
+B. The system must be secure from common attacks during normal public internet use.
+(VI) B. Hệ thống phải được bảo mật khỏi các cuộc tấn công thông thường trong quá trình sử dụng internet công cộng thông thường.
+C. The system must respond to user queries in under 2 seconds even during regular peak usage.
+(VI) C. Hệ thống phải phản hồi các truy vấn của người dùng trong vòng chưa đầy 2 giây ngay cả trong thời gian sử dụng cao điểm thông thường.
+D. The system must be online 24/7.
+(VI) D. Hệ thống phải trực tuyến 24/7.
+
+Answer: A
+(VI) Đáp án: A
+
+17) Which of the following is a key influence on architectural design?
+(VI) 17) Điều nào sau đây có ảnh hưởng chính đến thiết kế kiến ​​trúc?
+
+A. The expected lifetime of the product
+(VI) A. Tuổi thọ dự kiến ​​của sản phẩm
+B. The brand and logo of the product as chosen by the marketing team before implementation
+(VI) B. Thương hiệu và logo của sản phẩm do đội ngũ marketing lựa chọn trước khi triển khai
+C. The marketing campaign for the product
+(VI) C. Chiến dịch tiếp thị cho sản phẩm
+D. The individual names of the developers
+(VI) D. Tên riêng của nhà phát triển
+
+Answer: A
+(VI) Đáp án: A

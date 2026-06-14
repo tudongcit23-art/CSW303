@@ -1,0 +1,149 @@
+1) What is the "DevOps" approach to service management?
+(VI) 1) Phương pháp quản lý dịch vụ "DevOps" là gì?
+
+A. A separate "operations" team is responsible for deploying and managing all services created by the "development" team.
+(VI) A. Một nhóm "vận hành" riêng biệt chịu trách nhiệm triển khai và quản lý tất cả các dịch vụ do nhóm "phát triển" tạo ra.
+B. The development team is responsible for deployment and service management as well as software development.
+(VI) B. Nhóm phát triển chịu trách nhiệm triển khai và quản lý dịch vụ cũng như phát triển phần mềm.
+C. It is an approach where all development and operations are outsourced to a third-party vendor.
+(VI) C. Đó là một cách tiếp cận trong đó tất cả hoạt động phát triển và vận hành đều được gia công cho nhà cung cấp bên thứ ba.
+D. It is a set of tools used to automate only the testing, but not the deployment, of services.
+(VI) D. Đây là một bộ công cụ được sử dụng để chỉ tự động hóa việc kiểm tra chứ không phải để triển khai các dịch vụ.
+
+Answer: B
+(VI) Đáp án: B
+
+2) What is the core principle of "continuous deployment"?
+(VI) 2) Nguyên tắc cốt lõi của "triển khai liên tục" là gì?
+
+A. New versions of the software are bundled and released periodically, typically three or four times per year.
+(VI) A. Các phiên bản mới của phần mềm được đóng gói và phát hành định kỳ, thường là ba hoặc bốn lần mỗi năm.
+B. As soon as a change to a service has been made and validated, the modified service is automatically re-deployed into production.
+(VI) B. Ngay sau khi thực hiện và xác thực một thay đổi đối với một dịch vụ, dịch vụ đã sửa đổi sẽ tự động được triển khai lại vào sản xuất.
+C. Developers are responsible for manually deploying their own services after getting approval from the operations team.
+(VI) C. Nhà phát triển chịu trách nhiệm triển khai thủ công các dịch vụ của mình sau khi được nhóm vận hành phê duyệt.
+D. All microservices in the system must be deployed at the same time to ensure compatibility.
+(VI) D. Tất cả các microservice trong hệ thống phải được triển khai cùng lúc để đảm bảo tính tương thích.
+
+Answer: B
+(VI) Đáp án: B
+
+3) According to the continuous deployment pipeline diagram, what event triggers the start of the automated process?
+(VI) 3) Theo sơ đồ quy trình triển khai liên tục, sự kiện nào kích hoạt quá trình tự động bắt đầu?
+
+A. A service monitoring system detects a performance failure.
+(VI) A. Hệ thống giám sát dịch vụ phát hiện lỗi hiệu suất.
+B. A user submits a new feature request to the development team.
+(VI) B. Người dùng gửi yêu cầu tính năng mới cho nhóm phát triển.
+C. A programmer commits a code change to the version management system (e.g., Git).
+(VI) C. Lập trình viên cam kết thay đổi mã đối với hệ thống quản lý phiên bản (ví dụ: git).
+D. The team manager approves the deployment in a weekly planning meeting.
+(VI) D. Người quản lý nhóm phê duyệt việc triển khai trong cuộc họp lập kế hoạch hàng tuần.
+
+Answer: C
+(VI) Đáp án: C
+
+4) In the continuous deployment pipeline, what is the primary purpose of a "container" (e.g., Docker)?
+(VI) 4) Trong quy trình triển khai liên tục, mục đích chính của "vùng chứa" (ví dụ: Docker) là gì?
+
+A. To act as a virtual server that includes a full operating system.
+(VI) A. Hoạt động như một máy chủ ảo bao gồm một hệ điều hành đầy đủ.
+B. To be a virtualized environment (deployment unit) that includes all the software and dependencies that a service needs to run.
+(VI) B. Là một môi trường ảo hóa (đơn vị triển khai) bao gồm tất cả phần mềm và phần phụ thuộc mà dịch vụ cần chạy.
+C. To run the automated unit tests before building the system.
+(VI) C. Chạy thử nghiệm đơn vị tự động trước khi xây dựng hệ thống.
+D. To monitor the service for failures after it has been deployed.
+(VI) D. Để giám sát lỗi dịch vụ sau khi nó được triển khai.
+
+Answer: B
+(VI) Đáp án: B
+
+5) What is the role of a container management system like Kubernetes?
+(VI) 5) Vai trò của hệ thống quản lý container như Kubernetes là gì?
+
+A. It is a version control system used to store the source code for a service.
+(VI) A. Đây là hệ thống kiểm soát phiên bản được sử dụng để lưu trữ mã nguồn cho một dịch vụ.
+B. It is a tool for writing and running automated unit tests.
+(VI) B. Nó là một công cụ để viết và chạy các bài kiểm tra đơn vị tự động.
+C. It automates container deployment and management, handling scheduling, load balancing, and service discovery.
+(VI) C. Nó tự động hóa việc triển khai và quản lý vùng chứa, lập lịch xử lý, cân bằng tải và khám phá dịch vụ.
+D. It is a type of API gateway used to route traffic to different service versions.
+(VI) D. Đây là một loại cổng API được sử dụng để định tuyến lưu lượng truy cập đến các phiên bản dịch vụ khác nhau.
+
+Answer: C
+(VI) Đáp án: C
+
+6) In the continuous deployment pipeline, which automated tests are run after the service is containerized and deployed?
+(VI) 6) Trong quy trình triển khai liên tục, những thử nghiệm tự động nào sẽ được chạy sau khi dịch vụ được đưa vào bộ chứa và triển khai?
+
+A. Unit tests
+(VI) A. Kiểm tra đơn vị
+B. Integration tests
+(VI) B. Kiểm tra tích hợp
+C. Acceptance tests
+(VI) C. Kiểm tra chấp nhận
+D. All of the above
+(VI) D. Tất cả những điều trên
+
+Answer: D
+(VI) Đáp án: D
+
+7) How can a system using an API gateway safely manage a "rollback" if a newly deployed service version fails?
+(VI) 7) Làm cách nào một hệ thống sử dụng cổng API có thể quản lý việc "khôi phục" một cách an toàn nếu phiên bản dịch vụ mới được triển khai không thành công?
+
+A. The API gateway automatically deletes the failed service container and rebuilds the old one from source code.
+(VI) A. Cổng API tự động xóa bộ chứa dịch vụ bị lỗi và xây dựng lại bộ chứa dịch vụ cũ từ mã nguồn.
+B. The system maintains the old version, and if the monitor detects a problem, it simply switches the "current version link" back to the older service.
+(VI) B. Hệ thống duy trì phiên bản cũ và nếu màn hình phát hiện sự cố, nó chỉ cần chuyển "liên kết phiên bản hiện tại" trở lại dịch vụ cũ hơn.
+C. All client applications are forced to update their URIs to point to the older service version.
+(VI) C. Tất cả các ứng dụng khách buộc phải cập nhật URI của chúng để trỏ đến phiên bản dịch vụ cũ hơn.
+D. The system blocks all new requests, forcing them to time out until a developer manually fixes the bug in the new version.
+(VI) D. Hệ thống chặn tất cả các yêu cầu mới, buộc chúng phải hết thời gian chờ cho đến khi nhà phát triển sửa lỗi trong phiên bản mới theo cách thủ công.
+
+Answer: B
+(VI) Đáp án: B
+
+8) When a service's API must change, how can the system support both old and new clients?
+(VI) 8) Khi API của dịch vụ phải thay đổi, làm thế nào hệ thống có thể hỗ trợ cả client cũ và client mới?
+
+A. By forcing all client services to update at the exact same time.
+(VI) A. Bằng cách buộc tất cả các dịch vụ khách hàng phải cập nhật cùng một lúc.
+B. By including the version number as part of the resource's URI.
+(VI) B. Bằng cách đưa số phiên bản vào như một phần của URI của tài nguyên.
+C. By deploying the new service on a completely different server domain.
+(VI) C. Bằng cách triển khai dịch vụ mới trên một miền máy chủ hoàn toàn khác.
+D. By using a "compensating transaction" to automatically translate new API calls to the old format.
+(VI) D. Bằng cách sử dụng "giao dịch bù" để tự động dịch các lệnh gọi API mới sang định dạng cũ.
+
+Answer: B
+(VI) Đáp án: B
+
+9) What is the purpose of a numbering convention like changing a service version from 001 to 101?
+(VI) 9) Mục đích của quy ước đánh số như thay đổi phiên bản dịch vụ từ 001 thành 101 là gì?
+
+A. To indicate a minor bug fix that does not change the API.
+(VI) A. Để chỉ ra một sửa lỗi nhỏ không làm thay đổi API.
+B. To signal to the API gateway that this service should be deployed in a container.
+(VI) B. Để báo hiệu cho cổng API rằng dịch vụ này sẽ được triển khai trong vùng chứa.
+C. To identify whether a new version has introduced an API change.
+(VI) C. Để xác định xem phiên bản mới có thay đổi API hay không.
+D. To show that the service is now managed by a different development team.
+(VI) D. Để chứng tỏ rằng dịch vụ hiện được quản lý bởi một nhóm phát triển khác.
+
+Answer: C
+(VI) Đáp án: C
+
+10) According to the text, what is a primary risk of deploying new software services that testing can never completely eliminate?
+(VI) 10) Theo văn bản, rủi ro chính khi triển khai các dịch vụ phần mềm mới mà việc kiểm tra không bao giờ có thể loại bỏ hoàn toàn là gì?
+
+A. The cost of the cloud servers will increase.
+(VI) A. Chi phí của máy chủ đám mây sẽ tăng lên.
+B. Unanticipated problems will be caused by the interactions between the new version and existing services.
+(VI) B. Các vấn đề không lường trước được sẽ xảy ra do sự tương tác giữa phiên bản mới và các dịch vụ hiện có.
+C. The service's source code will be stolen during deployment.
+(VI) C. Mã nguồn của dịch vụ sẽ bị đánh cắp trong quá trình triển khai.
+D. The service will be deployed using the wrong programming language.
+(VI) D. Dịch vụ sẽ được triển khai bằng ngôn ngữ lập trình sai.
+
+Answer: B
+(VI) Đáp án: B

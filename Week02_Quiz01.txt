@@ -1,0 +1,330 @@
+1) What is the primary goal of software testing?
+(VI) 1) Mục tiêu chính của kiểm thử phần mềm là gì?
+
+A. To execute a program with the intent of finding errors.
+(VI) A. Để thực thi một chương trình với mục đích tìm ra lỗi.
+B. To prove that the software has no bugs.
+(VI) B. Để chứng minh phần mềm không có lỗi.
+C. To write as many test cases as possible.
+(VI) C. Viết càng nhiều test case càng tốt.
+D. To speed up the development process.
+(VI) D. Để đẩy nhanh quá trình phát triển.
+
+Answer: A
+(VI) Đáp án: A
+
+2) Consider the following Python function:
+(VI) 2) Hãy xem xét hàm Python sau:
+
+def is_even(n):
+(VI) def là_even(n):
+    return n % 2 == 0
+(VI) trả về n % 2 == 0
+
+Which of the following test cases will FAIL?
+(VI) Trường hợp thử nghiệm nào sau đây sẽ THẤT BẠI?
+
+A. assert is_even(4) == True
+(VI) A. khẳng định is_even(4) == Đúng
+B. assert is_even(0) == True
+(VI) B. khẳng định is_even(0) == Đúng
+C. assert is_even(-2) == True
+(VI) C. khẳng định is_even(-2) == True
+D. assert is_even(3) == True.
+(VI) D. khẳng định is_even(3) == Đúng.
+
+Answer: D
+(VI) Đáp án: D
+
+3) Which of the following best describes an "understanding error"?
+(VI) 3) Điều nào sau đây mô tả đúng nhất về "lỗi hiểu biết"?
+
+A. A developer makes a mistake with the upper bound of a loop, causing an "off-by-1" error.
+(VI) A. Nhà phát triển mắc lỗi với giới hạn trên của vòng lặp, gây ra lỗi "sai lệch 1".
+B. A developer misunderstands the requirements and doesn't handle an unexpected data format.
+(VI) B. Nhà phát triển hiểu sai yêu cầu và không xử lý định dạng dữ liệu không mong muốn.
+C. A developer forgets to close a database connection, causing a performance issue.
+(VI) C. Nhà phát triển quên đóng kết nối cơ sở dữ liệu, gây ra vấn đề về hiệu suất.
+D. A developer uses an inefficient algorithm that slows down the program.
+(VI) D. Nhà phát triển sử dụng thuật toán kém hiệu quả làm chậm chương trình.
+
+Answer: B
+(VI) Đáp án: B
+
+4) Given the following function:
+(VI) 4) Cho hàm sau:
+
+def divide(a, b):
+(VI) def chia (a, b):
+    return a / b
+(VI) trả lại a/b
+
+Which test cases will FAIL?
+(VI) Những trường hợp thử nghiệm nào sẽ THẤT BẠI?
+
+A. assert divide(6, 2) == 3
+(VI) A. khẳng định chia(6, 2) == 3
+B. assert divide(5, 2) == 2.5
+(VI) B. khẳng định chia(5, 2) == 2.5
+C. assert divide(1, 0) == 0.
+(VI) C. khẳng định chia(1, 0) == 0.
+D. assert divide(-4, 2) == -2
+(VI) D. khẳng định chia(-4, 2) == -2
+
+Answer: C
+(VI) Đáp án: C
+
+5) Which type of testing is primarily concerned with whether the software works quickly and can handle the expected user load?
+(VI) 5) Loại thử nghiệm nào chủ yếu quan tâm đến việc phần mềm có hoạt động nhanh và có thể xử lý tải lượng người dùng dự kiến ​​hay không?
+
+A. Functional Testing
+(VI) A. Kiểm tra chức năng
+B. User Testing
+(VI) B. Kiểm tra người dùng
+C. Performance and Load Testing.
+(VI) C. Kiểm tra hiệu suất và tải.
+D. Security Testing
+(VI) D. Kiểm tra bảo mật
+
+Answer: C
+(VI) Đáp án: C
+
+6) Consider the function:
+(VI) 6) Xét hàm số:
+
+def get_last_item(items):
+(VI) def get_last_item(item):
+    return items[-1]
+(VI) trả lại đồ[-1]
+
+Which test will FAIL?
+(VI) Bài kiểm tra nào sẽ THẤT BẠI?
+
+A. assert get_last_item([1, 2, 3]) == 3
+(VI) A. khẳng định get_last_item([1, 2, 3]) == 3
+B. assert get_last_item(['a']) == 'a'
+(VI) B. khẳng định get_last_item(['a']) == 'a'
+C. assert get_last_item([]) == None.
+(VI) C. khẳng định get_last_item([]) == Không.
+D. assert get_last_item([True, False]) == False
+(VI) D. khẳng định get_last_item([Đúng, Sai]) == Sai
+
+Answer: C
+(VI) Đáp án: C
+
+7) A company asks a group of its own developers and a few select users to test an early version of a product to get feedback on planned features. What is this process called?
+(VI) 7) Một công ty yêu cầu một nhóm các nhà phát triển của chính mình và một số người dùng được chọn thử nghiệm phiên bản đầu tiên của sản phẩm để nhận phản hồi về các tính năng đã lên kế hoạch. Quá trình này được gọi là gì?
+
+A. Beta Testing
+(VI) A. Thử nghiệm Beta
+B. Release Testing
+(VI) B. Kiểm tra phát hành
+C. Alpha Testing.
+(VI) C. Thử nghiệm Alpha.
+D. Unit Testing
+(VI) D. Kiểm tra đơn vị
+
+Answer: C
+(VI) Đáp án: C
+
+8) Given the following function:
+(VI) 8) Cho hàm sau:
+
+def add(a, b):
+(VI) def thêm (a, b):
+    return a + b
+(VI) trả về a + b
+
+Fill in the missing expected value so the test verifies addition of negative numbers:
+(VI) Điền giá trị mong đợi còn thiếu để kiểm tra xác minh phép cộng các số âm:
+
+assert add(-2, -3) == ____
+(VI) khẳng định thêm(-2, -3) == ____
+
+A. -5
+(VI) A. -5
+
+Answer: A
+(VI) Đáp án: A
+
+9) What is the fundamental limitation of software testing?
+(VI) 9) Hạn chế cơ bản của kiểm thử phần mềm là gì?
+
+A. It is too expensive and time-consuming for most projects.
+(VI) A. Nó quá tốn kém và tốn thời gian đối với hầu hết các dự án.
+B. It can only be performed by specialized quality assurance engineers.
+(VI) B. Việc này chỉ có thể được thực hiện bởi các kỹ sư đảm bảo chất lượng chuyên môn.
+C. It requires complex tools that are difficult to learn.
+(VI) C. Nó đòi hỏi những công cụ phức tạp và khó học.
+D. It can demonstrate the presence of faults, but cannot prove their absence.
+(VI) D. Nó có thể chứng minh sự hiện diện của lỗi, nhưng không thể chứng minh sự vắng mặt của chúng.
+
+Answer: D
+(VI) Đáp án: D
+
+10) Consider the function:
+(VI) 10) Xét hàm số:
+
+def max_value(a, b):
+(VI) def max_value(a, b):
+    if a > b:
+(VI) nếu a > b:
+        return a
+(VI) trả lại một
+    return b
+(VI) trở lại b
+
+Which test will FAIL?
+(VI) Bài kiểm tra nào sẽ THẤT BẠI?
+
+A. assert max_value(3, 5) == 5
+(VI) A. khẳng định max_value(3, 5) == 5
+B. assert max_value(10, 2) == 10
+(VI) B. khẳng định max_value(10, 2) == 10
+C. assert max_value(4, 4) == 4
+(VI) C. khẳng định max_value(4, 4) == 4
+D. assert max_value(-1, -2) == -2.
+(VI) D. khẳng định max_value(-1, -2) == -2.
+
+Answer: D
+(VI) Đáp án: D
+
+11) A test is considered to "pass" under which condition?
+(VI) 11) Một bài thi được coi là “đạt” với điều kiện nào?
+
+A. The program runs without crashing.
+(VI) A. Chương trình chạy không bị lỗi.
+B. The program's behavior matches the expected behavior.
+(VI) B. Hành vi của chương trình phù hợp với hành vi mong đợi.
+C. The program executes all lines of code at least once.
+(VI) C. Chương trình thực thi tất cả các dòng mã ít nhất một lần.
+D. The program is approved by the product manager.
+(VI) D. Chương trình được người quản lý sản phẩm phê duyệt.
+
+Answer: B
+(VI) Đáp án: B
+
+12) Given:
+(VI) 12) Cho trước:
+
+def get_item(items, index):
+(VI) def get_item(item, chỉ mục):
+    return items[index]
+(VI) trả lại vật phẩm[chỉ mục]
+
+Which test will PASS?
+(VI) Bài kiểm tra nào sẽ ĐẠT?
+
+A. assert get_item([1, 2, 3], 3) == None
+(VI) A. khẳng định get_item([1, 2, 3], 3) == Không
+B. assert get_item([], 0) == None
+(VI) B. khẳng định get_item([], 0) == Không
+C. assert get_item(['a', 'b'], 1) == 'b'.
+(VI) C. khẳng định get_item(['a', 'b'], 1) == 'b'.
+D. assert get_item([10], -2) == 10
+(VI) D. khẳng định get_item([10], -2) == 10
+
+Answer: C
+(VI) Đáp án: C
+
+13) A developer creating a program to process a sequence of items makes a mistake and fails to process the very last element. This is a classic example of what?
+(VI) 13) Một nhà phát triển tạo chương trình xử lý một chuỗi các mục sẽ mắc lỗi và không xử lý được phần tử cuối cùng. Đây là một ví dụ cổ điển về cái gì?
+
+A. An understanding error
+(VI) A. Lỗi hiểu biết
+B. A requirements error
+(VI) B. Một lỗi yêu cầu
+C. An "off-by-one" programming error.
+(VI) C. Lỗi lập trình "từng cái một".
+D. A system integration error
+(VI) D. Lỗi tích hợp hệ thống
+
+Answer: C
+(VI) Đáp án: C
+
+14) Which type of testing focuses on validating the functionality of the overall system and discovering as many implementation bugs as possible?
+(VI) 14) Loại thử nghiệm nào tập trung vào việc xác thực chức năng của hệ thống tổng thể và phát hiện càng nhiều lỗi triển khai càng tốt?
+
+A. User Testing
+(VI) A. Kiểm tra người dùng
+B. Functional Testing.
+(VI) B. Kiểm tra chức năng.
+C. Performance Testing
+(VI) C. Kiểm tra hiệu suất
+D. Security Testing
+(VI) D. Kiểm tra bảo mật
+
+Answer: B
+(VI) Đáp án: B
+
+15) Given:
+(VI) 15) Cho:
+
+def is_positive(n):
+(VI) def is_posit(n):
+    return n > 0
+(VI) trả về n > 0
+
+Which assertion best tests the boundary condition?
+(VI) Khẳng định nào kiểm tra tốt nhất điều kiện biên?
+
+A. assert is_positive(10) == True
+(VI) A. khẳng định is_posit(10) == Đúng
+B. assert is_positive(1) == True
+(VI) B. khẳng định is_posit(1) == Đúng
+C. assert is_positive(0) == False.
+(VI) C. khẳng định is_posit(0) == Sai.
+D. assert is_positive(100) == True
+(VI) D. khẳng định is_posit(100) == Đúng
+
+Answer: C
+(VI) Đáp án: C
+
+16) The goal of which testing type is to ensure the software maintains its integrity and can protect user information from theft and damage?
+(VI) 16) Mục tiêu của loại thử nghiệm nào là đảm bảo phần mềm duy trì tính toàn vẹn và có thể bảo vệ thông tin người dùng khỏi bị đánh cắp và hư hỏng?
+
+A. User Testing
+(VI) A. Kiểm tra người dùng
+B. Release Testing
+(VI) B. Kiểm tra phát hành
+C. Performance Testing
+(VI) C. Kiểm tra hiệu suất
+D. Security Testing.
+(VI) D. Kiểm tra bảo mật.
+
+Answer: D
+(VI) Đáp án: D
+
+17) Complete the test to ensure the function returns True for empty input:
+(VI) 17) Hoàn thành kiểm tra để đảm bảo hàm trả về True cho đầu vào trống:
+
+def is_empty(items):
+(VI) def is_empty(item):
+    return len(items) == 0
+(VI) trả về len(items) == 0
+
+assert is_empty([]) == ____
+(VI) khẳng định is_empty([]) == ____
+
+A. True
+(VI) A. Đúng
+B. TRUE
+(VI) B. ĐÚNG
+
+Answers: A, B
+(VI) Đáp án: A, B
+
+18) When a software company distributes an early version of its product to a large, external group of users for comments on its usability in their own environments, what is this called?
+(VI) 18) Khi một công ty phần mềm phân phối phiên bản đầu tiên của sản phẩm của mình cho một nhóm lớn người dùng bên ngoài để nhận xét về khả năng sử dụng của nó trong môi trường của chính họ, điều này được gọi là gì?
+
+A. Alpha Testing
+(VI) A. Thử nghiệm Alpha
+B. Beta Testing.
+(VI) B. Thử nghiệm Beta.
+C. System Testing
+(VI) C. Kiểm tra hệ thống
+D. Functional Testing
+(VI) D. Kiểm tra chức năng
+
+Answer: B
+(VI) Đáp án: B

@@ -1,0 +1,299 @@
+1) When creating a persona to represent a product user, what is the primary purpose of including personal details like a name, age, and photograph?
+(VI) 1) Khi tạo nhân vật đại diện cho người dùng sản phẩm, mục đích chính của việc bao gồm các chi tiết cá nhân như tên, tuổi và ảnh là gì?
+
+A. To ensure the development team can perform a background check on the user type.
+(VI) A. Để đảm bảo nhóm phát triển có thể thực hiện kiểm tra lý lịch về loại người dùng.
+B. To create a realistic character that helps the team empathize with the user ("step into their shoes").
+(VI) B. Để tạo ra một nhân vật thực tế giúp nhóm đồng cảm với người dùng ("step into their shoes").
+C. To meet the legal requirements for user documentation.
+(VI) C. Để đáp ứng các yêu cầu pháp lý đối với tài liệu dành cho người dùng.
+D. To define the specific salary bracket for pricing the software.
+(VI) D. Xác định khung lương cụ thể để định giá phần mềm.
+
+Answer: B
+(VI) Đáp án: B
+
+2) Which of the following is the most effective element to include in a persona description to help developers judge UI complexity?
+(VI) 2) Yếu tố nào sau đây là yếu tố hiệu quả nhất để đưa vào mô tả cá nhân nhằm giúp nhà phát triển đánh giá độ phức tạp của giao diện người dùng?
+
+A. The user's long-term life goals (e.g., "wants to retire early").
+(VI) A. Mục tiêu cuộc sống lâu dài của người dùng (ví dụ: "wants to retire early").
+B. The user's educational background and technical skill level.
+(VI) B. Trình độ học vấn và trình độ kỹ thuật của người dùng.
+C. The user's favorite color scheme.
+(VI) C. Cách phối màu yêu thích của người dùng.
+D. The user's manager's name.
+(VI) D. Tên người dùng's manager'.
+
+Answer: B
+(VI) Đáp án: B
+
+3) Why is it generally advised to avoid focusing on "user goals" (e.g., "career progression") when writing personas?
+(VI) 3) Tại sao người ta thường khuyên nên tránh tập trung vào "user goals" (ví dụ: "career progression") khi viết cá tính?
+
+A. Users never have goals when using software.
+(VI) A. Người dùng không bao giờ có mục tiêu khi sử dụng phần mềm.
+B. Goals are too broad and often do not directly relate to why a user needs a specific piece of software to get through their day.
+(VI) B. Mục tiêu quá rộng và thường không liên quan trực tiếp đến lý do tại sao người dùng cần một phần mềm cụ thể để sử dụng trong ngày của họ.
+C. Goals are always financial and irrelevant to functionality.
+(VI) C. Mục tiêu luôn mang tính tài chính và không liên quan đến chức năng.
+D. It is impossible to write a goal in less than three paragraphs.
+(VI) D. Không thể viết mục tiêu ít hơn ba đoạn văn.
+
+Answer: B
+(VI) Đáp án: B
+
+4) You are developing a new product and have very little data. You create "proto-personas" based on the team's best guesses. What is the limitation of this approach?
+(VI) 4) Bạn đang phát triển một sản phẩm mới và có rất ít dữ liệu. Bạn tạo "proto-personas" dựa trên những dự đoán tốt nhất của nhóm. Hạn chế của phương pháp này là gì?
+
+A. They are too detailed to be useful.
+(VI) A. Chúng quá chi tiết để có ích.
+B. They cannot be used to write scenarios.
+(VI) B. Chúng không thể được sử dụng để viết kịch bản.
+C. They are not as accurate as those based on user research, though they still provide a shared team vision.
+(VI) C. Chúng không chính xác như những kết quả dựa trên nghiên cứu người dùng, mặc dù chúng vẫn mang lại tầm nhìn chung cho nhóm.
+D. They require legal approval before use.
+(VI) D. Chúng cần có sự phê duyệt hợp pháp trước khi sử dụng.
+
+Answer: C
+(VI) Đáp án: C
+
+5) How many personas should you typically create to identify the key features of a system effectively?
+(VI) 5) Bạn thường nên tạo bao nhiêu nhân vật để xác định các tính năng chính của hệ thống một cách hiệu quả?
+
+A. One for every potential user of the system.
+(VI) A. Một cho mọi người dùng tiềm năng của hệ thống.
+B. At least 20 to cover every possible demographic.
+(VI) B. Ít nhất 20 để bao gồm mọi nhân khẩu học có thể.
+C. A small number (e.g., up to 5) to avoid overlapping requirements and confusion.
+(VI) C. Một số nhỏ (ví dụ: tối đa 5) để tránh các yêu cầu chồng chéo và nhầm lẫn.
+D. Only one "average" persona.
+(VI) D. Chỉ có một nhân cách "average".
+
+Answer: C
+(VI) Đáp án: C
+
+6) Which of the following best describes the correct "level of detail" for a starting scenario?
+(VI) 6) Câu nào sau đây mô tả đúng nhất "level of detail" cho kịch bản bắt đầu?
+
+A. A strict, step-by-step list of every mouse click and keystroke.
+(VI) A. Một danh sách nghiêm ngặt, từng bước của mỗi lần nhấp chuột và gõ phím.
+B. A high-level narrative describing a user's problem and an imagined solution without technical specification.
+(VI) B. Tường thuật cấp cao mô tả vấn đề của người dùng và giải pháp tưởng tượng mà không có thông số kỹ thuật.
+C. A complete code-level specification of the feature.
+(VI) C. Đặc tả cấp mã hoàn chỉnh của tính năng.
+D. A vague statement saying "the user solves the problem" with no description of how.
+(VI) D. Một tuyên bố mơ hồ nói rằng "the user solves the problem" mà không mô tả cách thực hiện.
+
+Answer: B
+(VI) Đáp án: B
+
+7) When writing a scenario, why might you include specific technical details (like "Log in with Google") rather than a generic phrase (like "User performs authentication")?
+(VI) 7) Khi viết kịch bản, tại sao bạn có thể đưa vào các chi tiết kỹ thuật cụ thể (như "Log in with Google") thay vì một cụm từ chung chung (như "User performs authentication")?
+
+A. Because generic phrases can be confusing, while specific examples are often easier for users and developers to understand.
+(VI) A. Bởi vì các cụm từ chung chung có thể gây nhầm lẫn, trong khi các ví dụ cụ thể thường dễ hiểu hơn đối với người dùng và nhà phát triển.
+B. Because you are required to use Google products.
+(VI) B. Bởi vì bạn bắt buộc phải sử dụng các sản phẩm của Google.
+C. Because the code has already been written.
+(VI) C. Vì mã đã được viết rồi.
+D. Because scenarios must always dictate the final implementation database.
+(VI) D. Bởi vì các kịch bản phải luôn ra lệnh cho cơ sở dữ liệu triển khai cuối cùng.
+
+Answer: A
+(VI) Đáp án: A
+
+8) What is the primary advantage of using a "narrative" style (natural language) for scenarios over a "structured" style (fields and flowcharts)?
+(VI) 8) Ưu điểm chính của việc sử dụng kiểu "narrative" (ngôn ngữ tự nhiên) cho các kịch bản so với kiểu "structured" (trường và sơ đồ) là gì?
+
+A. Narrative scenarios are machine-readable.
+(VI) A. Các tình huống tường thuật có thể đọc được bằng máy.
+B. Narrative scenarios are accessible and understandable to non-technical users and stakeholders.
+(VI) B. Các kịch bản tường thuật có thể truy cập và hiểu được đối với người dùng và các bên liên quan không có chuyên môn về kỹ thuật.
+C. Structured scenarios are too short.
+(VI) C. Kịch bản có cấu trúc quá ngắn.
+D. Narrative scenarios are legally binding contracts.
+(VI) D. Kịch bản tường thuật là hợp đồng ràng buộc về mặt pháp lý.
+
+Answer: B
+(VI) Đáp án: B
+
+9) Which action should you take to identify software features from a written scenario?
+(VI) 9) Bạn nên thực hiện hành động nào để xác định các tính năng phần mềm từ một kịch bản bằng văn bản?
+
+A. Count the number of adjectives used.
+(VI) A. Đếm số lượng tính từ được sử dụng.
+B. Highlight the "active verbs" (actions) in the text to see what the user is doing (e.g., "upload," "share").
+(VI) B. Đánh dấu "active verbs" (hành động) trong văn bản để xem người dùng đang làm gì (ví dụ: "upload," "share").
+C. Rewrite the scenario in a different language.
+(VI) C. Viết lại kịch bản bằng ngôn ngữ khác.
+D. Remove all references to the persona.
+(VI) D. Xóa tất cả các tham chiếu đến nhân vật.
+
+Answer: B
+(VI) Đáp án: B
+
+10) A scenario describes a teacher using a tool to organize a class trip. What represents the "Problem" element of this scenario?
+(VI) 10) Một tình huống mô tả một giáo viên sử dụng một công cụ để tổ chức một chuyến tham quan cho lớp. Điều gì đại diện cho phần tử "Problem" của kịch bản này?
+
+A. The teacher logs in.
+(VI) A. Giáo viên đăng nhập.
+B. The teacher wants to share photos but needs to ensure student privacy and copyright compliance.
+(VI) B. Giáo viên muốn chia sẻ ảnh nhưng cần đảm bảo quyền riêng tư của học sinh và tuân thủ bản quyền.
+C. The teacher has a degree in History.
+(VI) C. Giáo viên có bằng Lịch sử.
+D. The system sends an email.
+(VI) D. Hệ thống gửi email.
+
+Answer: B
+(VI) Đáp án: B
+
+11) Scenarios are described as "tools for thinking." What does this imply about their completeness?
+(VI) 11) Các kịch bản được mô tả là "tools for thinking." Điều này ngụ ý gì về tính đầy đủ của chúng?
+
+A. They must cover every single edge case and error state.
+(VI) A. Chúng phải bao gồm mọi trường hợp cạnh và trạng thái lỗi.
+B. They must be perfect before any coding begins.
+(VI) B. Chúng phải hoàn hảo trước khi bắt đầu mã hóa.
+C. They do not have to be complete or consistent; their job is to stimulate design creativity.
+(VI) C. Chúng không cần phải đầy đủ hoặc nhất quán; công việc của họ là thu thập yêu cầu (elicitation) sự sáng tạo trong thiết kế.
+D. They replace the need for testing.
+(VI) D. Chúng thay thế nhu cầu kiểm tra.
+
+Answer: C
+(VI) Đáp án: C
+
+12) Which of the following follows the standard format of a User Story?
+(VI) 12) Điều nào sau đây tuân theo định dạng chuẩn của Câu chuyện người dùng?
+
+A. "The system shall allow the user to print documents."
+(VI) A. "The system shall allow the user to print documents."
+B. "As a , I want to , so that ."
+(VI) B. "As a , I want to , so that ."
+C. "Clicking the blue button saves the file to the cloud."
+(VI) C. "Clicking the blue button saves the file to the cloud."
+D. "Jack, aged 32, needs a way to save time."
+(VI) D. "Jack, aged 32, needs a way to save time."
+
+Answer: B
+(VI) Đáp án: B
+
+13) What is the main purpose of the "So that..." clause (the rationale) in a User Story?
+(VI) 13) Mục đích chính của mệnh đề "So that..." (lý do) trong Câu chuyện của người dùng là gì?
+
+A. To increase the word count of the documentation.
+(VI) A. Để tăng số lượng từ của tài liệu.
+B. To help developers understand why a feature is needed, potentially triggering alternative ideas for implementation.
+(VI) B. Để giúp các nhà phát triển hiểu lý do tại sao cần có một tính năng, có khả năng khơi dậy các ý tưởng thay thế để triển khai.
+C. To tell the user how to perform the task.
+(VI) C. Để cho người dùng biết cách thực hiện nhiệm vụ.
+D. To assign the task to a specific developer.
+(VI) D. Để giao nhiệm vụ cho một nhà phát triển cụ thể.
+
+Answer: B
+(VI) Đáp án: B
+
+14) You have a User Story that says: "As a system manager, I need to back up the entire system and restore files." This story is very complex and will take weeks to build. What is this called?
+(VI) 14) Bạn có Câu chuyện người dùng có nội dung: "As a system manager, I need to back up the entire system and restore files." Câu chuyện này rất phức tạp và sẽ mất hàng tuần để xây dựng. Cái này gọi là gì?
+
+A. A Bug.
+(VI) A. Một con bọ.
+B. An Epic.
+(VI) B. Một sử thi.
+C. A Persona.
+(VI) C. Một nhân cách.
+D. A Scenario.
+(VI) D. Một tình huống.
+
+Answer: B
+(VI) Đáp án: B
+
+15) Why should you generally avoid writing "negative" user stories (e.g., "As a user, I don't want...") for a product backlog?
+(VI) 15) Tại sao bạn thường nên tránh viết "negative" câu chuyện của người dùng (ví dụ: "As a user, I don't want...") cho một sản phẩm tồn đọng?
+
+A. It is impossible to write system tests that demonstrate a negative (that something didn't happen).
+(VI) A. Không thể viết các bài kiểm tra hệ thống chứng minh điều tiêu cực (rằng điều gì đó đã không xảy ra).
+B. Agile methodologies forbid negative language.
+(VI) B. Phương pháp linh hoạt cấm ngôn ngữ tiêu cực.
+C. Developers prefer positive reinforcement.
+(VI) C. Các nhà phát triển thích củng cố tích cực.
+D. Negative stories are too short.
+(VI) D. Những câu chuyện tiêu cực quá ngắn.
+
+Answer: A
+(VI) Đáp án: A
+
+16) How do User Stories differ from Scenarios regarding "context"?
+(VI) 16) Câu chuyện của người dùng khác với Kịch bản về "context" như thế nào?
+
+A. Stories provide more context than scenarios.
+(VI) A. Câu chuyện cung cấp nhiều bối cảnh hơn là kịch bản.
+B. Scenarios provide rich context about normal work and goals, while stories are finer-grain statements of a single need.
+(VI) B. Kịch bản cung cấp bối cảnh phong phú về công việc và mục tiêu thông thường, trong khi các câu chuyện là những tuyên bố chi tiết hơn về một nhu cầu.
+C. Stories and scenarios are identical in context.
+(VI) C. Câu chuyện và kịch bản giống hệt nhau về bối cảnh.
+D. Stories describe the user's background; scenarios describe the system's code.
+(VI) D. Câu chuyện mô tả mã của người dùng's background; scenarios describe the system'.
+
+Answer: B
+(VI) Đáp án: B
+
+17) What is the correct chronological flow when using these techniques to design a product?
+(VI) 17) Dòng thời gian chính xác khi sử dụng các kỹ thuật này để thiết kế sản phẩm là gì?
+
+A. Features -> Personas -> Scenarios -> Stories
+(VI) A. Tính năng -> Personas -> Kịch bản -> Câu chuyện
+B. Personas -> Scenarios -> Stories -> Features
+(VI) B. Personas -> Kịch bản -> Câu chuyện -> Tính năng
+C. Stories -> Personas -> Features -> Scenarios
+(VI) C. Câu chuyện -> Tính cách -> Tính năng -> Kịch bản
+D. Scenarios -> Features -> Personas -> Stories
+(VI) D. Kịch bản -> Tính năng -> Personas -> Câu chuyện
+
+Answer: B
+(VI) Đáp án: B
+
+18) You are analyzing a scenario where a teacher "creates a group web page." Which specific artifact would you write to help plan the implementation of this specific action?
+(VI) 18) Bạn đang phân tích một tình huống trong đó một giáo viên "creates a group web page." Bạn sẽ viết tác phẩm cụ thể nào để giúp lập kế hoạch thực hiện hành động cụ thể này?
+
+A. A new Persona for the web page.
+(VI) A. Một Persona mới cho trang web.
+B. A User Story (e.g., "As a teacher, I want to create a web page...").
+(VI) B. Câu chuyện của người dùng (ví dụ: "As a teacher, I want to create a web page...").
+C. A marketing plan.
+(VI) C. Một kế hoạch tiếp thị.
+D. A new Scenario about the web page.
+(VI) D. Kịch bản mới về trang web.
+
+Answer: B
+(VI) Đáp án: B
+
+19) When identifying features from scenarios, you notice a user needs to "log in" in three different scenarios. What feature design principle suggests you should create one single "Authentication" feature rather than three separate ones?
+(VI) 19) Khi xác định các tính năng từ các tình huống, bạn nhận thấy người dùng cần "log in" trong ba tình huống khác nhau. Nguyên tắc thiết kế tính năng nào gợi ý bạn nên tạo một tính năng "Authentication" duy nhất thay vì ba tính năng riêng biệt?
+
+A. Coherence (The feature should be linked to a single item of functionality).
+(VI) A. Tính mạch lạc (Tính năng này phải được liên kết với một mục chức năng duy nhất).
+B. Novelty (The feature should be new).
+(VI) B. Tính mới (Tính năng này phải mới).
+C. Complexity (The feature should be difficult).
+(VI) C. Độ phức tạp (Tính năng này phải khó).
+D. Independence (The feature should not work with others).
+(VI) D. Độc lập (Tính năng này không nên hoạt động với những tính năng khác).
+
+Answer: A
+(VI) Đáp án: A
+
+20) If you are writing a User Story based on a scenario where a user needs to ensure their data isn't shared, how should you rephrase the negative constraint "I don't want my data shared"?
+(VI) 20) Nếu bạn đang viết Câu chuyện của người dùng dựa trên tình huống mà người dùng cần đảm bảo dữ liệu của họ không được chia sẻ, bạn nên diễn đạt lại ràng buộc phủ định "I don't want my data shared" như thế nào?
+
+A. "As a user, I want to control the information transmitted to external servers so I can ensure privacy."
+(VI) A. "As a user, I want to control the information transmitted to external servers so I can ensure privacy."
+B. "As a user, I want to ban all data sharing."
+(VI) B. "As a user, I want to ban all data sharing."
+C. "As a user, I don't want the system to work."
+(VI) C. "As a user, I don't want the system to work."
+D. "As a user, I want to delete the application."
+(VI) D. "As a user, I want to delete the application."
+
+Answer: A
+(VI) Đáp án: A

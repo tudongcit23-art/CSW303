@@ -1,0 +1,179 @@
+1) In which scenario is git revert the most appropriate command to use?
+(VI) 1) Lệnh git hoàn nguyên thích hợp nhất để sử dụng trong trường hợp nào?
+
+A. When you want to undo a commit that has already been pushed to a shared branch without rewriting history.
+(VI) A. Khi bạn muốn hoàn tác một cam kết đã được đẩy đến một nhánh dùng chung mà không cần viết lại lịch sử.
+B. When you want to revise only the commit message of your most recent local commit that has not yet been pushed to a shared remote branch.
+(VI) B. Khi bạn chỉ muốn sửa lại thông báo cam kết của commit cục bộ gần đây nhất chưa được đẩy đến một nhánh từ xa được chia sẻ.
+C. When you need to combine the last three commits on your local branch into a single commit.
+(VI) C. Khi bạn cần kết hợp ba lần xác nhận cuối cùng trên nhánh địa phương của mình thành một lần xác nhận duy nhất.
+D. When you want to permanently discard every uncommitted modification in both your working directory and your staging area.
+(VI) D. Khi bạn muốn loại bỏ vĩnh viễn mọi sửa đổi không được cam kết trong cả thư mục làm việc và khu vực staging của bạn.
+
+Answer: A
+(VI) Đáp án: A
+
+2) What is the primary function of the git reflog command?
+(VI) 2) Chức năng chính của lệnh git reflog là gì?
+
+A. To list every remote repository alias configured for the project along with its associated fetch and push URLs.
+(VI) A. Để liệt kê mọi bí danh kho lưu trữ từ xa được định cấu hình cho dự án cùng với các URL tìm nạp và đẩy liên quan của nó.
+B. To provide a log of where your HEAD (current commit pointer) and branch pointers have been, acting as a safety net to recover "lost" work.
+(VI) B. Để cung cấp log về vị trí HEAD (con trỏ cam kết hiện tại) và con trỏ nhánh của bạn, hoạt động như một mạng lưới an toàn để khôi phục công việc "bị mất".
+C. To show the complete commit history of the current branch in a paginated log format that can include patch diffs for each commit.
+(VI) C. Để hiển thị lịch sử cam kết đầy đủ của nhánh hiện tại ở định dạng log phân trang có thể bao gồm các khác biệt về bản vá cho mỗi cam kết.
+D. To prune expired reflog entries and unreachable loose objects from the local Git repository over time so that overall disk usage on the machine is reduced.
+(VI) D. Để cắt bỏ các mục nhập lại log đã hết hạn và các đối tượng lỏng lẻo không thể truy cập được từ kho lưu trữ git cục bộ theo thời gian để giảm mức sử dụng đĩa tổng thể trên máy.
+
+Answer: B
+(VI) Đáp án: B
+
+3) Bob is in the middle of developing a complex new feature. Suddenly, a critical bug is reported in production. Bob needs to fix the bug immediately, but his current work is unfinished and not ready to be committed. What should Bob do to safely set aside his current work so he can switch branches?
+(VI) 3) Bob đang trong quá trình phát triển một tính năng mới phức tạp. Đột nhiên, một lỗi nghiêm trọng được báo cáo trong quá trình sản xuất. Bob cần sửa lỗi ngay lập tức, nhưng công việc hiện tại của anh ấy vẫn chưa hoàn thành và chưa sẵn sàng để cam kết. Bob nên làm gì để an toàn gác lại công việc hiện tại để có thể chuyển ngành?
+
+A. Run git commit -m "Work In Progress (WIP)" to save the unfinished work.
+(VI) A. Chạy git commit -m "Work In Progress (WIP)" để lưu công việc còn dang dở.
+B. Run git stash to temporarily shelve his changes.
+(VI) B. Chạy git stash để tạm thời gác lại những thay đổi của mình.
+C. Run git reset --hard to discard his current work.
+(VI) C. Chạy git reset --hard để loại bỏ công việc hiện tại của anh ấy.
+D. Run git clean -fd to remove all untracked files.
+(VI) D. Chạy git clean -fd để xóa tất cả các tệp không bị theo dõi.
+
+Answer: B
+(VI) Đáp án: B
+
+4) When is the git stash command most useful?
+(VI) 4) Khi nào lệnh git stash hữu ích nhất?
+
+A. When you want to permanently save a version of your code as an official release.
+(VI) A. Khi bạn muốn lưu vĩnh viễn một phiên bản mã của mình dưới dạng bản phát hành chính thức.
+B. When you need to switch to another branch but have unfinished work you aren't ready to commit.
+(VI) B. Khi bạn cần chuyển sang chi nhánh khác nhưng công việc còn dang dở và bạn chưa sẵn sàng để cam kết.
+C. When you need to remove every untracked file and directory from your working tree while leaving all tracked project files exactly as they are.
+(VI) C. Khi bạn cần xóa mọi tệp và thư mục không được theo dõi khỏi cây làm việc của mình trong khi vẫn để nguyên tất cả các tệp dự án được theo dõi.
+D. When you have finished your work and are ready to push it to the remote repository.
+(VI) D. Khi bạn đã hoàn thành công việc của mình và sẵn sàng đẩy nó vào kho lưu trữ từ xa.
+
+Answer: B
+(VI) Đáp án: B
+
+5) Frank has finished a feature on his branch. The history contains 10 small, messy commits like "fix typo," "wip," and "try another thing." Before opening a Pull Request (PR), he wants to combine them into two meaningful commits to make the history easier to review. Which command should he use?
+(VI) 5) Frank đã hoàn thành một tính năng trên nhánh của mình. Lịch sử chứa 10 cam kết nhỏ, lộn xộn như "sửa lỗi đánh máy", "xóa" và "thử cách khác". Trước khi mở Yêu cầu kéo (PR), anh ấy muốn kết hợp chúng thành hai cam kết có ý nghĩa để giúp xem lại lịch sử dễ dàng hơn. Anh ta nên sử dụng lệnh nào?
+
+A. git merge --squash main
+(VI) A. git merge --squash main
+B. git rebase -i HEAD~10
+(VI) B. git rebase -i HEAD~10
+C. git commit --amend for each of the 10 commits.
+(VI) C. git commit --amend cho mỗi lần trong số 10 lần commit.
+D. git filter-branch
+(VI) D. nhánh lọc git
+
+Answer: B
+(VI) Đáp án: B
+
+6) Isabella has modified three files but has not staged them yet. She wants to see a line-by-line view of all the changes she has made in her working directory compared to the last commit. Which command will show her this?
+(VI) 6) Isabella đã sửa đổi ba tệp nhưng chưa sắp xếp chúng. Cô ấy muốn xem từng dòng một của tất cả những thay đổi cô ấy đã thực hiện trong thư mục làm việc của mình so với lần chuyển giao cuối cùng. Lệnh nào sẽ cho cô ấy thấy điều này?
+
+A. git status
+(VI) A. trạng thái git
+B. git log -p
+(VI) B. git log -p
+C. git diff
+(VI) C. git khác
+D. git diff --staged
+(VI) D. git diff --staged
+
+Answer: C
+(VI) Đáp án: C
+
+7) What information does the git blame command provide for a specific file?
+(VI) 7) Lệnh git đổ lỗi cung cấp thông tin gì cho một tệp cụ thể?
+
+A. It shows which developer is responsible for the most bugs in that file.
+(VI) A. Nó cho biết nhà phát triển nào chịu trách nhiệm về nhiều lỗi nhất trong tệp đó.
+B. It provides a line-by-line breakdown of who last changed each line and in which commit.
+(VI) B. Nó cung cấp thông tin chi tiết theo từng dòng về người cuối cùng đã thay đổi từng dòng và cam kết nào.
+C. It displays a comprehensive summary of every merge conflict that has been recorded throughout the entire version history of that specific file.
+(VI) C. Nó hiển thị bản tóm tắt toàn diện về mọi xung đột hợp nhất đã được ghi lại trong toàn bộ lịch sử phiên bản của tệp cụ thể đó.
+D. It generates a detailed report that describes how the file's size and modification patterns have evolved across commits over time.
+(VI) D. Nó tạo ra một báo cáo chi tiết mô tả kích thước của tệp và các mẫu sửa đổi đã phát triển như thế nào qua các lần xác nhận theo thời gian.
+
+Answer: B
+(VI) Đáp án: B
+
+8) A feature that was working in last month's release (tagged v1.5.0) is now broken on the main branch. David needs to find the exact commit that introduced this regression among the dozens of commits made since the release. What is the most efficient Git tool for this task?
+(VI) 8) Một tính năng đang hoạt động trong bản phát hành tháng trước (được gắn thẻ v1.5.0) hiện đã bị hỏng trên nhánh chính. David cần tìm ra cam kết chính xác đã đưa ra sự hồi quy này trong số hàng chục cam kết được thực hiện kể từ khi phát hành. Công cụ git hiệu quả nhất cho nhiệm vụ này là gì?
+
+A. git blame <file>
+(VI) A. git đổ lỗi <file>
+B. git log -p
+(VI) B. git log -p
+C. git bisect
+(VI) C. git chia đôi
+D. git show <commit>
+(VI) D. git show <commit>
+
+Answer: C
+(VI) Đáp án: C
+
+9) Liam's team is ready to deploy version 2.0.0. The final commit is on main. He needs to create a permanent, formal marker for this specific commit that includes a message about the release. What should he use?
+(VI) 9) Nhóm của Liam đã sẵn sàng triển khai phiên bản 2.0.0. Commit cuối cùng là trên main. Anh ta cần tạo một điểm đánh dấu chính thức, lâu dài cho cam kết cụ thể này bao gồm thông báo về việc phát hành. Anh ta nên sử dụng cái gì?
+
+A. git branch v2.0.0
+(VI) A. nhánh git v2.0.0
+B. git tag -a v2.0.0 -m "Version 2.0.0 release"
+(VI) B. thẻ git -a v2.0.0 -m "Bản phát hành phiên bản 2.0.0"
+C. git commit --allow-empty -m "Release v2.0.0"
+(VI) C. git commit --allow-empty -m "Phát hành v2.0.0"
+D. git note add -m "v2.0.0"
+(VI) D. ghi chú git thêm -m "v2.0.0"
+
+Answer: B
+(VI) Đáp án: B
+
+10) Maria is trying to add a 500MB machine learning model file (model.h5) to her project. Her team uses Git Large File Storage (LFS). What is the correct procedure for her to add this file?
+(VI) 10) Maria đang cố gắng thêm tệp mô hình học máy 500 MB (model.h5) vào dự án của mình. Nhóm của cô ấy sử dụng git Large File Storage (LFS). Quy trình chính xác để cô ấy thêm tệp này là gì?
+
+A. Add model.h5 to .gitignore to keep the repo small.
+(VI) A. Thêm model.h5 vào .gitignore để giữ cho repo nhỏ.
+B. Run git lfs track "*.h5", then git add .gitattributes model.h5.
+(VI) B. Chạy git LFS track "*.h5", sau đó git add .gitattributes model.h5.
+C. Commit the file normally; Git will handle it automatically.
+(VI) C. Commit tệp bình thường; git sẽ tự động xử lý nó.
+D. Zip the file and then commit the .zip archive.
+(VI) D. Nén tệp và sau đó chuyển kho lưu trữ .zip.
+
+Answer: B
+(VI) Đáp án: B
+
+11) How does Git Large File Storage (LFS) help manage large binary files?
+(VI) 11) git Large File Storage (LFS) giúp quản lý các tệp nhị phân lớn như thế nào?
+
+A. It prevents any individual file whose uncompressed size exceeds one hundred megabytes from ever being added to the repository's object database.
+(VI) A. Nó ngăn chặn bất kỳ tệp riêng lẻ nào có kích thước không nén vượt quá một trăm megabyte không bao giờ được thêm vào cơ sở dữ liệu đối tượng của kho lưu trữ.
+B. It stores the content of large files on an external server, placing only lightweight pointers in the Git history.
+(VI) B. Nó lưu trữ nội dung của các tệp lớn trên máy chủ bên ngoài, chỉ đặt các con trỏ nhẹ trong lịch sử git.
+C. It automatically applies lossless compression to binary assets so they occupy less space inside the repository without requiring manual intervention.
+(VI) C. Nó tự động áp dụng tính năng nén không mất dữ liệu cho nội dung nhị phân để chúng chiếm ít không gian hơn bên trong kho lưu trữ mà không cần can thiệp thủ công.
+D. It converts binary file contents into a human-readable text representation so that Git's standard textual diff tools can compare versions line by line.
+(VI) D. Nó chuyển đổi nội dung tệp nhị phân thành dạng biểu diễn văn bản mà con người có thể đọc được để các công cụ tìm khác biệt văn bản tiêu chuẩn của git có thể so sánh các phiên bản theo từng dòng.
+
+Answer: B
+(VI) Đáp án: B
+
+12) Olivia wants to see a compact, graphical view of the commit history from all branches, not just her current one. What is the best command to get this rich, condensed overview?
+(VI) 12) Olivia muốn xem một cái nhìn đồ họa, nhỏ gọn về lịch sử cam kết từ tất cả các nhánh, không chỉ chi nhánh hiện tại của cô ấy. Lệnh tốt nhất để có được cái nhìn tổng quan phong phú, cô đọng này là gì?
+
+A. git log -p --all
+(VI) A. git log -p --all
+B. git shortlog --summary
+(VI) B. git shortlog --tóm tắt
+C. git log --oneline --graph --decorate --all
+(VI) C. git log --oneline --graph --trang trí --all
+D. git log --simplify-by-decoration
+(VI) D. git log --đơn giản hóa bằng cách trang trí
+
+Answer: C
+(VI) Đáp án: C

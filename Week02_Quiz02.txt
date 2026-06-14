@@ -1,0 +1,224 @@
+1) What is the primary goal of functional testing?
+(VI) 1) Mục tiêu chính của kiểm tra chức năng là gì?
+
+A. To ensure the code is easy to read and maintain.
+(VI) A. Đảm bảo mã dễ đọc và dễ bảo trì.
+B. To check if users find the product useful and easy to use.
+(VI) B. Để kiểm tra xem người dùng có thấy sản phẩm hữu ích và dễ sử dụng hay không.
+C. To test the system's response time under a heavy user load.
+(VI) C. Để kiểm tra thời gian phản hồi của hệ thống khi có lượng người dùng lớn.
+D. To find bugs and provide evidence that the system is fit for its purpose.
+(VI) D. Để tìm ra lỗi và cung cấp bằng chứng cho thấy hệ thống phù hợp với mục đích của nó.
+
+Answer: D
+(VI) Đáp án: D
+
+2) Which sequence correctly orders the stages of functional testing, from the smallest component to the complete system?
+(VI) 2) Trình tự nào sắp xếp chính xác các giai đoạn kiểm tra chức năng, từ thành phần nhỏ nhất đến hệ thống hoàn chỉnh?
+
+A. System testing → Feature testing → Unit testing → Release testing
+(VI) A. Kiểm tra hệ thống → Kiểm tra tính năng → Kiểm tra đơn vị → Kiểm tra bản phát hành
+B. Unit testing → System testing → Feature testing → Release testing
+(VI) B. Kiểm tra đơn vị → Kiểm tra hệ thống → Kiểm tra tính năng → Kiểm tra bản phát hành
+C. Unit testing → Feature testing → System testing → Release testing
+(VI) C. Kiểm tra đơn vị → Kiểm tra tính năng → Kiểm tra hệ thống → Kiểm tra bản phát hành
+D. Feature testing → Unit testing → Release testing → System testing
+(VI) D. Kiểm tra tính năng → Kiểm tra đơn vị → Kiểm tra bản phát hành → Kiểm tra hệ thống
+
+Answer: C
+(VI) Đáp án: C
+
+3) What is the main objective of unit testing?
+(VI) 3) Mục tiêu chính của kiểm thử đơn vị là gì?
+
+A. To test that a complete user feature works as intended.
+(VI) A. Để kiểm tra xem tính năng người dùng hoàn chỉnh có hoạt động như dự định hay không.
+B. To decide if the software is good enough for customers.
+(VI) B. Để quyết định xem phần mềm có đủ tốt cho khách hàng hay không.
+C. To test program units, like functions or methods, in isolation.
+(VI) C. Để kiểm tra các đơn vị chương trình, như hàm hoặc phương thức, một cách độc lập.
+D. To test the interactions between multiple system features.
+(VI) D. Để kiểm tra sự tương tác giữa nhiều tính năng của hệ thống.
+
+Answer: C
+(VI) Đáp án: C
+
+4) In the context of unit testing, which of the following best defines a "code unit"?
+(VI) 4) Trong bối cảnh thử nghiệm đơn vị, điều nào sau đây định nghĩa đúng nhất về "đơn vị mã"?
+
+A. The entire software product.
+(VI) A. Toàn bộ sản phẩm phần mềm.
+B. A single line of code written by a developer.
+(VI) B. Một dòng mã được viết bởi nhà phát triển.
+C. A specific feature requested by a user.
+(VI) C. Một tính năng cụ thể được người dùng yêu cầu.
+D. Anything with a clearly defined responsibility, like a function or class method.
+(VI) D. Bất kỳ thứ gì có trách nhiệm được xác định rõ ràng, như hàm hoặc phương thức lớp.
+
+Answer: D
+(VI) Đáp án: D
+
+5) What is the fundamental principle behind using equivalence partitions to design tests?
+(VI) 5) Nguyên tắc cơ bản đằng sau việc sử dụng phân vùng tương đương để thiết kế các bài kiểm tra là gì?
+
+A. To divide the code into equal parts for different testers to work on.
+(VI) A. Chia mã thành các phần bằng nhau để những người thử nghiệm khác nhau làm việc.
+B. To group inputs that are treated similarly by the code, so that one test can represent the entire group.
+(VI) B. Để nhóm các đầu vào được xử lý tương tự bằng mã, sao cho một thử nghiệm có thể đại diện cho toàn bộ nhóm.
+C. To focus exclusively on inputs that are known to have caused errors in the past.
+(VI) C. Tập trung hoàn toàn vào những đầu vào được biết là đã gây ra sai sót trong quá khứ.
+D. To test every single possible input to guarantee the program is completely free of faults.
+(VI) D. Kiểm tra mọi đầu vào có thể để đảm bảo chương trình hoàn toàn không có lỗi.
+
+Answer: B
+(VI) Đáp án: B
+
+6) When designing unit tests, why is it important to also identify "incorrectness partitions"?
+(VI) 6) Khi thiết kế các bài kiểm thử đơn vị, tại sao việc xác định "các phân vùng không chính xác" lại quan trọng?
+
+A. To test that the program correctly detects and handles invalid inputs as expected.
+(VI) A. Để kiểm tra xem chương trình có phát hiện và xử lý chính xác các dữ liệu đầu vào không hợp lệ như mong đợi hay không.
+B. To make the overall test suite smaller and faster to run.
+(VI) B. Để làm cho bộ thử nghiệm tổng thể nhỏ hơn và chạy nhanh hơn.
+C. To prove that the program will never fail under any circumstances.
+(VI) C. Để chứng minh rằng chương trình sẽ không bao giờ thất bại trong bất kỳ trường hợp nào.
+D. To avoid testing edge cases that are unlikely to occur in production.
+(VI) D. Để tránh thử nghiệm các trường hợp khó xảy ra trong quá trình sản xuất.
+
+Answer: A
+(VI) Đáp án: A
+
+7) Feature testing is primarily concerned with which aspect of software development?
+(VI) 7) Kiểm tra tính năng chủ yếu liên quan đến khía cạnh nào của phát triển phần mềm?
+
+A. Verifying that individual functions work correctly in isolation.
+(VI) A. Xác minh rằng các chức năng riêng lẻ hoạt động chính xác một cách riêng biệt.
+B. Ensuring that integrated code units work together to provide useful functionality.
+(VI) B. Đảm bảo rằng các đơn vị mã tích hợp hoạt động cùng nhau để cung cấp chức năng hữu ích.
+C. Checking the system's performance and stability under heavy load.
+(VI) C. Kiểm tra hiệu suất và độ ổn định của hệ thống khi chịu tải nặng.
+D. Finding security vulnerabilities that an attacker might be able to exploit.
+(VI) D. Tìm các lỗ hổng bảo mật mà kẻ tấn công có thể khai thác.
+
+Answer: B
+(VI) Đáp án: B
+
+8) Feature testing involves two types of tests: "interaction tests" and "usefulness tests." What is the main goal of usefulness tests?
+(VI) 8) Kiểm tra tính năng bao gồm hai loại kiểm tra: "kiểm tra tương tác" và "kiểm tra tính hữu ích". Mục tiêu chính của các bài kiểm tra tính hữu ích là gì?
+
+A. To check for bugs in how different code units are integrated.
+(VI) A. Để kiểm tra lỗi trong cách tích hợp các đơn vị mã khác nhau.
+B. To verify that the feature implements something that users actually want or need.
+(VI) B. Để xác minh rằng tính năng này thực hiện điều gì đó mà người dùng thực sự muốn hoặc cần.
+C. To ensure the feature's code is optimized for maximum speed.
+(VI) C. Để đảm bảo mã của tính năng được tối ưu hóa ở tốc độ tối đa.
+D. To confirm that all individual code units passed their own tests.
+(VI) D. Để xác nhận rằng tất cả các đơn vị mã riêng lẻ đã vượt qua bài kiểm tra của riêng mình.
+
+Answer: B
+(VI) Đáp án: B
+
+9) How are user stories often utilized in the feature testing process?
+(VI) 9) Câu chuyện của người dùng thường được sử dụng như thế nào trong quá trình thử nghiệm tính năng?
+
+A. They are converted directly into the final user documentation.
+(VI) A. Chúng được chuyển đổi trực tiếp thành tài liệu người dùng cuối cùng.
+B. They are used only for high-level system testing, not feature testing.
+(VI) B. Chúng chỉ được sử dụng để kiểm tra hệ thống cấp cao, không phải kiểm tra tính năng.
+C. They serve as a basis for organizing tests to ensure the feature aligns with real-world user scenarios.
+(VI) C. Chúng làm cơ sở để tổ chức các thử nghiệm nhằm đảm bảo tính năng này phù hợp với các tình huống thực tế của người dùng.
+D. They are used by marketing teams to create advertisements for the product.
+(VI) D. Chúng được các nhóm tiếp thị sử dụng để tạo quảng cáo cho sản phẩm.
+
+Answer: C
+(VI) Đáp án: C
+
+10) A primary goal of system testing, which is not typically covered in unit or feature testing, is to:
+(VI) 10) Mục tiêu chính của kiểm thử hệ thống, thường không được đề cập trong kiểm thử đơn vị hoặc tính năng, là:
+
+A. test a single function to verify its return value.
+(VI) A. kiểm tra một hàm duy nhất để xác minh giá trị trả về của nó.
+B. discover unexpected and unwanted interactions between different system features.
+(VI) B. khám phá những tương tác không mong muốn và không mong muốn giữa các tính năng hệ thống khác nhau.
+C. check the code for proper syntax and adherence to style guides.
+(VI) C. kiểm tra mã để biết cú pháp thích hợp và tuân thủ các hướng dẫn về văn phong.
+D. verify the logic of an individual class method in isolation.
+(VI) D. xác minh logic của một phương thức lớp riêng lẻ một cách riêng biệt.
+
+Answer: B
+(VI) Đáp án: B
+
+11) Beyond checking for feature interactions, what is another crucial objective of system testing?
+(VI) 11) Ngoài việc kiểm tra các tương tác tính năng, mục tiêu quan trọng khác của kiểm thử hệ thống là gì?
+
+A. Ensuring every single line of code has been executed at least once.
+(VI) A. Đảm bảo mỗi dòng mã đều được thực thi ít nhất một lần.
+B. Confirming that the development team has met its deadline.
+(VI) B. Xác nhận rằng nhóm phát triển đã hoàn thành đúng thời hạn.
+C. Verifying that the system operates correctly in the different environments where it will be used.
+(VI) C. Xác minh rằng hệ thống hoạt động chính xác trong các môi trường khác nhau nơi hệ thống sẽ được sử dụng.
+D. Making sure each developer has written enough unit tests for their code.
+(VI) D. Đảm bảo mỗi nhà phát triển đã viết đủ bài kiểm tra đơn vị cho mã của họ.
+
+Answer: C
+(VI) Đáp án: C
+
+12) According to the provided text, what is an effective way to systematically conduct system testing?
+(VI) 12) Theo văn bản được cung cấp, cách hiệu quả để tiến hành thử nghiệm hệ thống một cách có hệ thống là gì?
+
+A. By having the original programmer test their own code without guidance.
+(VI) A. Bằng cách yêu cầu lập trình viên ban đầu kiểm tra mã của chính họ mà không cần hướng dẫn.
+B. By starting with a set of scenarios describing possible user tasks and working through them.
+(VI) B. Bằng cách bắt đầu với một tập hợp các kịch bản mô tả các tác vụ có thể có của người dùng và thực hiện chúng.
+C. By focusing only on the newest features that have been recently added.
+(VI) C. Bằng cách chỉ tập trung vào những tính năng mới nhất được thêm vào gần đây.
+D. By randomly clicking buttons and entering data to try to crash the system.
+(VI) D. Bằng cách nhấp ngẫu nhiên vào các nút và nhập dữ liệu để cố gắng làm hỏng hệ thống.
+
+Answer: B
+(VI) Đáp án: B
+
+13) What is a key distinction between release testing and system testing?
+(VI) 13) Điểm khác biệt chính giữa thử nghiệm phát hành và thử nghiệm hệ thống là gì?
+
+A. Release testing is automated, while system testing is always manual.
+(VI) A. Kiểm tra bản phát hành được thực hiện tự động, trong khi kiểm tra hệ thống luôn là thủ công.
+B. Release testing focuses on finding every possible bug, while system testing focuses on performance.
+(VI) B. Kiểm thử bản phát hành tập trung vào việc tìm ra mọi lỗi có thể xảy ra, trong khi kiểm thử hệ thống tập trung vào hiệu suất.
+C. System testing is done in a test environment, while release testing is done in the real operational environment.
+(VI) C. Kiểm thử hệ thống được thực hiện trong môi trường thử nghiệm, trong khi thử nghiệm phát hành được thực hiện trong môi trường vận hành thực.
+D. System testing is performed by end-users, while release testing is performed by developers.
+(VI) D. Kiểm tra hệ thống được thực hiện bởi người dùng cuối, trong khi kiểm tra bản phát hành được thực hiện bởi các nhà phát triển.
+
+Answer: C
+(VI) Đáp án: C
+
+14) The main purpose of release testing is to:
+(VI) 14) Mục đích chính của thử nghiệm phát hành là:
+
+A. find and fix every remaining bug in the software.
+(VI) A. tìm và sửa mọi lỗi còn lại trong phần mềm.
+B. provide developers with feedback on code quality.
+(VI) B. cung cấp cho nhà phát triển phản hồi về chất lượng mã.
+C. decide if the system is good enough to be released to customers.
+(VI) C. quyết định xem hệ thống có đủ tốt để cung cấp cho khách hàng hay không.
+D. test each new feature as soon as it is developed.
+(VI) D. kiểm tra từng tính năng mới ngay khi nó được phát triển.
+
+Answer: C
+(VI) Đáp án: C
+
+15) At which stage of functional testing would a developer specifically check that several code units, possibly created by different programmers, are correctly integrated to deliver a single piece of user functionality?
+(VI) 15) Ở giai đoạn nào của thử nghiệm chức năng, nhà phát triển sẽ kiểm tra cụ thể xem một số đơn vị mã, có thể được tạo bởi các lập trình viên khác nhau, có được tích hợp chính xác để cung cấp một phần chức năng cho người dùng không?
+
+A. Unit testing
+(VI) A. Kiểm tra đơn vị
+B. Feature testing
+(VI) B. Kiểm tra tính năng
+C. System testing
+(VI) C. Kiểm tra hệ thống
+D. Release testing
+(VI) D. Phát hành thử nghiệm
+
+Answer: B
+(VI) Đáp án: B

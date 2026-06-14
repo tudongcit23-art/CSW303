@@ -1,0 +1,149 @@
+1) Besides preventing security attacks, what is a key reliability reason for input validation?
+(VI) 1) Bên cạnh việc ngăn chặn các cuộc tấn công bảo mật, lý do chính đáng tin cậy để xác thực đầu vào là gì?
+
+A. To prevent "database pollution" from accidentally incorrect data.
+(VI) A. Để ngăn chặn "ô nhiễm cơ sở dữ liệu" do dữ liệu vô tình không chính xác.
+B. To make the user interface load faster.
+(VI) B. Để làm cho giao diện người dùng tải nhanh hơn.
+C. To reduce the program's memory usage.
+(VI) C. Để giảm mức sử dụng bộ nhớ của chương trình.
+D. To ensure all inputs are stored in a single format.
+(VI) D. Để đảm bảo tất cả đầu vào được lưu trữ ở một định dạng duy nhất.
+
+Answer: A
+(VI) Đáp án: A
+
+2) What is the "whitelisting" approach to input validation?
+(VI) 2) Cách tiếp cận "danh sách trắng" để xác thực đầu vào là gì?
+
+A. Defining a set of rules for what is not allowed (e.g., script tag).
+(VI) A. Xác định một bộ quy tắc cho những gì không được phép (ví dụ: thẻ tập lệnh).
+B. Defining a set of rules for what is allowed, and rejecting everything else.
+(VI) B. Xác định một bộ quy tắc cho những gì được phép và từ chối mọi thứ khác.
+C. A list of users who are allowed to use the system.
+(VI) C. Danh sách người dùng được phép sử dụng hệ thống.
+D. Allowing all inputs except those from a known bad IP address.
+(VI) D. Cho phép tất cả đầu vào ngoại trừ những đầu vào từ địa chỉ IP xấu đã biết.
+
+Answer: B
+(VI) Đáp án: B
+
+3) Why is whitelisting generally considered a more secure strategy than blacklisting?
+(VI) 3) Tại sao danh sách trắng thường được coi là một chiến lược an toàn hơn danh sách đen?
+
+A. Blacklisting is much harder to program.
+(VI) A. Lập trình vào danh sách đen khó hơn nhiều.
+B. Whitelisting runs faster.
+(VI) B. Danh sách trắng chạy nhanh hơn.
+C. Attackers can often find new ways to bypass a blacklist, but it's much harder to bypass a strict whitelist.
+(VI) C. Những kẻ tấn công thường có thể tìm ra những cách mới để vượt qua danh sách đen, nhưng việc vượt qua danh sách trắng nghiêm ngặt sẽ khó hơn nhiều.
+D. Whitelisting can be performed on the client-side, while blacklisting cannot.
+(VI) D. Danh sách trắng có thể được thực hiện ở phía máy khách, trong khi danh sách đen thì không.
+
+Answer: C
+(VI) Đáp án: C
+
+4) A web form uses JavaScript to check if an email is valid before the user clicks "submit." This is...
+(VI) 4) Biểu mẫu web sử dụng JavaScript để kiểm tra xem email có hợp lệ hay không trước khi người dùng nhấp vào "gửi". Đây là...
+
+A. ...all the validation that is needed for a secure application.
+(VI) A. ...tất cả các xác nhận cần thiết cho một ứng dụng an toàn.
+B. ...a form of server-side validation.
+(VI) B. ...một hình thức xác thực phía máy chủ.
+C. ...good for user experience, but insufficient for security.
+(VI) C. ...tốt cho trải nghiệm người dùng nhưng không đủ để bảo mật.
+D. ...a bad practice that slows down the user's browser.
+(VI) D. ...một hành vi xấu làm chậm trình duyệt của người dùng.
+
+Answer: C
+(VI) Đáp án: C
+
+5) For security and data integrity, where must validation always be performed?
+(VI) 5) Để bảo mật và toàn vẹn dữ liệu, việc xác thực luôn phải được thực hiện ở đâu?
+
+A. On the client-side (in the browser).
+(VI) A. Về phía máy khách (trong trình duyệt).
+B. On the server-side.
+(VI) B. Về phía máy chủ.
+C. In the database, using triggers.
+(VI) C. Trong cơ sở dữ liệu, sử dụng trigger.
+D. In a separate, dedicated validation microservice.
+(VI) D. Trong một vi dịch vụ xác thực riêng biệt, chuyên dụng.
+
+Answer: B
+(VI) Đáp án: B
+
+6) What is a "regular expression" (regex) commonly used for in validation?
+(VI) 6) "Biểu thức chính quy" (regex) thường được sử dụng để xác thực là gì?
+
+A. Encrypting the user's input before storing it.
+(VI) A. Mã hóa thông tin đầu vào của người dùng trước khi lưu trữ.
+B. Defining a pattern (e.g., for an email or phone number) that an input string must match.
+(VI) B. Xác định mẫu (ví dụ: đối với email hoặc số điện thoại) mà chuỗi đầu vào phải khớp.
+C. Handling program crashes from bad input.
+(VI) C. Xử lý lỗi chương trình do đầu vào sai.
+D. Refactoring complex code.
+(VI) D. Tái cấu trúc mã phức tạp.
+
+Answer: B
+(VI) Đáp án: B
+
+7) When a user's input fails validation, why is it often a bad security practice to give a detailed error message (e.g., "Input is too long, must be 8 chars")?
+(VI) 7) Khi thông tin đầu vào của người dùng không được xác thực, tại sao việc đưa ra thông báo lỗi chi tiết thường là một biện pháp bảo mật kém (ví dụ: "Đầu vào quá dài, phải có 8 ký tự")?
+
+A. It gives attackers clues about the validation rules, helping them find a way to bypass it.
+(VI) A. Nó cung cấp cho kẻ tấn công manh mối về các quy tắc xác thực, giúp chúng tìm cách vượt qua nó.
+B. It is too confusing for non-technical users.
+(VI) B. Nó quá khó hiểu đối với người dùng không rành về kỹ thuật.
+C. It is too difficult to translate detailed errors into other languages.
+(VI) C. Rất khó để dịch các lỗi chi tiết sang ngôn ngữ khác.
+D. It logs too much information to the server.
+(VI) D. Nó ghi quá nhiều thông tin vào máy chủ.
+
+Answer: A
+(VI) Đáp án: A
+
+8) Why is it important to check that a numeric input (like 'age') is not an impossibly large number?
+(VI) 8) Tại sao điều quan trọng là phải kiểm tra xem dữ liệu đầu vào dạng số (như 'tuổi') có phải là một số quá lớn không?
+
+A. It wastes database storage space.
+(VI) A. Nó lãng phí không gian lưu trữ cơ sở dữ liệu.
+B. It is hard for humans to read.
+(VI) B. Con người khó đọc.
+C. It can cause a numeric overflow exception and crash the program.
+(VI) C. Nó có thể gây ra ngoại lệ tràn số và làm hỏng chương trình.
+D. It makes sorting the numbers very slow.
+(VI) D. Nó làm cho việc sắp xếp các con số trở nên rất chậm.
+
+Answer: C
+(VI) Đáp án: C
+
+9) In addition to a range check (e.g., 0 < age < 120), what is another type of "sensible value" check for numbers?
+(VI) 9) Ngoài việc kiểm tra phạm vi (ví dụ: 0 < tuổi < 120), một loại kiểm tra "giá trị hợp lý" khác cho các số là gì?
+
+A. A check to see if the number is odd or even.
+(VI) A. Kiểm tra xem số đó là số lẻ hay số chẵn.
+B. A check to convert the number to a string.
+(VI) B. Kiểm tra để chuyển số thành chuỗi.
+C. A consistency check (e.g., ensuring a new meter reading is higher than the previous one).
+(VI) C. Kiểm tra tính nhất quán (ví dụ: đảm bảo chỉ số đồng hồ mới cao hơn chỉ số trước đó).
+D. A check to see if the number is a prime number.
+(VI) D. Kiểm tra xem số đó có phải là số nguyên tố hay không.
+
+Answer: C
+(VI) Đáp án: C
+
+10) In many regex dialects, what does the $ (dollar sign) symbol mean when used at the end of an expression?
+(VI) 10) Trong nhiều phương ngữ biểu thức chính quy, ký hiệu $ (ký hiệu đô la) có ý nghĩa gì khi được sử dụng ở cuối biểu thức?
+
+A. The match must end at the end of the string.
+(VI) A. Trận đấu phải kết thúc ở cuối chuỗi.
+B. The previous character is optional.
+(VI) B. Ký tự trước đó là tùy chọn.
+C. It matches a literal dollar sign.
+(VI) C. Nó khớp với ký hiệu đô la theo nghĩa đen.
+D. It matches any single number.
+(VI) D. Nó khớp với bất kỳ số nào.
+
+Answer: A
+(VI) Đáp án: A

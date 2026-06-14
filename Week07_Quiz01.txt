@@ -1,0 +1,149 @@
+1) The primary purpose of a software process model is to:
+(VI) 1) Mục đích chính của mô hình quy trình phần mềm là:
+
+A. Force all developers to work the same way.
+(VI) A. Buộc tất cả các nhà phát triển phải làm việc theo cùng một cách.
+B. Provide structure and guidance to the software development lifecycle.
+(VI) B. Cung cấp cấu trúc và hướng dẫn cho vòng đời phát triển phần mềm.
+C. Remove the need for customer involvement.
+(VI) C. Loại bỏ nhu cầu có sự tham gia của khách hàng.
+D. Guarantee zero defects.
+(VI) D. Đảm bảo không có khuyết tật.
+
+Answer: B
+(VI) Đáp án: B
+
+2) Which analogy BEST represents the importance of having a software process:
+(VI) 2) Sự tương tự nào TỐT NHẤT thể hiện tầm quan trọng của việc có một quy trình phần mềm:
+
+A. Taking an exam without studying.
+(VI) A. Đi thi mà không học bài.
+B. Cooking a meal by following a recipe.
+(VI) B. Nấu một bữa ăn theo công thức.
+C. Listening to music while working.
+(VI) C. Nghe nhạc khi làm việc.
+D. Shopping without a budget.
+(VI) D. Mua sắm không có ngân sách.
+
+Answer: B
+(VI) Đáp án: B
+
+3) Which of the following is the most important reason why software process models differ across projects:
+(VI) 3) Điều nào sau đây là lý do quan trọng nhất khiến các mô hình quy trình phần mềm khác nhau giữa các dự án:
+
+A. Developer personal preferences.
+(VI) A. Sở thích cá nhân của nhà phát triển.
+B. Differences in customer hobbies.
+(VI) B. Sự khác biệt trong sở thích của khách hàng.
+C. Variation in project uncertainty and requirements stability.
+(VI) C. Sự thay đổi về tính không chắc chắn của dự án và yêu cầu về độ ổn định.
+D. Availability of office equipment.
+(VI) D. Sự sẵn có của thiết bị văn phòng.
+
+Answer: C
+(VI) Đáp án: C
+
+4) Early software processes were heavily influenced by:
+(VI) 4) Các quy trình phần mềm ban đầu bị ảnh hưởng nặng nề bởi:
+
+A. Social media platforms.
+(VI) A. Nền tảng truyền thông xã hội.
+B. Manufacturing and engineering disciplines.
+(VI) B. Các ngành sản xuất và kỹ thuật.
+C. Modern agile startups.
+(VI) C. Các công ty khởi nghiệp linh hoạt hiện đại.
+D. Open-source community collaboration.
+(VI) D. Hợp tác cộng đồng nguồn mở.
+
+Answer: B
+(VI) Đáp án: B
+
+5) A software process helps improve product quality primarily by:
+(VI) 5) Quy trình phần mềm giúp cải thiện chất lượng sản phẩm chủ yếu bằng cách:
+
+A. Standardizing development activities.
+(VI) A. Tiêu chuẩn hóa các hoạt động phát triển.
+B. Reducing team communication.
+(VI) B. Giảm sự giao tiếp trong nhóm.
+C. Preventing all requirement changes.
+(VI) C. Ngăn chặn mọi thay đổi yêu cầu.
+D. Eliminating the need for testing.
+(VI) D. Loại bỏ nhu cầu kiểm tra.
+
+Answer: A
+(VI) Đáp án: A
+
+6) A process without defined stages or structure usually leads to:
+(VI) 6) Một quy trình không có các giai đoạn hoặc cấu trúc xác định thường dẫn đến:
+
+A. High predictability.
+(VI) A. Khả năng dự đoán cao.
+B. Consistent product quality.
+(VI) B. Chất lượng sản phẩm ổn định.
+C. Chaos and miscommunication.
+(VI) C. Sự hỗn loạn và thông tin sai lệch.
+D. Reduced development time.
+(VI) D. Giảm thời gian phát triển.
+
+Answer: C
+(VI) Đáp án: C
+
+7) Which of the following is considered a major category of software process models:
+(VI) 7) Điều nào sau đây được coi là một loại chính của mô hình quy trình phần mềm:
+
+A. Sequential vs Functional.
+(VI) A. Tuần tự và chức năng.
+B. Predictive vs Adaptive.
+(VI) B. Dự đoán và thích ứng.
+C. Horizontal vs Vertical.
+(VI) C. Ngang và Dọc.
+D. Internal vs External.
+(VI) D. Nội bộ và bên ngoài.
+
+Answer: B
+(VI) Đáp án: B
+
+8) Which situation most strongly demands a structured software process:
+(VI) 8) Tình huống nào đòi hỏi mạnh mẽ nhất một quy trình phần mềm có cấu trúc:
+
+A. A small assignment done by one student.
+(VI) A. Một bài tập nhỏ được thực hiện bởi một học sinh.
+B. A large project with multiple teams and responsibilities.
+(VI) B. Một dự án lớn với nhiều nhóm và trách nhiệm.
+C. A fun side project made for entertainment.
+(VI) C. Một dự án phụ thú vị được thực hiện để giải trí.
+D. A quick prototype for personal learning.
+(VI) D. Một nguyên mẫu nhanh chóng cho việc học tập cá nhân.
+
+Answer: B
+(VI) Đáp án: B
+
+9) One of the central challenges that drove the evolution of software processes was:
+(VI) 9) Một trong những thách thức trọng tâm thúc đẩy sự phát triển của quy trình phần mềm là:
+
+A. Hardware prices decreasing.
+(VI) A. Giá phần cứng giảm.
+B. Increasing complexity and changing requirements.
+(VI) B. Sự phức tạp ngày càng tăng và các yêu cầu thay đổi.
+C. Fewer people wanting to be developers.
+(VI) C. Ít người muốn trở thành nhà phát triển hơn.
+D. Overabundance of technical documentation.
+(VI) D. Quá nhiều tài liệu kỹ thuật.
+
+Answer: B
+(VI) Đáp án: B
+
+10) Which statement best describes the role of a process model:
+(VI) 10) Câu nào mô tả đúng nhất vai trò của một mô hình quy trình:
+
+A. It guarantees the fastest possible development.
+(VI) A. Nó đảm bảo sự phát triển nhanh nhất có thể.
+B. It ensures that all teams worldwide use identical workflows.
+(VI) B. Nó đảm bảo rằng tất cả các nhóm trên toàn thế giới sử dụng quy trình công việc giống hệt nhau.
+C. It provides a structured approach for producing software.
+(VI) C. Nó cung cấp một cách tiếp cận có cấu trúc để sản xuất phần mềm.
+D. It eliminates the need for planning.
+(VI) D. Nó loại bỏ sự cần thiết phải lập kế hoạch.
+
+Answer: C
+(VI) Đáp án: C

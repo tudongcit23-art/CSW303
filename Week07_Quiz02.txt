@@ -1,0 +1,359 @@
+1) Predictive models rely heavily on:
+(VI) 1) Các mô hình dự đoán phụ thuộc rất nhiều vào:
+
+A. Early detailed planning.
+(VI) A. Lập kế hoạch chi tiết sớm.
+B. Flexible iteration.
+(VI) B. Lặp lại linh hoạt.
+C. Minimal documentation.
+(VI) C. Tài liệu tối thiểu.
+D. Constant requirement changes.
+(VI) D. Yêu cầu thay đổi liên tục.
+
+Answer: A
+(VI) Đáp án: A
+
+2) A predictive model is MOST effective when:
+(VI) 2) Mô hình dự đoán có hiệu quả NHẤT khi:
+
+A. Requirements are stable and well understood.
+(VI) A. Yêu cầu ổn định và được hiểu rõ.
+B. Requirements change daily.
+(VI) B. Yêu cầu thay đổi hàng ngày.
+C. Customers are unsure of what they want.
+(VI) C. Khách hàng không chắc chắn về điều họ muốn.
+D. The project requires rapid experimentation.
+(VI) D. Dự án yêu cầu thử nghiệm nhanh chóng.
+
+Answer: A
+(VI) Đáp án: A
+
+3) The Waterfall Model is BEST described as:
+(VI) 3) Mô hình Thác nước được mô tả TỐT NHẤT là:
+
+A. A highly flexible and cyclic approach.
+(VI) A. Một cách tiếp cận rất linh hoạt và có tính chu kỳ.
+B. A sequential process with fixed phases.
+(VI) B. Một quá trình tuần tự với các giai đoạn cố định.
+C. A feedback-driven iterative model.
+(VI) C. Một mô hình lặp lại dựa trên phản hồi.
+D. A continuous flow system.
+(VI) D. Một hệ thống dòng chảy liên tục.
+
+Answer: B
+(VI) Đáp án: B
+
+4) A key weakness of the Waterfall Model is that:
+(VI) 4) Điểm yếu chính của Mô hình Thác nước là:
+
+A. It involves too much customer collaboration.
+(VI) A. Nó liên quan đến quá nhiều sự hợp tác của khách hàng.
+B. It delivers working software late in the process.
+(VI) B. Nó cung cấp phần mềm hoạt động muộn trong quá trình này.
+C. It prevents all requirement misunderstandings.
+(VI) C. Nó ngăn ngừa mọi hiểu lầm về yêu cầu.
+D. It eliminates the need for documentation.
+(VI) D. Nó loại bỏ sự cần thiết của tài liệu.
+
+Answer: B
+(VI) Đáp án: B
+
+5) The V-Model primarily emphasizes:
+(VI) 5) Mô hình chữ V chủ yếu nhấn mạnh:
+
+A. Minimum planning.
+(VI) A. Lập kế hoạch tối thiểu.
+B. Heavy prototyping.
+(VI) B. Tạo mẫu nặng.
+C. Early and structured test planning.
+(VI) C. Lập kế hoạch kiểm tra sớm và có cấu trúc.
+D. No verification activities.
+(VI) D. Không có hoạt động xác minh.
+
+Answer: C
+(VI) Đáp án: C
+
+6) The "V" shape in the V-Model represents:
+(VI) 6) Hình "V" trong V-Model thể hiện:
+
+A. Cost on the left, value on the right.
+(VI) A. Giá ở bên trái, giá trị ở bên phải.
+B. Increasing complexity over time.
+(VI) B. Độ phức tạp ngày càng tăng theo thời gian.
+C. Corresponding verification and validation phases.
+(VI) C. Các giai đoạn xác minh và xác nhận tương ứng.
+D. The velocity of development.
+(VI) D. Tốc độ phát triển.
+
+Answer: C
+(VI) Đáp án: C
+
+7) The Incremental Model differs from Waterfall because it:
+(VI) 7) Mô hình tăng dần khác với Thác nước vì nó:
+
+A. Eliminates documentation.
+(VI) A. Loại bỏ tài liệu.
+B. Allows partial delivery of working software.
+(VI) B. Cho phép phân phối một phần phần mềm đang hoạt động.
+C. Requires no upfront planning.
+(VI) C. Không yêu cầu lập kế hoạch trả trước.
+D. Does not use iterations.
+(VI) D. Không sử dụng phép lặp.
+
+Answer: B
+(VI) Đáp án: B
+
+8) Predictive models tend to struggle when:
+(VI) 8) Các mô hình dự đoán có xu hướng gặp khó khăn khi:
+
+A. Requirements are stable.
+(VI) A. Yêu cầu ổn định.
+B. System risk is low.
+(VI) B. Rủi ro hệ thống thấp.
+C. Requirements change frequently.
+(VI) C. Yêu cầu thay đổi thường xuyên.
+D. Projects demand extensive documentation.
+(VI) D. Các dự án yêu cầu nhiều tài liệu.
+
+Answer: C
+(VI) Đáp án: C
+
+9) What is a primary strength of predictive models:
+(VI) 9) Điểm mạnh chính của mô hình dự đoán là gì:
+
+A. High flexibility during development.
+(VI) A. Tính linh hoạt cao trong quá trình phát triển.
+B. Early cost and schedule predictability.
+(VI) B. Khả năng dự đoán được chi phí và tiến độ sớm.
+C. Encouraging frequent requirement changes.
+(VI) C. Khuyến khích thay đổi yêu cầu thường xuyên.
+D. Avoiding all documentation.
+(VI) D. Tránh tất cả các tài liệu.
+
+Answer: B
+(VI) Đáp án: B
+
+10) The Waterfall Model is commonly used in:
+(VI) 10) Mô hình thác nước thường được sử dụng trong:
+
+A. Projects with frequent change.
+(VI) A. Các dự án có sự thay đổi thường xuyên.
+B. Regulated industries needing strict documentation.
+(VI) B. Các ngành được quản lý cần có tài liệu nghiêm ngặt.
+C. Startups building experimental prototypes.
+(VI) C. Các công ty khởi nghiệp xây dựng nguyên mẫu thử nghiệm.
+D. Rapid innovation environments.
+(VI) D. Môi trường đổi mới nhanh chóng.
+
+Answer: B
+(VI) Đáp án: B
+
+11) The IRS modernization failure highlights that Waterfall:
+(VI) 11) Thất bại trong quá trình hiện đại hóa IRS nhấn mạnh rằng Thác nước:
+
+A. Handles changing requirements well.
+(VI) A. Xử lý tốt các yêu cầu thay đổi.
+B. Relying on early requirements can be risky.
+(VI) B. Dựa vào những yêu cầu ban đầu có thể gặp rủi ro.
+C. Eliminates the need for testing.
+(VI) C. Loại bỏ nhu cầu kiểm tra.
+D. Always completes on schedule.
+(VI) D. Luôn hoàn thành đúng tiến độ.
+
+Answer: B
+(VI) Đáp án: B
+
+12) Predictive models are MOST suitable when:
+(VI) 12) Các mô hình dự đoán phù hợp NHẤT khi:
+
+A. Stakeholders cannot define requirements.
+(VI) A. Các bên liên quan không thể xác định các yêu cầu.
+B. The system must meet strict compliance standards.
+(VI) B. Hệ thống phải đáp ứng các tiêu chuẩn tuân thủ nghiêm ngặt.
+C. The customer prefers high adaptability.
+(VI) C. Khách hàng thích khả năng thích ứng cao.
+D. Requirements will evolve rapidly.
+(VI) D. Yêu cầu sẽ phát triển nhanh chóng.
+
+Answer: B
+(VI) Đáp án: B
+
+13) A major disadvantage of predictive models is that they:
+(VI) 13) Một nhược điểm lớn của các mô hình dự đoán là chúng:
+
+A. Provide too much customer collaboration.
+(VI) A. Cung cấp quá nhiều sự hợp tác của khách hàng.
+B. Lack flexibility for changing requirements.
+(VI) B. Thiếu tính linh hoạt khi thay đổi yêu cầu.
+C. Require too little documentation.
+(VI) C. Yêu cầu quá ít tài liệu.
+D. Rely heavily on working software early.
+(VI) D. Dựa nhiều vào phần mềm hoạt động sớm.
+
+Answer: B
+(VI) Đáp án: B
+
+14) In the Waterfall Model, testing occurs:
+(VI) 14) Trong Mô hình Thác nước, quá trình thử nghiệm diễn ra:
+
+A. Only after the implementation phase is complete.
+(VI) A. Chỉ sau khi giai đoạn thực hiện hoàn tất.
+B. Continuously throughout the project.
+(VI) B. Liên tục trong suốt dự án.
+C. Before requirements gathering.
+(VI) C. Trước khi thu thập yêu cầu.
+D. Before design is completed.
+(VI) D. Trước khi thiết kế hoàn thành.
+
+Answer: A
+(VI) Đáp án: A
+
+15) The Incremental Model is beneficial because it:
+(VI) 15) Mô hình tăng dần có lợi vì nó:
+
+A. Delivers value earlier than a single final release.
+(VI) A. Mang lại giá trị sớm hơn một bản phát hành cuối cùng.
+B. Avoids all planning.
+(VI) B. Tránh mọi kế hoạch.
+C. Requires no customer interaction.
+(VI) C. Không yêu cầu sự tương tác của khách hàng.
+D. Eliminates need for testing.
+(VI) D. Loại bỏ nhu cầu kiểm tra.
+
+Answer: A
+(VI) Đáp án: A
+
+16) The V-Model is preferred in domains where:
+(VI) 16) Mô hình chữ V được ưu tiên trong các lĩnh vực:
+
+A. Rapid prototyping is essential.
+(VI) A. Tạo mẫu nhanh là điều cần thiết.
+B. Safety and correctness are critical.
+(VI) B. An toàn và đúng đắn là rất quan trọng.
+C. Frequent requirement changes occur.
+(VI) C. Những thay đổi yêu cầu thường xuyên xảy ra.
+D. Minimal documentation is acceptable.
+(VI) D. Có thể chấp nhận được tài liệu tối thiểu.
+
+Answer: B
+(VI) Đáp án: B
+
+17) The main assumption behind predictive models is that:
+(VI) 17) Giả định chính đằng sau các mô hình dự đoán là:
+
+A. Requirements will evolve organically.
+(VI) A. Các yêu cầu sẽ phát triển một cách tự nhiên.
+B. Requirements can be fully known early.
+(VI) B. Yêu cầu có thể được biết đầy đủ sớm.
+C. Customers prefer flexible processes.
+(VI) C. Khách hàng thích các quy trình linh hoạt.
+D. Teams want minimal structure.
+(VI) D. Các nhóm muốn có cấu trúc tối thiểu.
+
+Answer: B
+(VI) Đáp án: B
+
+18) A negative outcome of rigid sequential phases is:
+(VI) 18) Một kết quả tiêu cực của các giai đoạn tuần tự cứng nhắc là:
+
+A. Reduced clarity.
+(VI) A. Giảm sự rõ ràng.
+B. Increased adaptability.
+(VI) B. Tăng khả năng thích ứng.
+C. Difficulty returning to earlier stages.
+(VI) C. Khó quay lại giai đoạn trước.
+D. Better handling of change.
+(VI) D. Xử lý sự thay đổi tốt hơn.
+
+Answer: C
+(VI) Đáp án: C
+
+19) One key reason predictive models rely on documentation is to:
+(VI) 19) Một lý do chính khiến các mô hình dự đoán dựa vào tài liệu là:
+
+A. Remove the need for communication.
+(VI) A. Loại bỏ nhu cầu giao tiếp.
+B. Ensure traceability and compliance.
+(VI) B. Đảm bảo khả năng truy xuất nguồn gốc và tuân thủ.
+C. Make coding unnecessary.
+(VI) C. Làm cho việc viết mã trở nên không cần thiết.
+D. Allow spontaneous changes.
+(VI) D. Cho phép những thay đổi tự phát.
+
+Answer: B
+(VI) Đáp án: B
+
+20) When using Waterfall, customers typically see the working product:
+(VI) 20) Khi sử dụng Waterfall, khách hàng thường thấy sản phẩm đang hoạt động:
+
+A. Very early.
+(VI) A. Rất sớm.
+B. Only near the end.
+(VI) B. Chỉ gần cuối thôi.
+C. After each daily iteration.
+(VI) C. Sau mỗi lần lặp lại hàng ngày.
+D. At the start of each sprint.
+(VI) D. Khi bắt đầu mỗi lần chạy nước rút.
+
+Answer: B
+(VI) Đáp án: B
+
+21) Predictive planning involves:
+(VI) 21) Lập kế hoạch dự đoán bao gồm:
+
+A. Planning only small increments at a time.
+(VI) A. Chỉ lập kế hoạch từng bước nhỏ tại một thời điểm.
+B. Deferring planning until after coding begins.
+(VI) B. Trì hoãn việc lập kế hoạch cho đến khi quá trình mã hóa bắt đầu.
+C. Establishing detailed schedules early.
+(VI) C. Lập kế hoạch chi tiết sớm.
+D. Adjusting plans continuously.
+(VI) D. Điều chỉnh kế hoạch liên tục.
+
+Answer: C
+(VI) Đáp án: C
+
+22) Which project is LEAST suited for predictive models:
+(VI) 22) Dự án nào ÍT PHÙ HỢP NHẤT cho các mô hình dự đoán:
+
+A. A startup app exploring uncertain features.
+(VI) A. Một ứng dụng khởi động khám phá các tính năng chưa chắc chắn.
+B. Hospital patient records system.
+(VI) B. Hệ thống hồ sơ bệnh nhân của bệnh viện.
+C. Banking compliance platform.
+(VI) C. Nền tảng tuân thủ ngân hàng.
+D. Government defense control software.
+(VI) D. Phần mềm kiểm soát quốc phòng của Chính phủ.
+
+Answer: A
+(VI) Đáp án: A
+
+23) The biggest challenge predictive models face is:
+(VI) 23) Thách thức lớn nhất mà các mô hình dự đoán phải đối mặt là:
+
+A. Handling volatile requirements.
+(VI) A. Xử lý các yêu cầu dễ thay đổi.
+B. Creating documentation.
+(VI) B. Tạo tài liệu.
+C. Managing test cycles.
+(VI) C. Quản lý chu kỳ kiểm tra.
+D. Organizing teams.
+(VI) D. Tổ chức đội.
+
+Answer: A
+(VI) Đáp án: A
+
+24) The core philosophy of predictive models is:
+(VI) 24) Triết lý cốt lõi của các mô hình dự đoán là:
+
+A. Responding to change over following a plan.
+(VI) A. Đáp lại sự thay đổi theo kế hoạch.
+B. Building working software before defining requirements.
+(VI) B. Xây dựng phần mềm chạy được trước khi xác định yêu cầu.
+C. Planning thoroughly before development begins.
+(VI) C. Lập kế hoạch kỹ lưỡng trước khi bắt đầu phát triển.
+D. Prioritizing collaboration over documentation.
+(VI) D. Ưu tiên hợp tác hơn là tài liệu.
+
+Answer: C
+(VI) Đáp án: C

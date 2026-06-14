@@ -1,0 +1,134 @@
+1) What does the acronym REST stand for?
+(VI) 1) Từ viết tắt REST có nghĩa là gì?
+
+A. Remote Execution Strategy for calling server-side procedures across a network
+(VI) A. Chiến lược thực thi từ xa để gọi các thủ tục phía máy chủ qua mạng
+B. REpresentational State Transfer
+(VI) B. Chuyển giao Nhà nước Đại diện
+C. Resource Entity Service Transfer for moving object records between distributed services
+(VI) C. Chuyển giao dịch vụ thực thể tài nguyên để di chuyển các bản ghi đối tượng giữa các dịch vụ được phân phối
+D. Reliable Enterprise Service Transport
+(VI) D. Vận chuyển dịch vụ doanh nghiệp đáng tin cậy
+
+Answer: B
+(VI) Đáp án: B
+
+2) What is the fundamental concept of a "resource" in the REST architectural style?
+(VI) 2) Khái niệm cơ bản về "tài nguyên" trong kiểu kiến ​​trúc REST là gì?
+
+A. A function or method call that can be executed remotely through an endpoint, where the URL names an action rather than an addressable domain object.
+(VI) A. Lệnh gọi hàm hoặc phương thức có thể được thực thi từ xa thông qua điểm cuối, trong đó URL đặt tên cho một hành động thay vì một đối tượng miền có thể định địa chỉ.
+B. Any chunk of data (e.g., a database record, document, or catalog item) that is identified by a unique URI.
+(VI) B. Bất kỳ đoạn dữ liệu nào (ví dụ: bản ghi cơ sở dữ liệu, tài liệu hoặc mục danh mục) được xác định bởi một URI duy nhất.
+C. A standardized message protocol, like SOAP or AMQP.
+(VI) C. Giao thức tin nhắn được tiêu chuẩn hóa, như SOAP hoặc AMQP.
+D. A long-lived stateful connection that is maintained between the client and server so each later request depends on previous session context.
+(VI) D. Kết nối có trạng thái tồn tại lâu dài được duy trì giữa máy khách và máy chủ nên mỗi yêu cầu sau này sẽ phụ thuộc vào bối cảnh phiên trước đó.
+
+Answer: B
+(VI) Đáp án: B
+
+3) In the RESTful architectural style, which HTTP verb is correctly mapped to its intended operation for managing a resource?
+(VI) 3) Trong kiểu kiến ​​trúc RESTful, động từ HTTP nào được ánh xạ chính xác tới hoạt động dự định của nó để quản lý tài nguyên?
+
+A. GET is used to create a new resource when the client sends parameters in the query string.
+(VI) A. GET được sử dụng để tạo tài nguyên mới khi máy khách gửi tham số trong chuỗi truy vấn.
+B. POST is used to modify an existing resource's data.
+(VI) B. POST được sử dụng để sửa đổi dữ liệu của tài nguyên hiện có.
+C. PUT is used to update or modify an existing resource.
+(VI) C. PUT được sử dụng để cập nhật hoặc sửa đổi tài nguyên hiện có.
+D. DELETE is used to retrieve a read-only representation of a resource.
+(VI) D. DELETE được sử dụng để truy xuất bản trình bày chỉ đọc của tài nguyên.
+
+Answer: C
+(VI) Đáp án: C
+
+4) How should the GET verb be used in a RESTful service?
+(VI) 4) Động từ GET nên được sử dụng như thế nào trong dịch vụ RESTful?
+
+A. To create a new resource with a server-defined URI while also changing collection state each time the same request is sent.
+(VI) A. Để tạo một tài nguyên mới với URI do máy chủ xác định đồng thời thay đổi trạng thái thu thập mỗi khi gửi cùng một yêu cầu.
+B. To read a resource, and it should never update or change the resource's value.
+(VI) B. Để đọc một tài nguyên và nó không bao giờ được cập nhật hoặc thay đổi giá trị của tài nguyên.
+C. To update an existing resource at a specific URI.
+(VI) C. Để cập nhật tài nguyên hiện có tại một URI cụ thể.
+D. To delete all sub-resources under a specific URI.
+(VI) D. Để xóa tất cả các tài nguyên phụ trong một URI cụ thể.
+
+Answer: B
+(VI) Đáp án: B
+
+5) Which HTTP verb is used to create a new resource, with the server typically assigning the new resource's URI?
+(VI) 5) Động từ HTTP nào được sử dụng để tạo tài nguyên mới và máy chủ thường gán URI của tài nguyên mới?
+
+A. GET, because retrieving the collection endpoint can also create a new item automatically.
+(VI) A. GET, vì việc truy xuất điểm cuối của bộ sưu tập cũng có thể tự động tạo một mục mới.
+B. PUT, because the client asks the server to choose a fresh URI for the new item.
+(VI) B. PUT, vì máy khách yêu cầu máy chủ chọn URI mới cho mục mới.
+C. POST
+(VI) C. BÀI ĐĂNG
+D. CREATE
+(VI) D. TẠO
+
+Answer: C
+(VI) Đáp án: C
+
+6) According to the text, what is the most commonly used representation for digital resources in modern RESTful microservices?
+(VI) 6) Theo văn bản, cách thể hiện nào được sử dụng phổ biến nhất cho tài nguyên kỹ thuật số trong các dịch vụ vi mô RESTful hiện đại?
+
+A. XML, especially because modern microservices usually require verbose schema-first payloads.
+(VI) A. XML, đặc biệt là vì các vi dịch vụ hiện đại thường yêu cầu tải trọng đầu tiên theo lược đồ chi tiết.
+B. HTML, because browser-oriented page markup is normally used as the API payload format.
+(VI) B. HTML, vì đánh dấu trang hướng đến trình duyệt thường được sử dụng làm định dạng tải trọng API.
+C. Plain Text, since REST APIs generally avoid structured key-value representations.
+(VI) C. Văn bản thuần túy, vì API REST thường tránh các biểu diễn khóa-giá trị có cấu trúc.
+D. JSON
+(VI) D. JSON
+
+Answer: D
+(VI) Đáp án: D
+
+7) In an HTTP request for a RESTful service, what is the purpose of the Content-Type header?
+(VI) 7) Trong yêu cầu HTTP cho dịch vụ RESTful, mục đích của tiêu đề Kiểu nội dung là gì?
+
+A. It specifies the data format (e.g., application/json) that the client is sending in the request body.
+(VI) A. Nó chỉ định định dạng dữ liệu (ví dụ: application/json) mà máy khách đang gửi trong phần thân yêu cầu.
+B. It specifies the content-types (e.g., application/json) that the client can process and finds acceptable in the service response.
+(VI) B. Nó chỉ định các loại nội dung (ví dụ: ứng dụng/json) mà máy khách có thể xử lý và thấy có thể chấp nhận được trong phản hồi dịch vụ.
+C. It specifies the exact length and encoding of the response body so the client can decide which parser should be used.
+(VI) C. Nó chỉ định độ dài và mã hóa chính xác của nội dung phản hồi để khách hàng có thể quyết định nên sử dụng trình phân tích cú pháp nào.
+D. It provides the authentication token to prove the client is allowed to access the resource.
+(VI) D. Nó cung cấp mã thông báo xác thực để chứng minh máy khách được phép truy cập tài nguyên.
+
+Answer: A
+(VI) Đáp án: A
+
+8) In an HTTP response, what does the status code 200 indicate?
+(VI) 8) Trong phản hồi HTTP, mã trạng thái 200 biểu thị điều gì?
+
+A. The request has failed because the requested resource was not found, and the response body normally contains the missing resource representation.
+(VI) A. Yêu cầu không thành công vì không tìm thấy tài nguyên được yêu cầu và nội dung phản hồi thường chứa phần trình bày tài nguyên bị thiếu.
+B. The request has been successfully processed, but there is no associated content to return.
+(VI) B. Yêu cầu đã được xử lý thành công nhưng không có nội dung liên quan để trả về.
+C. The request has been successfully processed, and the response body typically contains the requested data.
+(VI) C. Yêu cầu đã được xử lý thành công và nội dung phản hồi thường chứa dữ liệu được yêu cầu.
+D. The request has failed because the input data was malformed (e.g., "Unprocessable entity").
+(VI) D. Yêu cầu không thành công do dữ liệu đầu vào không đúng định dạng (ví dụ: "Thực thể không thể xử lý").
+
+Answer: C
+(VI) Đáp án: C
+
+9) What does the HTTP status code 204 signify?
+(VI) 9) Mã trạng thái HTTP 204 có ý nghĩa gì?
+
+A. The resource was not found, but the operation is still considered partially successful because the server accepted the request.
+(VI) A. Không tìm thấy tài nguyên nhưng thao tác vẫn được coi là thành công một phần vì máy chủ đã chấp nhận yêu cầu.
+B. The request was successful, but there is no content to return.
+(VI) B. Yêu cầu thành công nhưng không có nội dung để trả về.
+C. The service has encountered an internal failure, but it is still returning an empty success response to avoid exposing server details.
+(VI) C. Dịch vụ đã gặp phải lỗi nội bộ nhưng vẫn trả về phản hồi thành công trống để tránh tiết lộ thông tin chi tiết về máy chủ.
+D. The request is malformed, and the server successfully applied the invalid changes without returning any representation.
+(VI) D. Yêu cầu không đúng định dạng và máy chủ đã áp dụng thành công các thay đổi không hợp lệ mà không trả lại bất kỳ thông tin đại diện nào.
+
+Answer: B
+(VI) Đáp án: B

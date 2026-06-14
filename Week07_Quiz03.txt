@@ -1,0 +1,449 @@
+1) Adaptive models are designed to:
+(VI) 1) Các mô hình thích ứng được thiết kế để:
+
+A. Prevent requirement changes.
+(VI) A. Ngăn chặn những thay đổi về yêu cầu.
+B. Accommodate evolving requirements.
+(VI) B. Đáp ứng các yêu cầu ngày càng phát triển.
+C. Replace communication with documentation.
+(VI) C. Thay thế giao tiếp bằng tài liệu.
+D. Use no iterations.
+(VI) D. Không dùng vòng lặp (iteration).
+
+Answer: B
+(VI) Đáp án: B
+
+2) A key characteristic of adaptive processes is:
+(VI) 2) Đặc điểm chính của quá trình thích ứng là:
+
+A. Strict phase gating.
+(VI) A. Khóa chặt theo từng pha (phase gating).
+B. Detailed upfront planning.
+(VI) B. Lập kế hoạch trả trước chi tiết.
+C. Iterative and feedback-driven development.
+(VI) C. Phát triển lặp đi lặp lại và dựa trên phản hồi.
+D. Heavy documentation focus.
+(VI) D. Tập trung nhiều vào tài liệu.
+
+Answer: C
+(VI) Đáp án: C
+
+3) Which statement best describes the Product Backlog in Scrum:
+(VI) 3) Câu nào mô tả đúng nhất về Product Backlog trong Scrum:
+
+A. A living, prioritized list of everything needed in the product.
+(VI) A. Một danh sách sống (living), được ưu tiên về mọi thứ cần có trong sản phẩm.
+B. A fixed contract signed at project start.
+(VI) B. Một hợp đồng cố định được ký khi bắt đầu dự án.
+C. A list of tasks for developers to complete daily.
+(VI) C. Danh sách các nhiệm vụ để nhà phát triển hoàn thành hàng ngày.
+D. A complete design document.
+(VI) D. Một tài liệu thiết kế hoàn chỉnh.
+
+Answer: A
+(VI) Đáp án: A
+
+4) The Sprint Backlog is BEST described as:
+(VI) 4) Sprint Backlog được mô tả TỐT NHẤT là:
+
+A. The set of Product Backlog items selected for the current sprint.
+(VI) A. Tập hợp các hạng mục Product Backlog được chọn cho Sprint hiện tại.
+B. A list of all work in the entire project.
+(VI) B. Danh sách tất cả các công việc trong toàn bộ dự án.
+C. A document controlled only by the Product Owner.
+(VI) C. Tài liệu chỉ được kiểm soát bởi Chủ sở hữu sản phẩm.
+D. A high-level requirement specification.
+(VI) D. Đặc tả yêu cầu cấp cao.
+
+Answer: A
+(VI) Đáp án: A
+
+5) The Spiral Model primarily focuses on:
+(VI) 5) Mô hình xoắn ốc chủ yếu tập trung vào:
+
+A. Eliminating all project risks.
+(VI) A. Loại bỏ mọi rủi ro của dự án.
+B. Risk-driven development cycles.
+(VI) B. Chu kỳ phát triển dựa trên rủi ro.
+C. Minimizing customer involvement.
+(VI) C. Giảm thiểu sự tham gia của khách hàng.
+D. Rapid, unstructured delivery.
+(VI) D. Giao hàng nhanh chóng, không có cấu trúc.
+
+Answer: B
+(VI) Đáp án: B
+
+6) RUP (Rational Unified Process) is best described as:
+(VI) 6) RUP (Quy trình hợp nhất hợp lý) được mô tả tốt nhất là:
+
+A. A pure predictive model.
+(VI) A. Một mô hình dự đoán thuần túy.
+B. A purely adaptive model with no structure.
+(VI) B. Một mô hình thích ứng thuần túy không có cấu trúc.
+C. A structured yet iterative framework.
+(VI) C. Một khuôn khổ có cấu trúc nhưng lặp đi lặp lại.
+D. A model that eliminates documentation.
+(VI) D. Một mô hình loại bỏ tài liệu.
+
+Answer: C
+(VI) Đáp án: C
+
+7) Agile was created because developers were frustrated with:
+(VI) 7) Agile được tạo ra vì các nhà phát triển cảm thấy thất vọng với:
+
+A. Too much customer feedback.
+(VI) A. Quá nhiều phản hồi của khách hàng.
+B. Heavy, rigid, inefficient processes.
+(VI) B. Quy trình nặng nề, cứng nhắc, kém hiệu quả.
+C. Insufficient documentation.
+(VI) C. Tài liệu không đầy đủ.
+D. Lack of automated tools.
+(VI) D. Thiếu công cụ tự động.
+
+Answer: B
+(VI) Đáp án: B
+
+8) The Agile Manifesto emphasizes:
+(VI) 8) Tuyên ngôn Agile nhấn mạnh:
+
+A. Following a fixed plan.
+(VI) A. Theo một kế hoạch cố định.
+B. Maximizing documentation.
+(VI) B. Tối đa hóa tài liệu.
+C. Individuals and interactions.
+(VI) C. Cá nhân và sự tương tác.
+D. Minimizing customer collaboration.
+(VI) D. Giảm thiểu sự hợp tác của khách hàng.
+
+Answer: C
+(VI) Đáp án: C
+
+9) Which Agile value focuses on prioritizing customer needs:
+(VI) 9) Giá trị Agile nào tập trung vào việc ưu tiên nhu cầu của khách hàng:
+
+A. Responding to change over following a plan.
+(VI) A. Đáp lại sự thay đổi theo kế hoạch.
+B. Working software over comprehensive documentation.
+(VI) B. Phần mềm hoạt động dựa trên tài liệu toàn diện.
+C. Customer collaboration over contract negotiation.
+(VI) C. Hợp tác với khách hàng thông qua đàm phán hợp đồng.
+D. Individuals and interactions over processes and tools.
+(VI) D. Các cá nhân và sự tương tác qua các quy trình và công cụ.
+
+Answer: C
+(VI) Đáp án: C
+
+10) A key principle of Agile is:
+(VI) 10) Nguyên tắc then chốt của Agile là:
+
+A. Delivering software only once at the end.
+(VI) A. Chỉ cung cấp phần mềm một lần vào cuối.
+B. Avoiding iterative development.
+(VI) B. Tránh phát triển lặp đi lặp lại.
+C. Welcoming changing requirements.
+(VI) C. Chào đón những yêu cầu thay đổi.
+D. Releasing no working software until the entire project is finished.
+(VI) D. Không phát hành phần mềm hoạt động cho đến khi toàn bộ dự án kết thúc.
+
+Answer: C
+(VI) Đáp án: C
+
+11) Scrum is best described as:
+(VI) 11) Scrum được mô tả tốt nhất là:
+
+A. A rigid sequential methodology.
+(VI) A. Một phương pháp tuần tự cứng nhắc.
+B. A lightweight Agile framework.
+(VI) B. Một khung Agile nhẹ.
+C. A predictive project management tool.
+(VI) C. Một công cụ quản lý dự án mang tính dự đoán.
+D. A design-only technique.
+(VI) D. Một kỹ thuật chỉ dành cho thiết kế.
+
+Answer: B
+(VI) Đáp án: B
+
+12) The Product Owner is primarily responsible for:
+(VI) 12) Chủ sản phẩm chịu trách nhiệm chính về:
+
+A. Removing team obstacles.
+(VI) A. Loại bỏ chướng ngại vật của đội.
+B. Writing all code.
+(VI) B. Viết tất cả mã.
+C. Managing and prioritizing the Product Backlog.
+(VI) C. Quản lý và sắp xếp thứ tự ưu tiên của Product Backlog.
+D. Conducting the Daily Scrum.
+(VI) D. Tiến hành Scrum hàng ngày.
+
+Answer: C
+(VI) Đáp án: C
+
+13) The Scrum Master's core responsibility is to:
+(VI) 13) Trách nhiệm cốt lõi của Scrum Master là:
+
+A. Prioritize backlog items.
+(VI) A. Ưu tiên các hạng mục tồn đọng.
+B. Facilitate Scrum practices and remove blockers.
+(VI) B. Tạo điều kiện thuận lợi cho việc thực hành Scrum và loại bỏ các yếu tố cản trở.
+C. Approve design decisions.
+(VI) C. Phê duyệt quyết định thiết kế.
+D. Write user stories.
+(VI) D. Viết câu chuyện của người dùng.
+
+Answer: B
+(VI) Đáp án: B
+
+14) The Development Team in Scrum is:
+(VI) 14) Nhóm phát triển trong Scrum là:
+
+A. Self-managing and cross-functional.
+(VI) A. Tự quản lý và đa chức năng.
+B. Strictly controlled by the Scrum Master.
+(VI) B. Được kiểm soát chặt chẽ bởi Scrum Master.
+C. Not allowed to collaborate.
+(VI) C. Không được phép cộng tác.
+D. Forbidden from talking to the Product Owner.
+(VI) D. Cấm nói chuyện với Chủ sản phẩm.
+
+Answer: A
+(VI) Đáp án: A
+
+15) Each Sprint produces:
+(VI) 15) Mỗi ​​Sprint tạo ra:
+
+A. A fully completed project.
+(VI) A. Một dự án đã hoàn thành đầy đủ.
+B. A user manual.
+(VI) B. Hướng dẫn sử dụng.
+C. A potentially shippable product increment.
+(VI) C. Phần tăng thêm của sản phẩm có khả năng vận chuyển được.
+D. A complete design document.
+(VI) D. Một tài liệu thiết kế hoàn chỉnh.
+
+Answer: C
+(VI) Đáp án: C
+
+16) The Daily Scrum is intended to:
+(VI) 16) Daily Scrum nhằm mục đích:
+
+A. Report to the Scrum Master.
+(VI) A. Báo cáo cho Scrum Master.
+B. Identify progress and blockers.
+(VI) B. Xác định tiến độ và những trở ngại.
+C. Review the entire project.
+(VI) C. Xem xét toàn bộ dự án.
+D. Conduct testing activities.
+(VI) D. Tiến hành các hoạt động thử nghiệm.
+
+Answer: B
+(VI) Đáp án: B
+
+17) The Sprint Review focuses on:
+(VI) 17) Buổi đánh giá Sprint tập trung vào:
+
+A. Reflecting on team performance.
+(VI) A. Phản ánh về hiệu suất của nhóm.
+B. Demonstrating the increment and gathering feedback.
+(VI) B. Thể hiện sự tiến bộ và thu thập phản hồi.
+C. Planning the next sprint.
+(VI) C. Lập kế hoạch cho lần chạy nước rút tiếp theo.
+D. Estimating user stories.
+(VI) D. Ước tính câu chuyện của người dùng.
+
+Answer: B
+(VI) Đáp án: B
+
+18) The Sprint Retrospective focuses on:
+(VI) 18) Buổi Cải tiến Sprint tập trung vào:
+
+A. Showing the increment.
+(VI) A. Hiển thị mức tăng.
+B. Reviewing the Product Backlog.
+(VI) B. Xem xét Product Backlog.
+C. Identifying process improvements.
+(VI) C. Xác định các cải tiến quy trình.
+D. Finalizing the product release.
+(VI) D. Hoàn thiện việc phát hành sản phẩm.
+
+Answer: C
+(VI) Đáp án: C
+
+19) Kanban is best described as:
+(VI) 19) Kanban được mô tả tốt nhất là:
+
+A. A time-boxed Agile framework.
+(VI) A. Một khuôn khổ Agile được đóng khung theo thời gian.
+B. A continuous flow method visualizing work.
+(VI) B. Phương pháp dòng chảy liên tục trực quan hóa công việc.
+C. A predictive model.
+(VI) C. Một mô hình dự đoán.
+D. A debugging technique.
+(VI) D. Một kỹ thuật gỡ lỗi.
+
+Answer: B
+(VI) Đáp án: B
+
+20) Extreme Programming (XP) emphasizes:
+(VI) 20) Lập trình cực đoan (XP) nhấn mạnh:
+
+A. Heavy documentation.
+(VI) A. Tài liệu nặng.
+B. Individual contributors working alone.
+(VI) B. Những người đóng góp cá nhân làm việc một mình.
+C. Technical excellence such as TDD and pair programming.
+(VI) C. Kỹ thuật xuất sắc như TDD và lập trình cặp.
+D. Waterfall-style delivery.
+(VI) D. Giao hàng theo kiểu thác nước.
+
+Answer: C
+(VI) Đáp án: C
+
+21) Lean Software Development focuses on:
+(VI) 21) Phát triển phần mềm tinh gọn tập trung vào:
+
+A. Adding extra steps to ensure safety.
+(VI) A. Bổ sung thêm các bước để đảm bảo an toàn.
+B. Eliminating waste and delivering fast.
+(VI) B. Loại bỏ lãng phí và giao hàng nhanh chóng.
+C. Avoiding customer involvement.
+(VI) C. Tránh sự tham gia của khách hàng.
+D. Maximizing documentation.
+(VI) D. Tối đa hóa tài liệu.
+
+Answer: B
+(VI) Đáp án: B
+
+22) FDD (Feature-Driven Development) is especially suited for:
+(VI) 22) FDD (Phát triển theo hướng tính năng) đặc biệt phù hợp với:
+
+A. Small, uncertain prototypes.
+(VI) A. Nguyên mẫu nhỏ, không chắc chắn.
+B. Very large, domain-rich systems.
+(VI) B. Hệ thống rất lớn, giàu tên miền.
+C. Systems with no clear features.
+(VI) C. Hệ thống không có tính năng rõ ràng.
+D. Teams that avoid documentation.
+(VI) D. Các nhóm tránh tài liệu.
+
+Answer: B
+(VI) Đáp án: B
+
+23) Scaled Agile Frameworks (e.g., SAFe) exist because:
+(VI) 23) Khung Agile có quy mô (ví dụ: SAFe) tồn tại vì:
+
+A. Agile cannot work in any organization.
+(VI) A. Agile không thể hoạt động trong bất kỳ tổ chức nào.
+B. Large enterprises need coordination across many teams.
+(VI) B. Doanh nghiệp lớn cần sự phối hợp giữa nhiều nhóm.
+C. Agile requires minimal planning.
+(VI) C. Agile yêu cầu lập kế hoạch tối thiểu.
+D. Predictive models scale automatically.
+(VI) D. Mô hình dự đoán tự động mở rộng quy mô.
+
+Answer: B
+(VI) Đáp án: B
+
+24) Which scenario BEST suits Agile:
+(VI) 24) Kịch bản nào phù hợp nhất với Agile:
+
+A. Government defense system with strict compliance.
+(VI) A. Hệ thống phòng thủ của chính phủ tuân thủ nghiêm ngặt.
+B. Building a medical device requiring formal approvals.
+(VI) B. Xây dựng một thiết bị y tế cần có sự phê duyệt chính thức.
+C. A startup building a new social media app.
+(VI) C. Một công ty khởi nghiệp đang xây dựng một ứng dụng truyền thông xã hội mới.
+D. Financial reporting software with fixed requirements.
+(VI) D. Phần mềm báo cáo tài chính với yêu cầu cố định.
+
+Answer: C
+(VI) Đáp án: C
+
+25) Agile welcomes changing requirements because:
+(VI) 25) Agile hoan nghênh các yêu cầu thay đổi vì:
+
+A. It avoids planning.
+(VI) A. Nó tránh việc lập kế hoạch.
+B. Customers never know what they want.
+(VI) B. Khách hàng không bao giờ biết họ muốn gì.
+C. Feedback-driven iterations improve product alignment.
+(VI) C. Việc lặp lại dựa trên phản hồi sẽ cải thiện sự liên kết của sản phẩm.
+D. Documentation is not important.
+(VI) D. Tài liệu không quan trọng.
+
+Answer: C
+(VI) Đáp án: C
+
+26) The core unit of work in Scrum is:
+(VI) 26) Đơn vị công việc cốt lõi trong Scrum là:
+
+A. The requirement document.
+(VI) A. Tài liệu yêu cầu.
+B. The Sprint.
+(VI) B. Chạy nước rút.
+C. The Gantt chart.
+(VI) C. Biểu đồ Gantt.
+D. The phase gate.
+(VI) D. Cổng pha.
+
+Answer: B
+(VI) Đáp án: B
+
+27) A major advantage of Agile over predictive models is:
+(VI) 27) Ưu điểm chính của Agile so với các mô hình dự đoán là:
+
+A. It eliminates testing.
+(VI) A. Nó loại bỏ việc kiểm tra.
+B. It adapts to change more easily.
+(VI) B. Nó thích nghi với sự thay đổi dễ dàng hơn.
+C. It requires no planning.
+(VI) C. Nó không đòi hỏi phải lập kế hoạch.
+D. It guarantees early cost accuracy.
+(VI) D. Nó đảm bảo tính chính xác về chi phí sớm.
+
+Answer: B
+(VI) Đáp án: B
+
+28) Scrum teams should be:
+(VI) 28) Nhóm Scrum nên:
+
+A. Large with specialized roles.
+(VI) A. Lớn với vai trò chuyên biệt.
+B. Self-organizing with cross-functional skills.
+(VI) B. Tự tổ chức với các kỹ năng đa chức năng.
+C. Managed hierarchically with command-style control.
+(VI) C. Được quản lý theo thứ bậc với điều khiển kiểu lệnh.
+D. Focused mainly on documentation.
+(VI) D. Tập trung chủ yếu vào tài liệu.
+
+Answer: B
+(VI) Đáp án: B
+
+29) A Scrum Sprint is typically:
+(VI) 29) Scrum Sprint thường là:
+
+A. A flexible time period that changes weekly.
+(VI) A. Khoảng thời gian linh hoạt thay đổi hàng tuần.
+B. A fixed-length iteration with clear goals.
+(VI) B. Sự lặp lại có độ dài cố định với các mục tiêu rõ ràng.
+C. A continuous flow of work.
+(VI) C. Một luồng công việc liên tục.
+D. A meeting with stakeholders.
+(VI) D. Cuộc họp với các bên liên quan.
+
+Answer: B
+(VI) Đáp án: B
+
+30) The Agile mindset is fundamentally about:
+(VI) 30) Tư duy Agile về cơ bản là về:
+
+A. Following strict rules.
+(VI) A. Tuân theo các quy tắc nghiêm ngặt.
+B. Avoiding planning.
+(VI) B. Tránh lập kế hoạch.
+C. Embracing learning and change.
+(VI) C. Chấp nhận học hỏi và thay đổi.
+D. Reducing team collaboration.
+(VI) D. Giảm sự hợp tác của nhóm.
+
+Answer: C
+(VI) Đáp án: C

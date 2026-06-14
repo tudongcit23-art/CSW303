@@ -1,0 +1,179 @@
+1) Which of the following lists the main phases of RE in order?
+(VI) 1) Điều nào sau đây liệt kê các giai đoạn chính của Kỹ thuật yêu cầu (RE) theo thứ tự?
+
+A. Specification → Validation → Elicitation → Management
+(VI) A. Đặc tả → Xác thực → Thu thập yêu cầu (Elicitation) → Quản lý
+B. Elicitation → Analysis → Specification → Validation → Management
+(VI) B. Thu thập yêu cầu (Elicitation) → Phân tích → Đặc tả → Xác thực → Quản lý
+C. Analysis → Elicitation → Validation → Specification
+(VI) C. Phân tích → Thu thập yêu cầu (Elicitation) → Xác thực → Đặc tả
+D. Planning → Implementation → Testing
+(VI) D. Lập kế hoạch → Thực hiện → Kiểm tra
+
+Answer: B
+(VI) Đáp án: B
+
+2) The goal of the elicitation phase is to:
+(VI) 2) Mục tiêu của giai đoạn thu thập yêu cầu (elicitation) là:
+
+A. Code the software
+(VI) A. Viết mã phần mềm
+B. Identify and gather stakeholder needs
+(VI) B. Xác định và thu thập nhu cầu của các bên liên quan
+C. Write test scripts
+(VI) C. Viết kịch bản kiểm tra
+D. Produce user manuals
+(VI) D. Sản xuất hướng dẫn sử dụng
+
+Answer: B
+(VI) Đáp án: B
+
+3) Which technique is commonly used during requirement elicitation?
+(VI) 3) Kỹ thuật nào thường được sử dụng trong quá trình khơi gợi yêu cầu?
+
+A. Unit testing
+(VI) A. Kiểm tra đơn vị
+B. Interviews
+(VI) B. Phỏng vấn
+C. System integration
+(VI) C. Tích hợp hệ thống
+D. Debugging
+(VI) D. Gỡ lỗi
+
+Answer: B
+(VI) Đáp án: B
+
+4) What is a common challenge in elicitation?
+(VI) 4) Khó khăn thường gặp trong việc khơi gợi là gì?
+
+A. Stakeholders rarely provide conflicting requirements.
+(VI) A. Các bên liên quan hiếm khi đưa ra các yêu cầu xung đột nhau.
+B. Users easily express all their needs.
+(VI) B. Người dùng dễ dàng bày tỏ mọi nhu cầu của mình.
+C. Hidden assumptions and vague goals
+(VI) C. Những giả định ẩn giấu và những mục tiêu mơ hồ
+D. Developers don’t participate.
+(VI) D. Nhà phát triển không tham gia.
+
+Answer: C
+(VI) Đáp án: C
+
+5) The analysis phase focuses on:
+(VI) 5) Giai đoạn phân tích tập trung vào:
+
+A. Writing final code
+(VI) A. Viết mã cuối cùng
+B. Resolving requirement conflicts and prioritizing needs
+(VI) B. Giải quyết xung đột yêu cầu và ưu tiên các nhu cầu
+C. Conducting security audits
+(VI) C. Tiến hành kiểm tra an ninh
+D. Defining test metrics
+(VI) D. Xác định số liệu kiểm tra
+
+Answer: B
+(VI) Đáp án: B
+
+6) The MoSCoW method is used for:
+(VI) 6) Phương pháp MoSCoW được sử dụng cho:
+
+A. Designing the UI
+(VI) A. Thiết kế giao diện người dùng
+B. Requirement prioritization
+(VI) B. Ưu tiên yêu cầu
+C. Project budgeting
+(VI) C. Lập ngân sách dự án
+D. Team scheduling
+(VI) D. Lập kế hoạch cho nhóm
+
+Answer: B
+(VI) Đáp án: B
+
+7) The output of the specification phase is typically a:
+(VI) 7) Đầu ra của giai đoạn đặc tả thường là:
+
+A. Source code file
+(VI) A. Tệp mã nguồn
+B. Software Requirements Specification (SRS)
+(VI) B. Đặc tả yêu cầu phần mềm (SRS)
+C. UML activity diagram
+(VI) C. Sơ đồ hoạt động UML
+D. Test execution plan
+(VI) D. Kế hoạch thực hiện kiểm thử
+
+Answer: B
+(VI) Đáp án: B
+
+8) Requirement validation ensures that requirements are:
+(VI) 8) Xác nhận yêu cầu đảm bảo rằng các yêu cầu:
+
+A. Implemented efficiently
+(VI) A. Thực hiện hiệu quả
+B. Correct, complete, consistent, and feasible
+(VI) B. Đúng, đầy đủ, nhất quán và khả thi
+C. Prioritized by management only
+(VI) C. Chỉ được quản lý ưu tiên
+D. Frozen after documentation
+(VI) D. Đông lạnh sau khi lập hồ sơ
+
+Answer: B
+(VI) Đáp án: B
+
+9) Which method can be used to validate requirements?
+(VI) 9) Phương pháp nào có thể được sử dụng để xác nhận các yêu cầu?
+
+A. Unit tests
+(VI) A. Kiểm tra đơn vị
+B. Walkthroughs and reviews
+(VI) B. Hướng dẫn và đánh giá
+C. Deployment reports
+(VI) C. Báo cáo triển khai
+D. Database normalization
+(VI) D. Chuẩn hóa cơ sở dữ liệu
+
+Answer: B
+(VI) Đáp án: B
+
+10) Requirement management is necessary because:
+(VI) 10) Quản lý yêu cầu là cần thiết vì:
+
+A. Requirements never change
+(VI) A. Yêu cầu không bao giờ thay đổi
+B. It handles updates, traceability, and version control
+(VI) B. Nó xử lý các bản cập nhật, truy xuất nguồn gốc và kiểm soát phiên bản
+C. It only tracks test cases
+(VI) C. Nó chỉ theo dõi các trường hợp thử nghiệm
+D. It focuses on team structure
+(VI) D. Nó tập trung vào cấu trúc nhóm
+
+Answer: B
+(VI) Đáp án: B
+
+11) What tool could support requirement management?
+(VI) 11) Công cụ nào có thể hỗ trợ quản lý yêu cầu?
+
+A. Visual Studio Code
+(VI) A. Mã Visual Studio
+B. Jira or ReqView
+(VI) B. Jira hoặc ReqView
+C. MySQL
+(VI) C. MySQL
+D. Git Bash
+(VI) D. git Bash
+
+Answer: B
+(VI) Đáp án: B
+
+12) In Agile methods, Requirement Engineering is:
+(VI) 12) Trong các phương pháp Agile, Kỹ thuật yêu cầu là:
+
+A. Done once before coding
+(VI) A. Thực hiện một lần trước khi mã hóa
+B. Continuous through backlog refinement and iteration
+(VI) B. Liên tục thông qua sàng lọc và lặp lại các hồ sơ tồn đọng
+C. Skipped entirely
+(VI) C. Bỏ qua hoàn toàn
+D. Done after deployment
+(VI) D. Thực hiện sau khi triển khai
+
+Answer: B
+(VI) Đáp án: B

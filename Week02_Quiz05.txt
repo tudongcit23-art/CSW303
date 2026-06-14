@@ -1,0 +1,104 @@
+1) Which of the following is NOT typically part of a CI pipeline?
+(VI) 1) Phần nào sau đây KHÔNG thường là một phần của quy trình CI?
+
+A. Unit testing
+(VI) A. Kiểm tra đơn vị
+B. Code checkout
+(VI) B. Kiểm tra mã
+C. Docker image build
+(VI) C. Xây dựng hình ảnh Docker
+D. Marketing plan review
+(VI) D. Xem xét kế hoạch tiếp thị
+
+Answer: D
+(VI) Đáp án: D
+
+2) What is the purpose of caching dependencies in CI?
+(VI) 2) Mục đích của việc lưu vào bộ đệm phụ thuộc trong CI là gì?
+
+A. To make builds slower for accuracy
+(VI) A. Để làm cho bản dựng chậm hơn để đảm bảo độ chính xác
+B. To skip testing
+(VI) B. Bỏ qua kiểm tra
+C. To speed up repeated builds by reusing unchanged files
+(VI) C. Để tăng tốc độ xây dựng lặp lại bằng cách sử dụng lại các tệp không thay đổi
+D. To reduce code coverage
+(VI) D. Để giảm độ bao phủ của mã
+
+Answer: C
+(VI) Đáp án: C
+
+3) Why is containerization valuable in CI/CD pipelines?
+(VI) 3) Tại sao việc đóng container lại có giá trị trong đường ống CI/CD?
+
+A. Containers ensure consistent environments across stages
+(VI) A. Vùng chứa đảm bảo môi trường nhất quán giữa các giai đoạn
+B. Containers are slower than VMs
+(VI) B. Container chậm hơn VM
+C. Containers remove the need for testing
+(VI) C. Container loại bỏ nhu cầu thử nghiệm
+D. Containers replace all scripts
+(VI) D. Vùng chứa thay thế tất cả các tập lệnh
+
+Answer: A
+(VI) Đáp án: A
+
+4) Which metric is part of the DORA metrics for DevOps performance?
+(VI) 4) Số liệu nào là một phần của số liệu DORA cho hiệu suất DevOps?
+
+A. Number of developers on a project
+(VI) A. Số lượng nhà phát triển trong một dự án
+B. Deployment frequency
+(VI) B. Tần suất triển khai
+C. Total code size
+(VI) C. Tổng kích thước mã
+D. Meeting hours per week
+(VI) D. Giờ họp mỗi tuần
+
+Answer: B
+(VI) Đáp án: B
+
+5) What is a common cause of pipeline failures in CI/CD?
+(VI) 5) Nguyên nhân phổ biến gây ra sự cố đường ống trong CI/CD là gì?
+
+A. Too many reviewers
+(VI) A. Quá nhiều người đánh giá
+B. Flaky or unstable tests
+(VI) B. Kiểm tra không ổn định hoặc không ổn định
+C. Fast network connections
+(VI) C. Kết nối mạng nhanh
+D. Use of YAML syntax
+(VI) D. Sử dụng cú pháp YAML
+
+Answer: B
+(VI) Đáp án: B
+
+6) What is the benefit of ‘fail fast’ in pipeline design?
+(VI) 6) Lợi ích của việc ‘thất bại nhanh chóng’ trong thiết kế đường ống là gì?
+
+A. It hides test results
+(VI) A. Nó ẩn kết quả kiểm tra
+B. It saves time by detecting errors early
+(VI) B. Tiết kiệm thời gian bằng cách phát hiện lỗi sớm
+C. It ensures all jobs run regardless of failure
+(VI) C. Nó đảm bảo mọi công việc đều chạy bất chấp lỗi
+D. It only applies to manual testing
+(VI) D. Nó chỉ áp dụng cho việc kiểm tra thủ công
+
+Answer: B
+(VI) Đáp án: B
+
+7) In a CD pipeline, what does blue-green deployment help achieve?
+(VI) 7) Trong quy trình CD, việc triển khai xanh lam giúp đạt được điều gì?
+
+A. Simultaneous deployment to all servers
+(VI) A. Triển khai đồng thời tới tất cả các máy chủ
+B. Instant rollback and minimal downtime during releases
+(VI) B. Khôi phục ngay lập tức và thời gian ngừng hoạt động tối thiểu trong quá trình phát hành
+C. Random user routing
+(VI) C. Định tuyến người dùng ngẫu nhiên
+D. Cost reduction by halving infrastructure
+(VI) D. Giảm chi phí bằng cách giảm một nửa cơ sở hạ tầng
+
+Answer: B
+(VI) Đáp án: B

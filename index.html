@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master — Study & Review</title>
+    <meta name="description" content="Interactive quiz review application for studying and practicing multiple choice questions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ============ SIDEBAR ============ -->
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Quiz Master</span>
+            </div>
+        </div>
+        <nav class="sidebar-nav">
+            <button class="nav-btn active" data-view="home" id="nav-home">
+                <span class="nav-icon">🏠</span>
+                <span>Home</span>
+            </button>
+            <button class="nav-btn" data-view="quiz" id="nav-quiz">
+                <span class="nav-icon">📝</span>
+                <span>Quiz</span>
+            </button>
+            <button class="nav-btn" data-view="review" id="nav-review">
+                <span class="nav-icon">🔁</span>
+                <span>Review Mistakes</span>
+            </button>
+            <button class="nav-btn" data-view="history" id="nav-history">
+                <span class="nav-icon">📊</span>
+                <span>History</span>
+            </button>
+        </nav>
+        <div class="sidebar-footer">
+            <div class="stats-mini">
+                <div class="stat-pill">
+                    <span class="stat-label">Total Quizzes</span>
+                    <span class="stat-value" id="stat-total">0</span>
+                </div>
+                <div class="stat-pill">
+                    <span class="stat-label">Avg Score</span>
+                    <span class="stat-value" id="stat-avg">0%</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- ============ MAIN CONTENT ============ -->
+    <main id="main-content" class="main-content">
+
+        <!-- ===== HOME VIEW ===== -->
+        <section id="view-home" class="view active">
+            <div class="view-header">
+                <h1>Welcome back! 👋</h1>
+                <p class="subtitle">Select quiz files to start your study session</p>
+            </div>
+
+            <div class="file-selector-card glass-card">
+                <div class="card-header">
+                    <h2>📁 Quiz Files</h2>
+                    <div class="select-actions">
+                        <button class="btn btn-ghost" id="btn-select-all">Select All</button>
+                        <button class="btn btn-ghost" id="btn-deselect-all">Deselect All</button>
+                    </div>
+                </div>
+                <div id="file-list" class="file-grid">
+                    <!-- Dynamically populated -->
+                </div>
+            </div>
+
+            <div class="quiz-options glass-card">
+                <div class="card-header">
+                    <h2>⚙️ Quiz Settings</h2>
+                </div>
+                <div class="options-grid">
+                    <div class="option-group">
+                        <label for="quiz-mode">Mode</label>
+                        <select id="quiz-mode" class="select-input">
+                            <option value="all">All Questions</option>
+                            <option value="shuffle">Shuffled Questions</option>
+                            <option value="random10">Random 10</option>
+                            <option value="random20">Random 20</option>
+                            <option value="random30">Random 30</option>
+                        </select>
+                    </div>
+                    <div class="option-group">
+                        <label for="show-feedback">Instant Feedback</label>
+                        <select id="show-feedback" class="select-input">
+                            <option value="true">Show after each question</option>
+                            <option value="false">Show at the end</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary btn-lg" id="btn-start-quiz">
+                <span>🚀</span> Start Quiz
+            </button>
+        </section>
+
+        <!-- ===== QUIZ VIEW ===== -->
+        <section id="view-quiz" class="view">
+            <div class="quiz-top-bar">
+                <div class="quiz-progress-info">
+                    <span id="quiz-counter" class="quiz-counter">1 / 10</span>
+                    <span id="quiz-file-label" class="quiz-file-label">Week01_Quiz01</span>
+                </div>
+                <div class="progress-bar-wrapper">
+                    <div class="progress-bar" id="quiz-progress-bar"></div>
+                </div>
+                <button class="btn btn-ghost btn-sm" id="btn-quit-quiz">✕ Quit</button>
+            </div>
+
+            <div class="quiz-card glass-card" id="quiz-card">
+                <div class="question-number" id="question-number">Q1</div>
+                <p class="question-text" id="question-text"></p>
+                <div class="options-list" id="options-list">
+                    <!-- Dynamically populated -->
+                </div>
+                <div class="feedback-box hidden" id="feedback-box">
+                    <div class="feedback-icon" id="feedback-icon"></div>
+                    <p class="feedback-text" id="feedback-text"></p>
+                </div>
+            </div>
+
+            <div class="quiz-actions">
+                <button class="btn btn-secondary" id="btn-prev" disabled>← Previous</button>
+                <button class="btn btn-primary" id="btn-next">Next →</button>
+                <button class="btn btn-accent hidden" id="btn-finish">🏁 Finish Quiz</button>
+            </div>
+        </section>
+
+        <!-- ===== RESULTS VIEW ===== -->
+        <section id="view-results" class="view">
+            <div class="results-hero glass-card">
+                <div class="results-circle" id="results-circle">
+                    <svg viewBox="0 0 120 120">
+                        <circle class="circle-bg" cx="60" cy="60" r="54"></circle>
+                        <circle class="circle-fg" cx="60" cy="60" r="54" id="circle-fg"></circle>
+                    </svg>
+                    <div class="results-percent" id="results-percent">0%</div>
+                </div>
+                <div class="results-details">
+                    <h2 id="results-title">Great Job!</h2>
+                    <p id="results-summary">You got 8 out of 10 correct</p>
+                    <div class="results-stats">
+                        <div class="r-stat correct">
+                            <span class="r-stat-num" id="r-correct">0</span>
+                            <span class="r-stat-label">Correct</span>
+                        </div>
+                        <div class="r-stat wrong">
+                            <span class="r-stat-num" id="r-wrong">0</span>
+                            <span class="r-stat-label">Wrong</span>
+                        </div>
+                        <div class="r-stat skipped">
+                            <span class="r-stat-num" id="r-skipped">0</span>
+                            <span class="r-stat-label">Skipped</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-actions">
+                <button class="btn btn-primary" id="btn-review-wrong">🔁 Review Wrong Answers</button>
+                <button class="btn btn-secondary" id="btn-view-all">📋 View All Answers</button>
+                <button class="btn btn-ghost" id="btn-back-home">🏠 Back to Home</button>
+            </div>
+
+            <div class="answers-review hidden" id="answers-review">
+                <h3>Answer Review</h3>
+                <div id="answers-list" class="answers-list">
+                    <!-- Dynamically populated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== REVIEW MISTAKES VIEW ===== -->
+        <section id="view-review" class="view">
+            <div class="view-header">
+                <h1>🔁 Review Mistakes</h1>
+                <p class="subtitle">Practice questions you previously got wrong</p>
+            </div>
+
+            <div id="review-empty" class="empty-state">
+                <div class="empty-icon">🎉</div>
+                <h3>No mistakes to review!</h3>
+                <p>Take a quiz first, and any wrong answers will appear here for review.</p>
+            </div>
+
+            <div id="review-content" class="hidden">
+                <div class="review-stats glass-card">
+                    <span id="review-count">0 questions</span> to review
+                    <button class="btn btn-primary btn-sm" id="btn-start-review">Start Review Quiz</button>
+                    <button class="btn btn-ghost btn-sm" id="btn-clear-mistakes">Clear All</button>
+                </div>
+                <div id="review-list" class="review-list">
+                    <!-- Dynamically populated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== HISTORY VIEW ===== -->
+        <section id="view-history" class="view">
+            <div class="view-header">
+                <h1>📊 Quiz History</h1>
+                <p class="subtitle">Track your progress over time</p>
+            </div>
+
+            <div id="history-empty" class="empty-state">
+                <div class="empty-icon">📝</div>
+                <h3>No quizzes taken yet</h3>
+                <p>Complete a quiz to see your history here.</p>
+            </div>
+
+            <div id="history-list" class="history-list">
+                <!-- Dynamically populated -->
+            </div>
+
+            <button class="btn btn-ghost btn-sm hidden" id="btn-clear-history">🗑️ Clear History</button>
+        </section>
+
+    </main>
+
+    <!-- Mobile sidebar toggle -->
+    <button class="mobile-toggle" id="mobile-toggle">☰</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

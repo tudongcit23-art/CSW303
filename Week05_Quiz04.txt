@@ -1,0 +1,599 @@
+1) What is the main idea of microservices architecture?
+(VI) 1) Ý tưởng chính của kiến trúc microservices là gì?
+
+A. Build one large application with all features inside
+(VI) A. Xây dựng một ứng dụng lớn với tất cả các tính năng bên trong
+B. Split an application into small independent services
+(VI) B. Chia ứng dụng thành các dịch vụ nhỏ độc lập
+C. Store all data in one shared database
+(VI) C. Lưu trữ tất cả dữ liệu trong một cơ sở dữ liệu dùng chung
+D. Deploy only frontend applications
+(VI) D. Chỉ triển khai các ứng dụng giao diện người dùng
+
+Answer: B
+(VI) Đáp án: B
+
+2) Which is a common advantage of microservices?
+(VI) 2) Ưu điểm chung của microservice là gì?
+
+A. Easier distributed debugging
+(VI) A. Gỡ lỗi phân tán dễ dàng hơn
+B. No need for deployment planning
+(VI) B. Không cần lập kế hoạch triển khai
+C. Independent service deployment
+(VI) C. Triển khai dịch vụ độc lập
+D. One team must own all features, databases, and operational infrastructure for the entire company system
+(VI) D. Một nhóm phải sở hữu tất cả các tính năng, cơ sở dữ liệu và cơ sở hạ tầng vận hành cho toàn bộ hệ thống công ty
+
+Answer: C
+(VI) Đáp án: C
+
+3) A company has one large codebase where a small change requires redeploying the whole system. What architecture is this likely?
+(VI) 3) Một công ty có một codebase lớn, trong đó một thay đổi nhỏ sẽ yêu cầu triển khai lại toàn bộ hệ thống. Kiến trúc này có khả năng là gì?
+
+A. Microservices
+(VI) A. Microservices
+B. Serverless
+(VI) B. Serverless
+C. Monolithic
+(VI) C. Monolithic
+D. Event-driven
+(VI) D. Event-driven
+
+Answer: C
+(VI) Đáp án: C
+
+4) What is a major disadvantage of microservices?
+(VI) 4) Nhược điểm chính của microservice là gì?
+
+A. Too simple to operate
+(VI) A. Vận hành quá đơn giản
+B. Increased distributed system complexity
+(VI) B. Độ phức tạp của hệ thống phân tán tăng lên
+C. No need for monitoring
+(VI) C. Không cần giám sát
+D. Cannot use databases
+(VI) D. Không thể sử dụng cơ sở dữ liệu
+
+Answer: B
+(VI) Đáp án: B
+
+5) What does loose coupling mean in microservices?
+(VI) 5) Khớp nối lỏng lẻo có ý nghĩa gì trong microservice?
+
+A. Services depend heavily on each other's internal code
+(VI) A. Các dịch vụ phụ thuộc nhiều vào mã nội bộ của nhau
+B. Services communicate through clear interfaces
+(VI) B. Dịch vụ giao tiếp thông qua giao diện rõ ràng
+C. Services share the same source files
+(VI) C. Các dịch vụ chia sẻ cùng một tệp nguồn
+D. Services must use the same programming language
+(VI) D. Các dịch vụ phải sử dụng cùng một ngôn ngữ lập trình
+
+Answer: B
+(VI) Đáp án: B
+
+6) Why might different teams own different microservices?
+(VI) 6) Tại sao các nhóm khác nhau có thể sở hữu các vi dịch vụ khác nhau?
+
+A. To reduce responsibility
+(VI) A. Giảm bớt trách nhiệm
+B. To allow independent development and delivery
+(VI) B. Cho phép phát triển và phân phối độc lập
+C. To force all teams to use one database
+(VI) C. Buộc tất cả các đội sử dụng một cơ sở dữ liệu
+D. To avoid testing
+(VI) D. Để tránh việc kiểm tra
+
+Answer: B
+(VI) Đáp án: B
+
+7) Which protocol is commonly used for public HTTP APIs?
+(VI) 7) Giao thức nào thường được sử dụng cho API HTTP công khai?
+
+A. REST
+(VI) A. REST
+B. BIOS
+(VI) B. BIOS
+C. SMTP only
+(VI) C. Chỉ SMTP
+D. FTP only
+(VI) D. Chỉ FTP
+
+Answer: A
+(VI) Đáp án: A
+
+8) Which communication style is usually better when services should not wait for each other immediately?
+(VI) 8) Phong cách giao tiếp nào thường tốt hơn khi các dịch vụ không nên chờ đợi nhau ngay lập tức?
+
+A. Synchronous REST call
+(VI) A. Lệnh gọi REST đồng bộ
+B. Asynchronous messaging
+(VI) B. Nhắn tin không đồng bộ
+C. Direct database sharing between multiple unrelated backend services
+(VI) C. Chia sẻ cơ sở dữ liệu trực tiếp giữa nhiều dịch vụ phụ trợ không liên quan
+D. Manual file copy
+(VI) D. Sao chép tệp thủ công
+
+Answer: B
+(VI) Đáp án: B
+
+9) What is the role of an API Gateway?
+(VI) 9) Vai trò của Cổng API là gì?
+
+A. Store all business data
+(VI) A. Lưu trữ toàn bộ dữ liệu kinh doanh
+B. Act as an entry point for client requests
+(VI) B. Đóng vai trò là điểm đầu vào cho các yêu cầu của khách hàng
+C. Replace all backend services
+(VI) C. Thay thế tất cả các dịch vụ phụ trợ
+D. Compile source code
+(VI) D. Biên dịch mã nguồn
+
+Answer: B
+(VI) Đáp án: B
+
+10) A payment service calls an order service and waits for an immediate response. What type of communication is this?
+(VI) 10) Dịch vụ thanh toán gọi dịch vụ đặt hàng và chờ phản hồi ngay lập tức. Đây là loại giao tiếp gì?
+
+A. Asynchronous communication using event queues and delayed processing pipelines
+(VI) A. Giao tiếp không đồng bộ bằng cách sử dụng hàng đợi sự kiện và quy trình xử lý bị trì hoãn
+B. Synchronous
+(VI) B. Đồng bộ
+C. Offline batch processing
+(VI) C. Xử lý hàng loạt ngoại tuyến
+D. Broadcast-only communication
+(VI) D. Giao tiếp chỉ phát sóng
+
+Answer: B
+(VI) Đáp án: B
+
+11) Which technology is commonly used as a message broker?
+(VI) 11) Công nghệ nào thường được sử dụng làm nhà môi giới tin nhắn?
+
+A. RabbitMQ
+(VI) A. RabbitMQ
+B. Microsoft Word
+(VI) B. Microsoft Word
+C. Photoshop
+(VI) C.Photoshop
+D. GitHub README
+(VI) D. GitHub README
+
+Answer: A
+(VI) Đáp án: A
+
+12) Why should microservices avoid depending too much on synchronous calls?
+(VI) 12) Tại sao microservice nên tránh phụ thuộc quá nhiều vào các lệnh gọi đồng bộ?
+
+A. It makes frontend design impossible
+(VI) A. Nó khiến cho việc thiết kế giao diện người dùng trở nên bất khả thi
+B. It can create cascading failures
+(VI) B. Nó có thể tạo ra các lỗi xếp tầng
+C. It removes all databases
+(VI) C. Nó xóa tất cả cơ sở dữ liệu
+D. It prevents using Docker
+(VI) D. Nó ngăn cản việc sử dụng Docker
+
+Answer: B
+(VI) Đáp án: B
+
+13) Why is Docker useful for microservices?
+(VI) 13) Tại sao Docker hữu ích cho microservice?
+
+A. It removes the need for testing
+(VI) A. Nó loại bỏ nhu cầu kiểm tra
+B. It packages an application with its dependencies
+(VI) B. Nó đóng gói một ứng dụng với các phần phụ thuộc của nó
+C. It replaces all databases automatically in cloud-native systems
+(VI) C. Nó tự động thay thế tất cả các cơ sở dữ liệu trong các hệ thống dựa trên nền tảng đám mây
+D. It only works for frontend apps
+(VI) D. Nó chỉ hoạt động cho các ứng dụng giao diện người dùng
+
+Answer: B
+(VI) Đáp án: B
+
+14) What is Kubernetes mainly used for?
+(VI) 14) Kubernetes chủ yếu được sử dụng để làm gì?
+
+A. Writing Java code
+(VI) A. Viết mã Java
+B. Managing and orchestrating containers
+(VI) B. Quản lý và sắp xếp các container
+C. Designing UI icons
+(VI) C. Thiết kế biểu tượng UI
+D. Creating exam questions
+(VI) D. Soạn đề thi
+
+Answer: B
+(VI) Đáp án: B
+
+15) What does horizontal scaling mean?
+(VI) 15) Tỷ lệ ngang có nghĩa là gì?
+
+A. Increasing CPU and memory of a single server continuously over time
+(VI) A. Tăng CPU và bộ nhớ của một máy chủ liên tục theo thời gian
+B. Adding more service instances
+(VI) B. Thêm nhiều phiên bản dịch vụ hơn
+C. Deleting old logs
+(VI) C. Xóa log cũ
+D. Moving code into one file
+(VI) D. Di chuyển mã vào một tệp
+
+Answer: B
+(VI) Đáp án: B
+
+16) What is a rolling update?
+(VI) 16) Cập nhật liên tục là gì?
+
+A. Updating all services manually once per year
+(VI) A. Cập nhật thủ công tất cả các dịch vụ mỗi năm một lần
+B. Gradually replacing old instances with new ones
+(VI) B. Thay thế dần các trường hợp cũ bằng các trường hợp mới
+C. Deleting production before deployment
+(VI) C. Xóa sản xuất trước khi triển khai
+D. Deploying without testing
+(VI) D. Triển khai mà không cần thử nghiệm
+
+Answer: B
+(VI) Đáp án: B
+
+17) What is CI/CD?
+(VI) 17) CI/CD là gì?
+
+A. A database model
+(VI) A. Mô hình cơ sở dữ liệu
+B. Continuous Integration and Continuous Delivery or Deployment
+(VI) B. Tích hợp liên tục và phân phối hoặc triển khai liên tục
+C. A network cable type
+(VI) C. Loại cáp mạng
+D. A testing-only tool
+(VI) D. Một công cụ chỉ dành cho thử nghiệm
+
+Answer: B
+(VI) Đáp án: B
+
+18) A service has high traffic during registration week. What should the operation team likely do?
+(VI) 18) Một dịch vụ có lưu lượng truy cập cao trong tuần đăng ký. Đội ngũ vận hành có thể nên làm gì?
+
+A. Shut down the service
+(VI) A. Tắt dịch vụ
+B. Scale the service horizontally
+(VI) B. Mở rộng quy mô dịch vụ theo chiều ngang
+C. Merge all services into a larger monolithic application before peak registration traffic
+(VI) C. Hợp nhất tất cả các dịch vụ thành một ứng dụng nguyên khối lớn hơn trước khi lưu lượng đăng ký cao điểm
+D. Disable monitoring
+(VI) D. Vô hiệu hóa giám sát
+
+Answer: B
+(VI) Đáp án: B
+
+19) What is the database-per-service pattern?
+(VI) 19) Mẫu cơ sở dữ liệu trên mỗi dịch vụ là gì?
+
+A. Every service owns its own database
+(VI) A. Mỗi dịch vụ đều sở hữu cơ sở dữ liệu riêng
+B. All services must share one database
+(VI) B. Tất cả các dịch vụ phải chia sẻ một cơ sở dữ liệu
+C. Only frontend services use databases
+(VI) C. Chỉ các dịch vụ giao diện người dùng mới sử dụng cơ sở dữ liệu
+D. Databases are not allowed
+(VI) D. Cơ sở dữ liệu không được phép
+
+Answer: A
+(VI) Đáp án: A
+
+20) Why is a shared database risky in microservices?
+(VI) 20) Tại sao cơ sở dữ liệu dùng chung lại có rủi ro trong microservice?
+
+A. It makes services too independent
+(VI) A. Nó làm cho các dịch vụ trở nên quá độc lập
+B. It creates tight coupling between services
+(VI) B. Nó tạo ra sự liên kết chặt chẽ giữa các dịch vụ
+C. It prevents SQL queries
+(VI) C. Nó ngăn chặn các truy vấn SQL
+D. It improves all security automatically
+(VI) D. Nó tự động cải thiện tất cả bảo mật
+
+Answer: B
+(VI) Đáp án: B
+
+21) What does eventual consistency mean?
+(VI) 21) Tính nhất quán cuối cùng có nghĩa là gì?
+
+A. Data synchronization permanently fails between services
+(VI) A. Đồng bộ hóa dữ liệu vĩnh viễn không thành công giữa các dịch vụ
+B. Data may become consistent after some delay
+(VI) B. Dữ liệu có thể trở nên nhất quán sau một thời gian trì hoãn
+C. Data is always instantly synchronized across every service and database
+(VI) C. Dữ liệu luôn được đồng bộ tức thời trên mọi dịch vụ và cơ sở dữ liệu
+D. Data cannot be updated
+(VI) D. Dữ liệu không thể cập nhật
+
+Answer: B
+(VI) Đáp án: B
+
+22) Which pattern helps manage transactions across multiple services?
+(VI) 22) Mẫu nào giúp quản lý giao dịch trên nhiều dịch vụ?
+
+A. Singleton
+(VI) A. Singleton
+B. Saga
+(VI) B.Saga
+C. Factory Method
+(VI) C. Phương pháp xuất xưởng
+D. MVC
+(VI) D. MVC
+
+Answer: B
+(VI) Đáp án: B
+
+23) What is a circuit breaker used for?
+(VI) 23) Cầu dao dùng để làm gì?
+
+A. Stop repeated calls to a failing service
+(VI) A. Dừng các cuộc gọi lặp đi lặp lại đến một dịch vụ bị lỗi
+B. Encrypt database passwords
+(VI) B. Mã hóa mật khẩu cơ sở dữ liệu
+C. Build container images
+(VI) C. Xây dựng hình ảnh vùng chứa
+D. Design user interfaces
+(VI) D. Thiết kế giao diện người dùng
+
+Answer: A
+(VI) Đáp án: A
+
+24) Why are timeouts important in microservices?
+(VI) 24) Tại sao thời gian chờ lại quan trọng trong microservice?
+
+A. They make services wait forever
+(VI) A. Họ bắt các dịch vụ phải chờ đợi mãi mãi
+B. They prevent a service from waiting too long
+(VI) B. Họ ngăn dịch vụ phải chờ đợi quá lâu
+C. They remove the need for APIs, monitoring systems, and distributed tracing tools
+(VI) C. Chúng loại bỏ nhu cầu về API, hệ thống giám sát và các công cụ theo dõi phân tán
+D. They replace monitoring
+(VI) D. Chúng thay thế việc giám sát
+
+Answer: B
+(VI) Đáp án: B
+
+25) What problem can retries cause if used carelessly?
+(VI) 25) Việc thử lại có thể gây ra vấn đề gì nếu sử dụng không cẩn thận?
+
+A. Reduced network traffic
+(VI) A. Giảm lưu lượng mạng
+B. Increased load on a failing service
+(VI) B. Tăng tải cho một dịch vụ bị lỗi
+C. Better UI design
+(VI) C. Thiết kế giao diện người dùng tốt hơn
+D. Automatic database migration
+(VI) D. Di chuyển cơ sở dữ liệu tự động
+
+Answer: B
+(VI) Đáp án: B
+
+26) What is fault isolation?
+(VI) 26) Cách ly lỗi là gì?
+
+A. Allowing one failed service to crash the whole system
+(VI) A. Cho phép một dịch vụ bị lỗi làm hỏng toàn bộ hệ thống
+B. Preventing one service failure from spreading
+(VI) B. Ngăn chặn sự lan rộng của một lỗi dịch vụ
+C. Removing all error handling
+(VI) C. Loại bỏ mọi thao tác xử lý lỗi
+D. Keeping all code in one service
+(VI) D. Giữ tất cả mã trong một dịch vụ
+
+Answer: B
+(VI) Đáp án: B
+
+27) A recommendation service fails, but users can still place orders. What principle is shown?
+(VI) 27) Dịch vụ giới thiệu không thành công nhưng người dùng vẫn có thể đặt hàng. Nguyên tắc nào được thể hiện?
+
+A. Total system failure caused by tightly coupled service dependencies
+(VI) A. Lỗi toàn bộ hệ thống do sự phụ thuộc dịch vụ được liên kết chặt chẽ
+B. Graceful degradation
+(VI) B. Suy thoái duyên dáng
+C. Manual deployment coordination
+(VI) C. Phối hợp triển khai thủ công
+D. Database sharing
+(VI) D. Chia sẻ cơ sở dữ liệu
+
+Answer: B
+(VI) Đáp án: B
+
+28) What is load balancing?
+(VI) 28) Cân bằng tải là gì?
+
+A. Sending all requests to one instance
+(VI) A. Gửi tất cả yêu cầu đến một phiên bản
+B. Distributing requests across multiple instances
+(VI) B. Phân phối yêu cầu trên nhiều phiên bản
+C. Deleting unused services
+(VI) C. Xóa các dịch vụ không sử dụng
+D. Combining all APIs into one database
+(VI) D. Kết hợp tất cả các API vào một cơ sở dữ liệu
+
+Answer: B
+(VI) Đáp án: B
+
+29) Why is centralized logging useful?
+(VI) 29) Tại sao việc ghi log tập trung lại hữu ích?
+
+A. It hides errors
+(VI) A. Nó che giấu lỗi
+B. It collects logs from many services in one place
+(VI) B. Nó thu thập log từ nhiều dịch vụ ở một nơi
+C. It removes the need for testing
+(VI) C. Nó loại bỏ nhu cầu kiểm tra
+D. It prevents deployment
+(VI) D. Nó ngăn cản việc triển khai
+
+Answer: B
+(VI) Đáp án: B
+
+30) What does distributed tracing help developers understand?
+(VI) 30) Theo dõi phân tán giúp các nhà phát triển hiểu được điều gì?
+
+A. How a request travels across services
+(VI) A. Cách một yêu cầu di chuyển qua các dịch vụ
+B. How to write HTML only
+(VI) B. Cách viết HTML chỉ
+C. How to remove APIs
+(VI) C. Cách xóa API
+D. How to design database tables only
+(VI) D. Cách thiết kế bảng cơ sở dữ liệu chỉ
+
+Answer: A
+(VI) Đáp án: A
+
+31) Which tool is commonly used for metrics monitoring?
+(VI) 31) Công cụ nào thường được sử dụng để theo dõi số liệu?
+
+A. Prometheus
+(VI) A. Prometheus
+B. PowerPoint presentation software used for creating engineering management reports
+(VI) B. Phần mềm trình chiếu PowerPoint dùng để tạo báo cáo quản lý kỹ thuật
+C. Notepad
+(VI) C. Sổ ghi chú
+D. Excel only
+(VI) D. Chỉ Excel
+
+Answer: A
+(VI) Đáp án: A
+
+32) A user request is slow, but no single service clearly fails. What observability method is most helpful?
+(VI) 32) Yêu cầu của người dùng chậm, nhưng không có dịch vụ nào bị lỗi rõ ràng. Phương pháp quan sát nào hữu ích nhất?
+
+A. Distributed tracing
+(VI) A. Truy tìm phân tán
+B. Ignoring the issue
+(VI) B. Phớt lờ vấn đề
+C. Manual screenshot
+(VI) C. Ảnh chụp màn hình thủ công
+D. Reinstalling the frontend
+(VI) D. Cài đặt lại giao diện người dùng
+
+Answer: A
+(VI) Đáp án: A
+
+33) What is JWT commonly used for?
+(VI) 33) JWT thường được sử dụng để làm gì?
+
+A. User authentication and authorization tokens
+(VI) A. Mã thông báo xác thực và ủy quyền người dùng
+B. Container orchestration across distributed Kubernetes environments
+(VI) B. Điều phối vùng chứa trên các môi trường Kubernetes phân tán
+C. Database indexing
+(VI) C. Lập chỉ mục cơ sở dữ liệu
+D. UI animation
+(VI) D. Hoạt ảnh giao diện người dùng
+
+Answer: A
+(VI) Đáp án: A
+
+34) Why should services use HTTPS/TLS?
+(VI) 34) Tại sao các dịch vụ nên sử dụng HTTPS/TLS?
+
+A. To make requests slower
+(VI) A. Để thực hiện các yêu cầu chậm hơn
+B. To encrypt communication
+(VI) B. Để mã hóa thông tin liên lạc
+C. To remove authentication
+(VI) C. Để xóa xác thực
+D. To replace logs
+(VI) D. Để thay thế log
+
+Answer: B
+(VI) Đáp án: B
+
+35) Where is authentication often handled in a microservices system?
+(VI) 35) Xác thực thường được xử lý ở đâu trong hệ thống microservice?
+
+A. API Gateway or identity service
+(VI) A. Cổng API hoặc dịch vụ nhận dạng
+B. CSS file
+(VI) B. Tệp CSS
+C. Local text document
+(VI) C. Tài liệu văn bản địa phương
+D. User browser only
+(VI) D. Chỉ trình duyệt của người dùng
+
+Answer: A
+(VI) Đáp án: A
+
+36) Why is service-to-service authentication important?
+(VI) 36) Tại sao xác thực giữa các dịch vụ lại quan trọng?
+
+A. Internal services should blindly trust all requests
+(VI) A. Các dịch vụ nội bộ nên tin tưởng một cách mù quáng vào mọi yêu cầu
+B. Services need to verify other services
+(VI) B. Dịch vụ cần xác minh các dịch vụ khác
+C. It removes all network traffic
+(VI) C. Nó loại bỏ tất cả lưu lượng mạng
+D. It replaces deployment pipelines
+(VI) D. Nó thay thế quy trình triển khai
+
+Answer: B
+(VI) Đáp án: B
+
+37) Why is API versioning important?
+(VI) 37) Tại sao việc lập phiên bản API lại quan trọng?
+
+A. To allow changes without breaking existing clients
+(VI) A. Cho phép thay đổi mà không ảnh hưởng đến các khách hàng hiện tại
+B. To delete old services immediately after every deployment cycle
+(VI) B. Xóa các dịch vụ cũ ngay sau mỗi chu kỳ triển khai
+C. To avoid documentation
+(VI) C. Để tránh tài liệu
+D. To prevent testing
+(VI) D. Để ngăn chặn việc kiểm tra
+
+Answer: A
+(VI) Đáp án: A
+
+38) A team changes an API response format and another team's service fails. What was likely missing?
+(VI) 38) Một nhóm thay đổi định dạng phản hồi API và dịch vụ của nhóm khác không thành công. Điều gì có thể đã bị thiếu?
+
+A. UI animation
+(VI) A. Hoạt ảnh giao diện người dùng
+B. Backward compatibility or contract testing
+(VI) B. Khả năng tương thích ngược hoặc thử nghiệm hợp đồng
+C. More comments in CSS
+(VI) C. Thêm ý kiến ​​​​trong CSS
+D. A shared password
+(VI) D. Mật khẩu được chia sẻ
+
+Answer: B
+(VI) Đáp án: B
+
+39) In professional microservices development, who should usually own a service?
+(VI) 39) Trong quá trình phát triển microservice chuyên nghiệp, ai thường nên sở hữu một dịch vụ?
+
+A. A clear responsible team
+(VI) A. Đội ngũ có trách nhiệm rõ ràng
+B. No one
+(VI) B. Không có ai
+C. Only the database administrator
+(VI) C. Chỉ người quản trị cơ sở dữ liệu
+D. Only the customer
+(VI) D. Chỉ có khách hàng
+
+Answer: A
+(VI) Đáp án: A
+
+40) What does DevOps culture encourage?
+(VI) 40) Văn hóa DevOps khuyến khích điều gì?
+
+A. Separation between developers and operations with no communication
+(VI) A. Sự tách biệt giữa nhà phát triển và hoạt động không có giao tiếp
+B. Collaboration between development and operations
+(VI) B. Hợp tác giữa phát triển và vận hành
+C. Manual deployment only
+(VI) C. Chỉ triển khai thủ công
+D. Avoiding monitoring
+(VI) D. Tránh giám sát
+
+Answer: B
+(VI) Đáp án: B

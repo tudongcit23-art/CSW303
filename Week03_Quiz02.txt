@@ -1,0 +1,179 @@
+1) What is the primary goal of failure management?
+(VI) 1) Mục tiêu chính của quản lý sai sót là gì?
+
+A. To guarantee that the program has zero bugs in every release before it reaches users.
+(VI) A. Đảm bảo rằng chương trình không có lỗi trong mỗi lần phát hành trước khi đến tay người dùng.
+B. To minimize the impact of failures on the user and prevent data loss.
+(VI) B. Để giảm thiểu tác động của lỗi đối với người dùng và ngăn ngừa mất dữ liệu.
+C. To automatically identify, repair, and redeploy fixes for all bugs as soon as they are found.
+(VI) C. Để tự động xác định, sửa chữa và triển khai lại các bản sửa lỗi cho tất cả các lỗi ngay khi chúng được tìm thấy.
+D. To make the program run faster so users experience fewer delays and therefore fewer failures.
+(VI) D. Để làm cho chương trình chạy nhanh hơn để người dùng gặp ít sự chậm trễ hơn và do đó ít lỗi hơn.
+
+Answer: B
+(VI) Đáp án: B
+
+2) The principle of "failing secure" means that a program failure should...
+(VI) 2) Nguyên tắc "thất bại an toàn" có nghĩa là một chương trình bị lỗi sẽ...
+
+A. ...never happen under any normal operating condition, regardless of inputs or environment.
+(VI) A. ...không bao giờ xảy ra trong bất kỳ điều kiện hoạt động bình thường nào, bất kể đầu vào hay môi trường.
+B. ...be hidden from the user so they are not alarmed and the system appears to continue normally.
+(VI) B. ...được ẩn khỏi người dùng để họ không bị cảnh báo và hệ thống dường như vẫn tiếp tục bình thường.
+C. ...securely delete all user data immediately so no attacker can read it after the failure.
+(VI) C. ...xóa tất cả dữ liệu người dùng ngay lập tức một cách an toàn để không kẻ tấn công nào có thể đọc được sau khi thất bại.
+D. ...never leave confidential data in an exposed or insecure state.
+(VI) D. ...không bao giờ để dữ liệu bí mật ở trạng thái bị lộ hoặc không an toàn.
+
+Answer: D
+(VI) Đáp án: D
+
+3) A program crashes because it tries to open a file that does not exist. This is best described as a...
+(VI) 3) Chương trình gặp sự cố vì nó cố mở một tệp không tồn tại. Điều này được mô tả tốt nhất như một...
+
+A. Program exception.
+(VI) A. Ngoại lệ của chương trình.
+B. Data failure caused by invalid or corrupted input rather than the program's inability to continue.
+(VI) B. Lỗi dữ liệu do đầu vào không hợp lệ hoặc bị hỏng chứ không phải do chương trình không thể tiếp tục.
+C. Timing failure caused by the operation taking too long or completing in the wrong order.
+(VI) C. Lỗi về thời gian do thao tác mất quá nhiều thời gian hoặc hoàn thành không đúng thứ tự.
+D. Hardware failure caused by a physical storage device or network component malfunctioning.
+(VI) D. Lỗi phần cứng do thiết bị lưu trữ vật lý hoặc thành phần mạng gặp trục trặc.
+
+Answer: A
+(VI) Đáp án: A
+
+4) When updating a bank database, you must (1) debit account A and (2) credit account B. What mechanism ensures that both steps complete, or neither does?
+(VI) 4) Khi cập nhật cơ sở dữ liệu ngân hàng, bạn phải (1) ghi nợ tài khoản A và (2) ghi có tài khoản B. Cơ chế nào đảm bảo rằng cả hai bước đều hoàn thành hoặc không thực hiện cả hai bước?
+
+A. An if-else block that checks each account balance and manually decides which assignment should run
+(VI) A. Khối if-else kiểm tra từng số dư tài khoản và quyết định thủ công nhiệm vụ nào sẽ chạy
+B. A try-except block that catches any database error and then continues with the remaining step
+(VI) B. Khối thử ngoại trừ phát hiện bất kỳ lỗi cơ sở dữ liệu nào và sau đó tiếp tục với bước còn lại
+C. An ACID Transaction
+(VI) C. Giao dịch ACID
+D. A regular expression used to validate the account numbers before either balance is changed
+(VI) D. Một biểu thức chính quy được sử dụng để xác thực số tài khoản trước khi số dư thay đổi
+
+Answer: C
+(VI) Đáp án: C
+
+5) What is the main purpose of an exception-handling mechanism like try-except?
+(VI) 5) Mục đích chính của cơ chế xử lý ngoại lệ như thử ngoại trừ là gì?
+
+A. To "catch" runtime errors and transfer control to a special block of code for graceful cleanup.
+(VI) A. Để "bắt" lỗi thời gian chạy và chuyển quyền điều khiển sang một khối mã đặc biệt để dọn dẹp một cách dễ dàng.
+B. To validate user input before it is processed so invalid form values never reach the main code path during execution.
+(VI) B. Để xác thực thông tin đầu vào của người dùng trước khi nó được xử lý để các giá trị biểu mẫu không hợp lệ không bao giờ đến được đường dẫn mã chính trong khi thực thi.
+C. To prevent errors from ever happening in the first place by blocking every possible runtime fault before execution begins.
+(VI) C. Để ngăn chặn lỗi xảy ra ngay từ đầu bằng cách chặn mọi lỗi thời gian chạy có thể xảy ra trước khi bắt đầu thực thi.
+D. To automatically repair the underlying bug, rebuild the program, and retry the failed operation without developer involvement.
+(VI) D. Để tự động sửa lỗi cơ bản, hãy xây dựng lại chương trình và thử lại thao tác thất bại mà không có sự tham gia của nhà phát triển.
+
+Answer: A
+(VI) Đáp án: A
+
+6) If a function catches an exception, performs a local cleanup (like closing a file), and then re-raises the exception, why would it do this?
+(VI) 6) Nếu một hàm bắt được một ngoại lệ, thực hiện việc dọn dẹp cục bộ (chẳng hạn như đóng một tệp) rồi tái hiện ngoại lệ, thì tại sao nó lại làm như vậy?
+
+A. To log the exception to the console twice.
+(VI) A. Để ghi ngoại lệ vào bảng điều khiển hai lần.
+B. To crash the program intentionally.
+(VI) B. Cố ý làm hỏng chương trình.
+C. To allow a higher-level (calling) function to also handle the exception.
+(VI) C. Để cho phép hàm (gọi) cấp cao hơn cũng xử lý ngoại lệ.
+D. To prove to the compiler that the exception was caught and therefore no higher-level error handling is needed.
+(VI) D. Để chứng minh cho trình biên dịch rằng ngoại lệ đã bị bắt và do đó không cần xử lý lỗi ở cấp độ cao hơn.
+
+Answer: C
+(VI) Đáp án: C
+
+7) What are two common mechanisms to help a user recover work after a program crash?
+(VI) 7) Hai cơ chế phổ biến giúp người dùng khôi phục công việc sau khi chương trình gặp sự cố là gì?
+
+A. Auto-save and Activity logging.
+(VI) A. Tự động lưu và ghi log hoạt động.
+B. Error messages and Pop-up alerts that notify the user about the crash and describe what may have happened.
+(VI) B. Thông báo lỗi và cảnh báo bật lên thông báo cho người dùng về sự cố và mô tả điều gì có thể đã xảy ra.
+C. Unit testing and Integration testing performed during development to reduce defects before the application is released.
+(VI) C. Kiểm thử đơn vị và Kiểm thử tích hợp được thực hiện trong quá trình phát triển để giảm thiểu lỗi trước khi ứng dụng được phát hành.
+D. Whitelisting and Blacklisting used to control which inputs, addresses, or actions are allowed by the system.
+(VI) D. Danh sách trắng và Danh sách đen được sử dụng để kiểm soát những đầu vào, địa chỉ hoặc hành động nào được hệ thống cho phép.
+
+Answer: A
+(VI) Đáp án: A
+
+8) Why do external web APIs typically return numeric error codes (like HTTP 404 or 500) instead of language-specific exceptions?
+(VI) 8) Tại sao API web bên ngoài thường trả về mã lỗi dạng số (như HTTP 404 hoặc 500) thay vì các ngoại lệ dành riêng cho ngôn ngữ?
+
+A. The API and the calling program may be written in different, incompatible programming languages.
+(VI) A. API và chương trình gọi có thể được viết bằng các ngôn ngữ lập trình khác nhau, không tương thích.
+B. Numbers are faster to send over the internet because they use less bandwidth than descriptive messages or exception objects.
+(VI) B. Các số được gửi qua internet nhanh hơn vì chúng sử dụng ít băng thông hơn các tin nhắn mô tả hoặc các đối tượng ngoại lệ.
+C. Numeric codes are more secure because attackers cannot intercept, read, or understand short numerical responses during communication.
+(VI) C. Mã số an toàn hơn vì kẻ tấn công không thể chặn, đọc hoặc hiểu các phản hồi bằng số ngắn trong quá trình giao tiếp.
+D. It is a tradition that has no real technical purpose.
+(VI) D. Đó là một truyền thống không có mục đích kỹ thuật thực sự.
+
+Answer: A
+(VI) Đáp án: A
+
+9) What is the simplest way to prevent your application from hanging forever if an external API call never responds?
+(VI) 9) Cách đơn giản nhất để ngăn ứng dụng của bạn bị treo vĩnh viễn nếu lệnh gọi API bên ngoài không bao giờ phản hồi là gì?
+
+A. Use a timeout mechanism.
+(VI) A. Sử dụng cơ chế hết thời gian chờ.
+B. Restart the server before making each request so any stuck connection is cleared ahead of time.
+(VI) B. Khởi động lại máy chủ trước khi thực hiện từng yêu cầu để mọi kết nối bị kẹt sẽ được xóa trước.
+C. Send the request again immediately.
+(VI) C. Gửi lại yêu cầu ngay lập tức.
+D. Call a different API whenever the first service is slow, even if it provides unrelated data.
+(VI) D. Gọi một API khác bất cứ khi nào dịch vụ đầu tiên chậm, ngay cả khi nó cung cấp dữ liệu không liên quan.
+
+Answer: A
+(VI) Đáp án: A
+
+10) What design pattern is used to handle a repeatedly failing external service by "tripping" and temporarily blocking all new requests to it?
+(VI) 10) Mẫu thiết kế nào được sử dụng để xử lý một dịch vụ bên ngoài liên tục bị lỗi do "ngắt" và tạm thời chặn tất cả các yêu cầu mới đối với dịch vụ đó?
+
+A. The Circuit Breaker Pattern
+(VI) A. Mô hình ngắt mạch
+B. The Observer Pattern, which lets objects subscribe to notifications when another object changes
+(VI) B. Mẫu quan sát, cho phép các đối tượng đăng ký thông báo khi đối tượng khác thay đổi
+C. The Facade Pattern
+(VI) C. Mẫu mặt tiền
+D. The Transaction Pattern, which groups operations so they commit together or roll back as a unit
+(VI) D. Mẫu giao dịch, nhóm các hoạt động để chúng cam kết cùng nhau hoặc quay trở lại thành một đơn vị
+
+Answer: A
+(VI) Đáp án: A
+
+11) What is the purpose of an assert statement?
+(VI) 11) Mục đích của câu "assert" là gì?
+
+A. To handle a known program exception, like try-catch, and recover gracefully from expected runtime errors.
+(VI) A. Để xử lý một ngoại lệ chương trình đã biết, chẳng hạn như tính năng thử bắt và khôi phục một cách nhẹ nhàng từ các lỗi thời gian chạy dự kiến.
+B. To validate user input from a form before the program accepts the values and continues processing.
+(VI) B. Để xác thực dữ liệu đầu vào của người dùng từ một biểu mẫu trước khi chương trình chấp nhận các giá trị và tiếp tục xử lý.
+C. To check if a condition is true (as a "sanity check") and raise an error if it's false.
+(VI) C. Để kiểm tra xem một điều kiện có đúng hay không (dưới dạng "kiểm tra độ chính xác") và đưa ra lỗi nếu nó sai.
+D. To print a debug message to the console whenever a developer wants to inspect a variable value.
+(VI) D. Để in thông báo gỡ lỗi tới bảng điều khiển bất cứ khi nào nhà phát triển muốn kiểm tra một giá trị biến.
+
+Answer: C
+(VI) Đáp án: C
+
+12) When your program has an unrecoverable internal crash, what is the best practice for the message shown to the user?
+(VI) 12) Khi chương trình của bạn gặp sự cố nội bộ không thể khôi phục, cách tốt nhất để xử lý thông báo hiển thị cho người dùng là gì?
+
+A. A detailed technical error log (e.g., "NullPointerException at line 42") with stack-trace details for debugging.
+(VI) A. Nhật ký lỗi kỹ thuật chi tiết (ví dụ: "NullPointerException ở dòng 42") cùng với chi tiết theo dõi ngăn xếp để gỡ lỗi.
+B. A simple, non-technical message (e.g., "An unexpected error occurred").
+(VI) B. Một thông báo đơn giản, không mang tính kỹ thuật (ví dụ: "Đã xảy ra lỗi không mong muốn").
+C. No message at all (just close the application) so the user is not interrupted by confusing information.
+(VI) C. Không có tin nhắn nào cả (chỉ cần đóng ứng dụng) nên người dùng không bị gián đoạn bởi những thông tin khó hiểu.
+D. A message blaming the user for the error and instructing them to avoid causing the crash again.
+(VI) D. Thông báo đổ lỗi cho người dùng về lỗi và hướng dẫn họ tránh gây ra sự cố lần nữa.
+
+Answer: B
+(VI) Đáp án: B

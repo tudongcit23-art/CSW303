@@ -1,0 +1,164 @@
+1) Why is it beneficial for services in a cloud-based system to be stateless?
+(VI) 1) Tại sao việc các dịch vụ trong hệ thống dựa trên đám mây không có trạng thái lại có lợi?
+
+A. Stateless services are easier to program and require less code.
+(VI) A. Các dịch vụ phi trạng thái dễ lập trình hơn và yêu cầu ít mã hơn.
+B. They can be easily replicated, run in parallel, and moved between virtual servers to handle scaling.
+(VI) B. Chúng có thể dễ dàng sao chép, chạy song song và di chuyển giữa các máy chủ ảo để xử lý việc mở rộng quy mô.
+C. They are the only type of service that can communicate using XML-based protocols.
+(VI) C. Chúng là loại dịch vụ duy nhất có thể giao tiếp bằng các giao thức dựa trên XML.
+D. They maintain a persistent, in-memory copy of the user's session, which improves performance.
+(VI) D. Chúng duy trì một bản sao liên tục trong bộ nhớ của phiên của người dùng, giúp cải thiện hiệu suất.
+
+Answer: B
+(VI) Đáp án: B
+
+2) What was a significant problem with the "Web Services" standards (e.g., SOAP, WSDL) from the early 2000s?
+(VI) 2) Vấn đề nghiêm trọng với các tiêu chuẩn "Dịch vụ Web" (ví dụ: SOAP, WSDL) từ đầu những năm 2000 là gì?
+
+A. They were too simple and did not support complex business logic.
+(VI) A. Chúng quá đơn giản và không hỗ trợ logic kinh doanh phức tạp.
+B. They could only be written in one programming language.
+(VI) B. Chúng chỉ có thể được viết bằng một ngôn ngữ lập trình.
+C. They involved large, complex XML messages that were slow to analyze and had high overhead.
+(VI) C. Chúng liên quan đến các thông báo XML lớn, phức tạp, phân tích chậm và có chi phí cao.
+D. They did not have a standard for interface description.
+(VI) D. Họ không có tiêu chuẩn để mô tả giao diện.
+
+Answer: C
+(VI) Đáp án: C
+
+3) What key insight, pioneered by companies like Amazon, helped define the modern microservice?
+(VI) 3) Cái nhìn sâu sắc quan trọng nào, được tiên phong bởi các công ty như Amazon, đã giúp định hình nên vi dịch vụ hiện đại?
+
+A. Services should be completely independent, with their own database and their own user interface.
+(VI) A. Các dịch vụ phải hoàn toàn độc lập, có cơ sở dữ liệu riêng và giao diện người dùng riêng.
+B. All services in a system should share a single, highly optimized database to reduce complexity.
+(VI) B. Tất cả các dịch vụ trong hệ thống phải chia sẻ một cơ sở dữ liệu duy nhất, được tối ưu hóa cao để giảm độ phức tạp.
+C. Services should focus only on technical tasks, while a central monolith handles all business logic.
+(VI) C. Các dịch vụ chỉ nên tập trung vào các nhiệm vụ kỹ thuật, trong khi một khối trung tâm xử lý tất cả logic nghiệp vụ.
+D. A service should be related to multiple business functions to be efficient.
+(VI) D. Một dịch vụ phải liên quan đến nhiều chức năng kinh doanh để có hiệu quả.
+
+Answer: A
+(VI) Đáp án: A
+
+4) Which of the following describes the ideal design goal for microservices?
+(VI) 4) Điều nào sau đây mô tả mục tiêu thiết kế lý tưởng cho microservice?
+
+A. High coupling and high cohesion
+(VI) A. Độ ghép cao và độ gắn kết cao
+B. Low coupling and low cohesion
+(VI) B. Khớp nối thấp và độ gắn kết thấp
+C. High coupling and low cohesion
+(VI) C. Độ kết dính cao và độ kết dính thấp
+D. Low coupling and high cohesion
+(VI) D. Khớp nối thấp và độ gắn kết cao
+
+Answer: D
+(VI) Đáp án: D
+
+5) Why is low coupling an important characteristic for microservices?
+(VI) 5) Tại sao khả năng ghép nối thấp lại là đặc điểm quan trọng của vi dịch vụ?
+
+A. It ensures that all services can be written in the same programming language.
+(VI) A. Nó đảm bảo rằng tất cả các dịch vụ có thể được viết bằng cùng một ngôn ngữ lập trình.
+B. It allows you to update a service (while maintaining its interface) without having to change other services in the system.
+(VI) B. Nó cho phép bạn cập nhật một dịch vụ (trong khi vẫn duy trì giao diện của nó) mà không cần phải thay đổi các dịch vụ khác trong hệ thống.
+C. It minimizes the number of functions inside a single service, making the code simpler.
+(VI) C. Nó giảm thiểu số lượng chức năng bên trong một dịch vụ, làm cho mã đơn giản hơn.
+D. It forces all services to share a single, common database, which simplifies data management.
+(VI) D. Nó buộc tất cả các dịch vụ phải chia sẻ một cơ sở dữ liệu chung, duy nhất, giúp đơn giản hóa việc quản lý dữ liệu.
+
+Answer: B
+(VI) Đáp án: B
+
+6) When determining the appropriate "size" for a microservice, what guideline does the author suggest?
+(VI) 6) Khi xác định “quy mô” phù hợp cho một microservice, tác giả đưa ra hướng dẫn nào?
+
+A. The service's code should not exceed a strict limit, such as 500 lines of code.
+(VI) A. Mã của dịch vụ không được vượt quá giới hạn nghiêm ngặt, chẳng hạn như 500 dòng mã.
+B. The service should be small enough to be developed, tested, and deployed by a team in two weeks or less.
+(VI) B. Dịch vụ phải đủ nhỏ để một nhóm có thể phát triển, thử nghiệm và triển khai trong vòng hai tuần hoặc ít hơn.
+C. The service must encapsulate at least five related business functions to be considered a "microservice."
+(VI) C. Dịch vụ phải bao gồm ít nhất năm chức năng kinh doanh liên quan để được coi là "vi dịch vụ".
+D. The service should be large enough to handle a complete, end-to-end business workflow (e.g., user registration).
+(VI) D. Dịch vụ phải đủ lớn để xử lý quy trình công việc hoàn chỉnh, từ đầu đến cuối (ví dụ: đăng ký người dùng).
+
+Answer: B
+(VI) Đáp án: B
+
+7) What is the "common closure principle" guideline for decomposing a system?
+(VI) 7) Nguyên tắc "nguyên tắc đóng chung" để phân rã một hệ thống là gì?
+
+A. All services that are part of the same business capability should be grouped together.
+(VI) A. Tất cả các dịch vụ thuộc cùng một khả năng kinh doanh phải được nhóm lại với nhau.
+B. Elements of a system that are likely to be changed at the same time should be located within the same service.
+(VI) B. Các thành phần của hệ thống có khả năng thay đổi cùng lúc phải được đặt trong cùng một dịch vụ.
+C. All services should be "closed" for modification but "open" for extension.
+(VI) C. Tất cả các dịch vụ phải được "đóng" để sửa đổi nhưng "mở" để gia hạn.
+D. Services should be decomposed based on the data they manage, not their function.
+(VI) D. Các dịch vụ phải được phân tách dựa trên dữ liệu mà chúng quản lý chứ không phải chức năng của chúng.
+
+Answer: B
+(VI) Đáp án: B
+
+8) What is the "orchestration" approach to service coordination?
+(VI) 8) Cách tiếp cận "điều phối" để điều phối dịch vụ là gì?
+
+A. Services communicate by publishing events that other services subscribe to, with no central controller.
+(VI) A. Các dịch vụ giao tiếp bằng cách xuất bản các sự kiện mà các dịch vụ khác đăng ký mà không có bộ điều khiển trung tâm.
+B. A separate controller service (the "conductor") executes the workflow by calling component services in a specific order.
+(VI) B. Một dịch vụ điều khiển riêng biệt ("người dẫn") thực thi quy trình làm việc bằng cách gọi các dịch vụ thành phần theo một thứ tự cụ thể.
+C. All services share a central database, which orchestrates the workflow using ACID transactions.
+(VI) C. Tất cả các dịch vụ đều chia sẻ cơ sở dữ liệu trung tâm, điều phối quy trình làm việc bằng cách sử dụng các giao dịch ACID.
+D. Services directly call each other in a peer-to-peer mesh, negotiating the workflow steps as they go.
+(VI) D. Các dịch vụ gọi trực tiếp cho nhau trong mạng ngang hàng, thương lượng các bước của quy trình làm việc khi chúng thực hiện.
+
+Answer: B
+(VI) Đáp án: B
+
+9) What is a "compensating transaction"?
+(VI) 9) “Giao dịch đền bù” là gì?
+
+A. A transaction that bundles all data updates into a single unit to guarantee consistency.
+(VI) A. Một giao dịch gộp tất cả các cập nhật dữ liệu vào một đơn vị duy nhất để đảm bảo tính nhất quán.
+B. A transaction that reverses a previous operation when a failure is detected in a dependent service.
+(VI) B. Một giao dịch đảo ngược hoạt động trước đó khi phát hiện thấy lỗi trong dịch vụ phụ thuộc.
+C. A log of all pending updates used to ensure "eventual consistency" between service replicas.
+(VI) C. Nhật ký của tất cả các bản cập nhật đang chờ xử lý được sử dụng để đảm bảo "tính nhất quán cuối cùng" giữa các bản sao dịch vụ.
+D. A special transaction used by a circuit breaker to test if a failed service has recovered.
+(VI) D. Một giao dịch đặc biệt được sử dụng bởi bộ ngắt mạch để kiểm tra xem dịch vụ bị lỗi đã được khôi phục hay chưa.
+
+Answer: B
+(VI) Đáp án: B
+
+10) How does the "choreography" approach to service coordination work?
+(VI) 10) Cách tiếp cận “vũ đạo” trong việc điều phối dịch vụ hoạt động như thế nào?
+
+A. A central controller dictates the exact order of operations for all services.
+(VI) A. Bộ điều khiển trung tâm đưa ra thứ tự hoạt động chính xác cho tất cả các dịch vụ.
+B. Each service emits an event to indicate it has completed processing, and other services react to those events.
+(VI) B. Mỗi dịch vụ phát ra một sự kiện để cho biết nó đã hoàn tất quá trình xử lý và các dịch vụ khác sẽ phản hồi lại những sự kiện đó.
+C. The API gateway is responsible for coordinating all service workflows.
+(VI) C. Cổng API chịu trách nhiệm điều phối tất cả quy trình dịch vụ.
+D. Services use synchronous, direct calls to coordinate their actions in real-time.
+(VI) D. Các dịch vụ sử dụng các lệnh gọi trực tiếp, đồng bộ để phối hợp hành động của chúng trong thời gian thực.
+
+Answer: B
+(VI) Đáp án: B
+
+11) Why is the "circuit breaker" pattern often preferred over simple timeouts for managing external service failures?
+(VI) 11) Tại sao mẫu "ngắt mạch" thường được ưa thích hơn thời gian chờ đơn giản để quản lý lỗi dịch vụ bên ngoài?
+
+A. A circuit breaker encrypts the service request, making it more secure.
+(VI) A. Bộ ngắt mạch mã hóa yêu cầu dịch vụ, giúp yêu cầu dịch vụ trở nên an toàn hơn.
+B. A circuit breaker immediately denies access to a failed service without waiting for the timeout, preventing system slowdown.
+(VI) B. Bộ ngắt mạch ngay lập tức từ chối quyền truy cập vào một dịch vụ bị lỗi mà không cần chờ hết thời gian chờ, ngăn chặn tình trạng hệ thống bị chậm.
+C. A circuit breaker automatically retries the request dozens of times until the service responds.
+(VI) C. Bộ ngắt mạch tự động thử lại yêu cầu hàng chục lần cho đến khi dịch vụ phản hồi.
+D. A circuit breaker automatically scales up a new instance of the failed service.
+(VI) D. Bộ ngắt mạch tự động mở rộng phiên bản mới của dịch vụ bị lỗi.
+
+Answer: B
+(VI) Đáp án: B
